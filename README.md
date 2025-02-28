@@ -50,7 +50,7 @@ ReactJS + Flask + Groq Llama3 (small) + ChromaDB + LlamaIndex
     * Saves the extracted text to a file using `get_file_path`.
     * Finds links on the page and recursively crawls them, ensuring the crawler stays within the same domain.
     * Respects a delay between requests.
-    * limits the amount of pages crawled to 5.
+    * limits the amount of pages crawled to `MAX_CRAWL_DEPTH`.
 * **`load_local_data()`:**
     * Loads crawled data from the `crawled_data` directory.
     * Creates `Document` objects for each file, including the URL as metadata.
