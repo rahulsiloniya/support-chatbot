@@ -89,8 +89,8 @@ ReactJS + Flask + Groq Llama3 (small) + ChromaDB + LlamaIndex
 * **`flask_cors`:** A Flask extension that handles Cross-Origin Resource Sharing (CORS), allowing requests from different origins (like a React frontend).
 * **`logging`:** Python's built-in logging module for tracking application events and errors.
 * **`sys`:** Provides access to system-specific parameters and functions, used here for logging.
-* **`mod_model`:** (Assumed) A custom module containing the web crawling, indexing, and question-answering logic.
-* **`config`:** (Assumed) A custom module holding configuration variables like `HTTP_PORT`.
+* **`mod_model`:** The module containing web crawling, indexing, and question-answering logic.
+* **`config`:** A module holding configuration variables like `HTTP_PORT`.
 
 **High-Level Working:**
 
