@@ -1,0 +1,7 @@
+URL: https://docs.lytics.com/discuss/66ccbce28a1946003e9b3c4e
+
+Profile Stitching - Connect anonymous visitor ID with email address?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Profile Stitching - Connect anonymous visitor ID with email address? 6 months ago by JamesFrom one of our agency partners:
+"Do you have documentation on how to automatically stitch anonymous visitor IDs with an email address?
+We want to automatically connect IDs when:
+a) visitor signs-up for a email newsletter or signs up for our app on the site; or b) when we send an email campaign and email subscribers clicks on a link and visits our website."Add Comment

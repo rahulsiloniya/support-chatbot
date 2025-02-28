@@ -1,0 +1,787 @@
+URL: https://segment.com/docs/getting-started/05-data-to-destinations/#sending-data-to-destinations
+
+Sending data to destinations | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Getting started
+/
+Sending data to destinations
+Sending data to destinations
+On this page
+Routing data to destinations
+Adding new destinations
+Adding a warehouse
+Once you’ve got data flowing into Segment, what do you do with it? The Segment Destination catalog lists all of the places we can send your data.
+Routing data to destinations
+When you enable a destination in the Segment App, you link it to a specific source (or sources). By default, Segment first processes the data from the selected source(s), then translates it and routes it from the Segment servers to the API endpoint for that destination.
+This means that if you previously had loaded code or a snippet for that tool on your website or app, you should remove it once you have Segment implemented so you don’t send duplicate data.
+You might also want to enable tools that need to be loaded on the user’s device (either a computer or mobile device) in order to function properly. For our Analytics.js library, you can make these changes from the Segment App, and the Segment systems then update the bundle of code served when users request the page to include code required by the destination. You can read more about this in our documentation on Connection Modes.
+Adding new destinations
+Adding a destination is quick and easy from the Segment App. You’ll need a token or API key for the tool, or some way to confirm your account in the tool.
+From your Segment workspace, click Add destination.
+You can find this option on the Connections home page, from the Destinations list, or from a Source overview page.
+Search for the destination in the Catalog, and click the destination’s tile.
+From the destination summary page that appears, click Configure.
+Choose which source should send data to this destination, and click Confirm source.
+In the Connection Settings that appear, enter any required fields.
+These might be an API key, an account ID, a token, or you might be prompted to log in to the tool.
+If needed, click the toggle to enable the destination so it begins receiving data.
+Recommended destinations
+If you’re just starting out, we know the catalog can be really overwhelming. How do you choose from all of the available destinations?
+We’ve written a lot about how to choose your tools, but as a start, we recommend that you have one tool from each of the following categories:
+Analytics
+Email marketing
+Live-chat
+If you’re adding more destinations after you’ve done your Segment instrumentation, you might want to check that the destinations you choose can accept the methods you’re already using, and that they can use the Connection Modes you’re already using.
+We also feel that it’s really important to have a data warehouse, so you can get a clearer view of all of your data for analytics purposes. More on that just below.
+Adding a warehouse
+Warehouses are a special type of destination which receive streaming data from your Segment sources, and store it in a table schema based on your Segment calls. This allows you to do a lot of interesting analytics work to answer your own questions about what your users are doing and why.
+All customers can connect a data warehouse to Segment. Free and Team customers can connect one warehouse, while Business customers can connect as many as needed.
+You should spend a bit of time considering the benefits and tradeoffs of the warehouse options, and then choose one from Segment’s warehouse catalog.
+When you choose a warehouse, you can then use the steps in the documentation to connect it. This may require that you create a new dedicated user (or “service user”) to allow Segment to access the database.
+Once your warehouse is configured and running, you can connect to it using a Business Intelligence (BI) tool (such as Looker, Mode, Tableau, or others) to analyze your data in-depth.
+There are also a number of Business tier features you can then use with your warehouse, including selective sync and Replay.
+Segment University: Warehouses
+Check out our course on warehouses in Segment University. (Must be logged in to access.)
+back
+A full Segment implementation
+Take your plans, and make them real.
+next
+Testing and Debugging
+Test your implementation and see where your data is and isn't arriving.
+This page was last modified: 07 Feb 2025
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Routing data to destinations
+Adding new destinations
+Adding a warehouse
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

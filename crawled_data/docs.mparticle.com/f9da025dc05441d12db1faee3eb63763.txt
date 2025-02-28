@@ -1,0 +1,1167 @@
+URL: https://docs.mparticle.com/developers/apis/dataplanning-api/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingData Planning API
+Overview
+Data Master is underpinned by the Data Planning API. This guide covers the underlying data model and describes how you can use Data Master programmatically via an HTTP API. Some example use cases you can achieve with the Data Planning API are:
+Store your Data Plans in your source code, and use your own SDLC and approval processes to define your data model
+Create, read, update and delete Data Plans
+Integrate mParticle’s suite of Data Planning tools to perform compile-time and runtime data quality verification
+Data Model
+The following diagram shows the relationship structure defined by the Data Planning API:
+For every mParticle workspace, you may have many Data Plans
+Data Plans contain Data Plan Versions
+Data Plan Versions contain Data Points
+Data Points
+Each Data Point is composed of two key elements, a “criteria” used to match the Data Point within an incoming data stream, and “schema” that is used to validate the contents of the Data Point:
+Criteria: As data streams into mParticle via the Events API, the Criteria is used to locate the Data Point within the payload, then the schema (described below) is used to validate it.
+Schema: The validation schema defines the expected syntax of each Data Point. This is a JSON Schema object. Note that the following keywords are unsupported: _Ref, _RecursiveRef, _RecursiveAnchor, PatternProperties, AllOf, AnyOf, OneOf, If, Not, Else, Then, Dependencies, DependentRequired, DependentSchemas.
+Helper SDKs
+The Data Planning HTTP API can be used from one of mParticle’s helper SDKs. These SDKs take care of authentication and implement the HTTP contract for you:
+mParticle CLI
+Data Planning Node SDK
+Open API
+You can use the Open API specification (also known as Swagger) below to generate helper SDKs (using Swagger Codegen or OpenAPI Generator) for the Data Planning API:
+Data Planning Open API Spec
+Postman
+You can also get started quickly with a Postman collection:
+HTTP API
+Authentication
+Calls to the Data Planning API are authenticated via mParticle access token, which are based on the JSON Web Token standard. If you’re using one of the helper SDKs, this is taken care of for you.
+You can create and manage your mParticle access tokens for Data Planning with the API Credentials interface.
+Parameters
+Name
+Type
+Description
+client_id
+string
+Your client ID issued by mParticle
+client_secret
+string
+Your client secret issued by mParticle
+audience
+string
+Set to https://api.mparticle.com
+grant_type
+string
+Set to client_credentials
+Example Request
+$ curl --location --request POST 'https://sso.auth.mparticle.com/oauth/token' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"client_id": "{{client_id}}",
+"client_secret": "{{client_secret}}",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}'
+Example Response
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Subsequent requests to the HTTP API should be authorized by setting the Authorization header to the value of access_token:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but will expire after approximately 8 hours. The initial token request can take between 1 and 3 seconds, and subsequent requests should be significantly faster due to server-side caching. Even accounting for server-side caching, it is still essential for production use cases that you cache the token and refresh it only when necessary to ensure that your application performs well.
+Get all Data Plans
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+Example Request
+CurlNode SDK
+curl --location --request GET 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans' \
+--header 'Authorization: Bearer {{jwt_token}}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const dataPlans = await dataPlanService.getDataPlans();
+Example Response
+The response will contain Data Plans and Data Plan Versions, but will exclude the Data Points.
+[
+{
+"data_plan_id": "mobile_data_plan",
+"data_plan_name": "Mobile Data Plan",
+"data_plan_description": "This is an example data plan description.",
+"data_plan_versions": [
+{
+"version": 1,
+"data_plan_id": "mobile_data_plan",
+"version_description": "This is my first version!",
+"activated_environment": "production",
+"created_on": "2019-11-24T14:45:03.013",
+"created_by": "developers@mparticle.com",
+"last_modified_on": "2019-11-24T18:58:58.233",
+"last_modified_by": "developers@mparticle.com"
+},
+{
+"version": 2,
+"data_plan_id": "mobile_data_plan",
+"version_description": "This is the second version of my plan!",
+"activated_environment": "production",
+"created_on": "2019-11-24T19:02:26.013",
+"created_by": "developers@mparticle.com",
+"last_modified_on": "2019-11-24T19:03:13.913",
+"last_modified_by": "developers@mparticle.com"
+}
+],
+"created_on": "2019-11-24T14:45:03.007",
+"created_by": "developers@mparticle.com",
+"last_modified_on": "2020-04-07T14:22:57.777",
+"last_modified_by": "developers@mparticle.com"
+},
+{
+"data_plan_id": "foo_bar",
+"data_plan_name": "foo bar",
+"data_plan_description": "foo_bar",
+"data_plan_versions": [
+{
+"version": 1,
+"data_plan_id": "foo_bar",
+"activated_environment": "none",
+"created_on": "2019-11-25T16:53:16.027",
+"created_by": "developers@mparticle.com",
+"last_modified_on": "2020-01-14T14:52:11.43",
+"last_modified_by": "developers@mparticle.com"
+},
+{
+"version": 2,
+"data_plan_id": "foo_bar",
+"activated_environment": "none",
+"created_on": "2020-04-07T14:28:14.903",
+"created_by": "developers@mparticle.com"
+}
+],
+"created_on": "2019-11-25T16:53:16.023",
+"created_by": "developers@mparticle.com"
+}
+]
+Create Data Plan
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+If you encounter issues when uploading a data plan via the API but receive no error response: set your plan's status to DEV in the mParticle UI, upload your new plan, then change the status back to PROD/DEV.
+Example Request
+CurlNode SDK
+curl --location --request POST 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+--data-raw '{
+"data_plan_id": "example_data_plan",
+"data_plan_name": "Mobile Data Plan",
+"data_plan_description": "This is an example data plan description.",
+"data_plan_versions": [
+{
+"version": 1,
+"data_plan_id": "mobile_data_plan",
+"activated_environment": "none",
+"version_document": {
+"data_points": [
+{
+"description": "My first data point",
+"match": {
+"type": "custom_event",
+"criteria": {
+"event_name": "My Custom Event Name",
+"custom_event_type": "other"
+}
+},
+"validator": {
+"type": "json_schema",
+"definition": {
+"properties": {
+"data": {
+"additionalProperties": true,
+"properties": {
+"custom_attributes": {
+"additionalProperties": false,
+"properties": {
+"foo": {
+"type": "number"
+}
+},
+"required": [
+"foo"
+]
+}
+},
+"required": [
+"custom_attributes"
+]
+}
+}
+}
+}
+}
+]
+}
+}
+]
+}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+import { ActivatedEnvironment } from '@mparticle/data-planning-models';
+const dataPlanService = new DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const plan = {
+data_plan_id: 'example_data_plan',
+data_plan_name: 'My Example Data Plan',
+data_plan_description: 'This is an example data plan description.',
+data_plan_versions: []
+}
+const version = {
+version: 1,
+version_description: 'This is an example version description.',
+activated_environment: ActivatedEnvironment.Development,
+version_document: {
+data_points: []
+}
+};
+const datapoint = {
+description: "My first data point",
+match: {
+type: "custom_event",
+criteria: {
+event_name: "My Custom Event Name",
+custom_event_type: "other"
+}
+},
+validator: {
+type: "json_schema",
+definition: {
+properties: {
+data: {
+additionalProperties: true,
+properties: {
+custom_attributes: {
+additionalProperties: false,
+properties: {
+foo: {
+type: "number"
+}
+},
+required: [
+"foo"
+]
+}
+},
+required: [
+"custom_attributes"
+]
+}
+}
+}
+}
+};
+plan.data_plan_versions.push(version);
+version.version_document.data_points.push(datapoint);
+const createdPlan = await dataPlanService.createDataPlan(plan)
+.catch(err => {
+console.log(err.status);
+console.log(err.response.data);
+}
+);
+Example Response
+{
+"data_plan_id": "example_data_plan",
+"data_plan_name": "Mobile Data Plan",
+"data_plan_description": "This is an example data plan description.",
+"data_plan_versions": [
+{
+"version": 1,
+"data_plan_id": "example_data_plan",
+"activated_environment": "none",
+"created_on": "2020-04-19T14:45:44.403",
+"created_by": "client_id:rWW4wEjzksyjcCJXh8RGKrIPwPhHCjLF",
+"version_document": {
+"data_points": [
+{
+"description": "My first data point",
+"match": {
+"type": "custom_event",
+"criteria": {
+"event_name": "My Custom Event Name",
+"custom_event_type": "other"
+}
+},
+"validator": {
+"type": "json_schema",
+"definition": {
+"properties": {
+"data": {
+"additionalProperties": true,
+"properties": {
+"custom_attributes": {
+"additionalProperties": false,
+"properties": {
+"foo": {
+"type": "number"
+}
+},
+"required": [
+"foo"
+]
+}
+},
+"required": [
+"custom_attributes"
+]
+}
+}
+}
+}
+}
+]
+}
+}
+],
+"created_on": "2020-04-19T14:45:44.39",
+"created_by": "client_id:rWW4wEjzksyjcCJXh8RGKrIPwPhHCjLF"
+}
+Get Data Plan
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+plan_id
+string
+The ID of the Data Plan to retrieve
+Example Request
+CurlNode SDK
+curl --location --request GET 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}' \
+--header 'Authorization: Bearer {{jwt_token}}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService.DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const dataPlan = await dataPlanService.getDataPlans("example_data_plan_id");
+Response
+The response will contain the entire Data Plan including all versions. See above for a full JSON example.
+Update Data Plan
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+plan_id
+string
+The ID of the Data Plan to retrieve
+If you encounter issues when uploading a data plan via the API but receive no error response: set your plan's status to DEV in the mParticle UI, upload your new plan, then change the status back to PROD/DEV.
+Example Request
+CurlNode SDK
+curl --location --request PATCH 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+--data-raw '{
+"data_plan_description": "This is an updated description..."
+}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService.DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+//provide any fields you'd like to update
+const updatedPlan = {
+data_plan_description: "This is an updated description"
+};
+const updatedDataPlan = await dataPlanService.updateDataPlan("example_data_plan", updatedPlan)
+.catch(err => {
+console.log(err.status);
+console.log(err.response.data);
+}
+);
+Response
+The response will contain the entire Data Plan including all versions. See above for a full JSON example.
+Delete Data PLan
+Name
+Type
+Description
+plan_id
+string
+The ID of the data plan to delete
+Example Request
+CurlNode SDK
+curl --location --request DELETE 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const deleteDataPlan = await dataPlanService.deleteDataPlan("example_data_plan_id");
+Response
+A successful request results in an empty 204 response.
+Create Data Plan Version
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+If you encounter issues when uploading a data plan via the API but receive no error response: set your plan's status to DEV in the mParticle UI, upload your new plan, then change the status back to PROD/DEV.
+Example Request
+CurlNode SDK
+curl --location --request POST 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}/versions' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+--data-raw '{
+"version": 2,
+"version_document": {
+"data_points": [
+{
+"description": "My first data point",
+"match": {
+"type": "custom_event",
+"criteria": {
+"event_name": "My Custom Event Name",
+"custom_event_type": "other"
+}
+},
+"validator": {
+"type": "json_schema",
+"definition": {
+"properties": {
+"data": {
+"additionalProperties": true,
+"properties": {
+"custom_attributes": {
+"additionalProperties": false,
+"properties": {
+"foo": {
+"type": "number"
+}
+},
+"required": ["foo"]
+}
+},
+"required": [
+"custom_attributes"
+]
+}
+}
+}
+}
+}
+]
+},
+"activated_environment": "development"
+}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+import { ActivatedEnvironment } from '@mparticle/data-planning-models';
+const dataPlanService = new DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const version = {
+version: 1,
+version_description: 'This is an example version description.',
+activated_environmment: ActivatedEnvironment.Development,
+version_document: {
+data_points: []
+}
+};
+const datapoint = {
+description: "My first data point",
+match: {
+type: "custom_event",
+criteria: {
+event_name: "My Custom Event Name",
+custom_event_type: "other"
+}
+},
+validator: {
+type: "json_schema",
+definition: {
+properties: {
+data: {
+additionalProperties: true,
+properties: {
+custom_attributes: {
+additionalProperties: false,
+properties: {
+foo: {
+type: "number"
+}
+},
+required: [
+"foo"
+]
+}
+},
+required: [
+"custom_attributes"
+]
+}
+}
+}
+}
+};
+version.version_document.data_points.push(datapoint);
+const createdPlanVersion = await dataPlanService.createDataPlanVersion("example_data_plan_id", 2)
+.catch(err => {
+console.log(err.status);
+console.log(err.response.data);
+}
+);
+Response
+The response will contain the entire Data Plan Version including all versions. See above for a full JSON example.
+Get Data Plan Version
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+plan_id
+string
+The ID of the Data Plan to retrieve
+version
+integer
+The version of the Data Plan to retrieve
+Example Request
+CurlNode SDK
+curl --location --request GET 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}/versions/{{version}}' \
+--header 'Authorization: Bearer {{jwt_token}}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService.DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const dataPlanVersion = await dataPlanService.getDataPlanVersion("example_data_plan_id", 1)
+.catch(err => {
+console.log(err.status);
+console.log(err.response.data);
+}
+);
+Response
+The response will contain the entire Data Plan version. See above for a full JSON example.
+Update Data Plan Version
+Parameters
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plans
+plan_id
+string
+The ID of the Data Plan to retrieve
+version
+integer
+The version of the Data Plan to retrieve
+If you encounter issues when uploading a data plan via the API but receive no error response: set your plan's status to DEV in the mParticle UI, upload your new plan, then change the status back to PROD/DEV.
+Example Request
+CurlNode SDK
+curl --location --request PATCH 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}/versions/{{version}}' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+--data-raw '{
+"version": 2,
+"version_document": {
+"data_points": [
+{
+"description": "My first data point, updated",
+"match": {
+"type": "custom_event",
+"criteria": {
+"event_name": "My Custom Event Name",
+"custom_event_type": "other"
+}
+},
+"validator": {
+"type": "json_schema",
+"definition": {
+"properties": {
+"data": {
+"additionalProperties": true,
+"properties": {
+"custom_attributes": {
+"additionalProperties": false,
+"properties": {
+"foo": {
+"type": "number"
+}
+},
+"required": [
+"foo"
+]
+}
+},
+"required": [
+"custom_attributes"
+]
+}
+}
+}
+}
+}
+]
+},
+"activated_environment": "development"
+}'
+const dataPlanService = new DataPlanService.DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const dataPlanVersionUpdate = {
+datapoints: [{
+description: "My first data point",
+match: {
+type: "custom_event",
+criteria: {
+event_name: "My Custom Event Name",
+custom_event_type: "other"
+}
+},
+validator: {
+type: "json_schema",
+definition: {
+properties: {
+data: {
+additionalProperties: true,
+properties: {
+custom_attributes: {
+additionalProperties: false,
+properties: {
+foo: {
+type: "number"
+}
+},
+required: [
+"foo"
+]
+}
+},
+required: [
+"custom_attributes"
+]
+}
+}
+}
+}
+},
+{
+description: "My second data point",
+match: {
+type: "custom_event",
+criteria: {
+event_name: "My Custom Event Name",
+custom_event_type: "other"
+}
+},
+validator: {
+type: "json_schema",
+definition: {
+properties: {
+data: {
+additionalProperties: true,
+properties: {
+custom_attributes: {
+additionalProperties: false,
+properties: {
+foo: {
+type: "number"
+}
+},
+required: [
+"foo"
+]
+}
+},
+required: [
+"custom_attributes"
+]
+}
+}
+}
+}
+}]
+}
+const updatePlanVersion = await dataPlanService.updateDataPlanVersion("example_data_plan_id, 2, dataPlanVersionUpdate)
+.catch(err => {
+console.log(err.status);
+console.log(err.response.data);
+}
+);
+Response
+The response will contain the entire Data Plan version. See above for a full JSON example.
+Delete Data Plan Version
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing your data plan
+plan_id
+string
+The ID of the data plan
+version
+integer
+The version of the data plan to delete
+Example Request
+CurlNode SDK
+curl --location --request DELETE 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/{{plan_id}}/versions/{{version}}' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService({
+workspaceId: '{{workspace_id}}',
+clientId: '{{client_id}}',
+clientSecret: '{{client_secret}}',
+});
+const deleteDataPlanVersion = await dataPlanService.deleteDataPlanVersion("example_data_plan_id", example_version);
+Response
+A successful request results in an empty 204 response.
+Validate event batch with a data plan version
+To validate an event batch using the Data Planning API, submit a POST request to https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/validate, including the JSON formatted event batch you want to validate.
+Name
+Type
+Description
+workspace_id
+integer
+The ID of the workspace containing the data plan version
+Example request
+CurlNode SDK
+curl --location --request POST 'https://api.mparticle.com/platform/v2/workspaces/{{workspace_id}}/plans/validate' \
+--header 'Authorization: Bearer {{jwt_token}}' \
+--data-raw '{
+"document": {
+"data_points": [
+{
+"match": {
+"type": "product_impression",
+"criteria": {}
+},
+"validator": {
+"type": "json_schema",
+"definition": {}
+},
+"description": "cupidatat"
+},
+{
+"match": {
+"type": "custom_event",
+"criteria": {
+"event_name": "foo-location",
+"custom_event_type": "location"
+}
+},
+"validator": {
+"type": "json_schema",
+"definition": {}
+},
+"description": "esse proident officia sint"
+}
+],
+"transformations": {
+"transformation_id": 70840265.76408121,
+"transformation_name": "sunt veniam esse ipsum",
+"error_pointer": "enim eiusmod dolore in",
+"validation_error_types": [
+"unplanned"
+],
+"schema_keywords": [
+"additionalProperties"
+],
+"json_patch": [
+{
+"op": "remove",
+"from": "incididunt Ut",
+"path": "dolor sed officia",
+"value": "eu Excepteur exercitation esse"
+}
+],
+"description": "nostrud sunt nulla"
+}
+},
+"batch": {
+"environment": "production",
+"source_request_id": "ut",
+"context": {
+"data_plan": {
+"plan_id": "aliqua",
+"plan_version": 97521295
+}
+},
+"events": [
+{
+"data": {
+"timestamp_unixtime_ms": 79305770,
+"source_message_id": "aute nisi",
+"session_id": 56869342,
+"session_uuid": "do anim",
+"session_start_unixtime_ms": -2126166,
+"event_start_unixtime_ms": 54299226,
+"custom_attributes": {
+"dolor__": "incididunt laboris amet elit",
+"occaecat41f": "velit aliquip minim do"
+},
+"location": {
+"latitude": {}
+},
+"device_current_state": {
+},
+"is_goal_defined": false,
+"lifetime_value_change": true,
+"lifetime_value_attribute_name": "anim mollit dolore",
+"data_connection_type": "Duis sed sint",
+"event_num": -85280667,
+"view_controller": "fugiat irure velit",
+"is_main_thread": false,
+"canonical_name": "elit reprehenderit",
+"event_system_notification_info": {
+"type": {
+"value": "<Error: Too many levels of nesting to fake this schema>"
+}
+}
+},
+"event_type": "profile"
+},
+{
+"data": {
+"timestamp_unixtime_ms": -27715666,
+"source_message_id": "ut commodo",
+"session_id": 58812755,
+"session_uuid": "in nisi exercitation",
+"session_start_unixtime_ms": -74726957,
+"event_start_unixtime_ms": -99542442,
+"custom_attributes": {
+"nisi_0": "occaecat quis Lorem"
+},
+"location": {
+},
+"device_current_state": {
+},
+"is_goal_defined": true,
+"lifetime_value_change": true,
+"lifetime_value_attribute_name": "commodo Ut aliqua",
+"data_connection_type": "id offici",
+"event_num": 36874422,
+"view_controller": "veniam",
+"is_main_thread": false,
+"canonical_name": "magna est fugiat in",
+"event_system_notification_info": {
+"type": {
+"value": "<Error: Too many levels of nesting to fake this schema>"
+}
+}
+},
+"event_type": "screen_view"
+}
+],
+"device_info": {
+},
+"application_info": {
+"application_name": "est magna ad dolor",
+"application_version": "cillum Excepteur",
+"application_build_number": "magna labore nostrud",
+"install_referrer": "exercit",
+"package": "Ut aliquip fugiat cillum",
+"os": "Unknown",
+"apple_search_ads_attributes": {
+"enim_ee6": {
+"tempor_db": "sint c",
+"labore_7d": "non dolore",
+"in_4b": "nisi id deserunt exe"
+},
+"incididunt289": {
+"aute_93": "mollit nostrud",
+"reprehenderitd1": "nulla incididunt adipisicing sint"
+}
+}
+},
+"user_attributes": {
+"fugiatd": {}
+},
+"deleted_user_attributes": [
+"ullamco amet",
+"enim"
+],
+"user_identities": {
+"other": "non in",
+"customer_id": "non laborum incididunt",
+"facebook": "tempor incididunt velit",
+"twitter": "Lorem velit anim",
+"google": "ad consectetur",
+"microsoft": "do quis pariatur",
+"yahoo": "ex qui",
+"email": "est labore",
+"alias": "ea Excepteur esse incididunt"
+},
+"api_key": "in dolore Ut",
+"api_keys": [
+"culpa labore amet eu",
+"aute in do Ut amet"
+],
+"ip": "iru",
+"integration_attributes": {
+"cupidatat_7": {
+"cupidatat_7bd": "consectetur"
+},
+"proidentf": {
+"pariatur_4": "offici"
+}
+},
+"partner_identity": "cupidatat aute",
+"source_info": {
+"channel": "native",
+"partner": "id ame",
+"replay_request_id": "sint irure et",
+"replay_job_id": "sed esse",
+"is_historical": false
+},
+"mp_deviceid": "Excepteur dolor",
+"attribution_info": {
+"service_provider": "voluptate minim",
+"publisher": "cill",
+"campaign": "officia cillum esse"
+},
+"timestamp_unixtime_ms": 84190753,
+"batch_id": -72216633,
+"mpid": -724884,
+"sdk_version": "anim cupidatat magna Lorem",
+"consent_state": {
+"gdpr": {
+"regulation": "ut cupidatat",
+"document": "labore in",
+"consented": true,
+"timestamp_unixtime_ms": -70914984,
+"location": "consectetur magna qui incididunt",
+"hardware_id": "non sit"
+}
+},
+"job_id": "sint nulla incididunt do"
+}
+}'
+import { DataPlanService } from '@mparticle/data-planning-node';
+const dataPlanService = new DataPlanService();
+// Fetch Data Plan Version asynchronously
+const dataPlanVersion = await dataPlanService
+.getVersionDocument(<organizationId>, <accountId>, 'my_custom_data_plan, <workspaceId>, 3, <token>);
+const batchValidationResults = dataPlanService.validateBatch(batch, dataPlanVersion.version_document);
+const eventValidationResults = dataPlanService.validateEvent(event, dataPlanVersion.version_document);
+Response
+A successful request will receive a 200 OK response with the JSON formatted validation results, including any validation errors.
+CurlNode SDK
+{
+"results": [
+{
+"data": {
+"match": {
+"type": "product_impression",
+"criteria": {
+"value": "<Error: Too many levels of nesting to fake this schema>"
+}
+},
+"validation_errors": [
+{
+"validation_error_type": "unknown",
+"key": "event name or attribute name",
+"error_pointer": "#/data/custom_attributes/foo-attr-1",
+"expected": "null for unplanned entities, the entity name for missing required entities, a data type (e.g. \"number\") for invalid data types, etc",
+"actual": "the entity name for unplanned entities, null for missing required entities, a data type (e.g. \"string\") for invalid data types, etc",
+"action_expected": "drop_batch",
+"schema_keyword": "unevaluatedItems"
+},
+{
+"validation_error_type": "missing_required",
+"key": "event name or attribute name",
+"error_pointer": "#/data/custom_attributes/foo-attr-1",
+"expected": "null for unplanned entities, the entity name for missing required entities, a data type (e.g. \"number\") for invalid data types, etc",
+"actual": "the entity name for unplanned entities, null for missing required entities, a data type (e.g. \"string\") for invalid data types, etc",
+"action_expected": "drop_attribute",
+"schema_keyword": "$ref"
+}
+],
+"validated_event_id": -86884668.51948906,
+"validated_source_message_id": "nostrud in",
+"executed_transformations": {
+"transformation_id": 97592156.55532053,
+"transformation_status": "failure",
+"transformation_error_type": "events_schema_violated",
+"transformation_error_message": "pariatur enim",
+"transformation_error_pointer": "adipi"
+},
+"timestamp_unixtime_ms": 17037035,
+"event_id": -42247328,
+"source_message_id": "e",
+"session_id": 23278782,
+"session_uuid": "aute fugiat",
+"session_start_unixtime_ms": -6796583,
+"event_start_unixtime_ms": 2872240,
+"custom_attributes": {
+"enimdcc": "dolor veniam ullamco",
+"labore_3": "incididunt cillum"
+},
+"location": {
+"latitude": 31814706.829063505,
+"longitude": 63133216.60368088,
+"accuracy": -11147420.056862295
+},
+"device_current_state": {
+"time_since_start_ms": 40749038,
+"battery_level": -44992792.32572158,
+"data_connection_type": "Lorem fugiat",
+"data_connection_type_detail": "anim cillum cupidatat",
+"gps_state": true,
+"total_system_memory_usage_bytes": -91208220,
+"disk_space_free_bytes": 55999300,
+"external_disk_space_free_bytes": -60627957,
+"cpu": "eu laborum",
+"system_memory_available_bytes": -39377379.67096515,
+"system_memory_low": true,
+"system_memory_threshold_bytes": 57785935.21112856,
+"application_memory_available_bytes": 19617182.87110643,
+"application_memory_max_bytes": -85980007.07383266,
+"application_memory_total_bytes": -59964684.77254946,
+"device_orientation": "portrait",
+"status_bar_orientation": "portrait"
+},
+"is_goal_defined": false,
+"lifetime_value_change": false,
+"lifetime_value_attribute_name": "veniam",
+"data_connection_type": "anim tempor elit",
+"event_num": -33080120,
+"view_controller": "enim aliquip",
+"is_main_thread": true,
+"canonical_name": "enim ea sint",
+"event_system_notification_info": {
+"type": "gdpr_change"
+}
+}
+},
+{
+"data": {
+"match": {
+"type": "user_attributes",
+"criteria": {
+"value": "<Error: Too many levels of nesting to fake this schema>"
+}
+},
+"validation_errors": [
+{
+"validation_error_type": "unplanned",
+"key": "event name or attribute name",
+"error_pointer": "#/data/custom_attributes/foo-attr-1",
+"expected": "null for unplanned entities, the entity name for missing required entities, a data type (e.g. \"number\") for invalid data types, etc",
+"actual": "the entity name for unplanned entities, null for missing required entities, a data type (e.g. \"string\") for invalid data types, etc",
+"action_expected": "allow",
+"schema_keyword": "examples"
+}
+],
+"validated_event_id": -68430764.95735234,
+"validated_source_message_id": "eu velit sit aliqua",
+"executed_transformations": {
+"transformation_id": -33544224.17781522,
+"transformation_status": "unchanged",
+"transformation_error_type": "unrecognized_data_point",
+"transformation_error_message": "Lorem",
+"transformation_error_pointer": "commodo nostrud ut reprehenderit do"
+},
+"timestamp_unixtime_ms": -69435754,
+"event_id": -76370058,
+"source_message_id": "velit sed laborum",
+"session_id": -97492351,
+"session_uuid": "sed",
+"session_start_unixtime_ms": -50784535,
+"event_start_unixtime_ms": 57530189,
+"custom_attributes": {
+"eiusmod_30": "tempor nostrud nisi",
+"dolorccb": "pariatur in",
+"eiusmod94": "culpa exercitation tempor deserunt"
+},
+"location": {
+"latitude": 95229562.92556664,
+"longitude": -96622601.0764705,
+"accuracy": 36701747.652133465
+},
+"device_current_state": {
+"time_since_start_ms": 11072060,
+"battery_level": -84232337.02036467,
+"data_connection_type": "in eiusmod in ex dolore",
+"data_connection_type_detail": "ullamco dolor ex aute occa",
+"gps_state": false,
+"total_system_memory_usage_bytes": 3388989,
+"disk_space_free_bytes": 64499047,
+"external_disk_space_free_bytes": 85198972,
+"cpu": "culpa exerc",
+"system_memory_available_bytes": 10853264.360540748,
+"system_memory_low": false,
+"system_memory_threshold_bytes": 39663588.05889803,
+"application_memory_available_bytes": -18402065.272555396,
+"application_memory_max_bytes": -28878159.212003946,
+"application_memory_total_bytes": 16887590.291536763,
+"device_orientation": "LandscapeLeft",
+"status_bar_orientation": "landscape"
+},
+"is_goal_defined": false,
+"lifetime_value_change": false,
+"lifetime_value_attribute_name": "adipisicing veniam",
+"data_connection_type": "enim",
+"event_num": -93170864,
+"view_controller": "irure ipsum ullamco",
+"is_main_thread": false,
+"canonical_name": "velit consectetur",
+"event_system_notification_info": {
+"type": "gdpr_change"
+}
+}
+}
+],
+"batch": {}
+}
+results: [
+{
+data: {
+match: {
+type: 'screen_view',
+criteria: {
+screen_name: 'Test Screen View',
+},
+},
+validation_errors: [
+{
+error_pointer: '#/data',
+key: 'data',
+expected: 'custom_flags',
+schema_keyword: 'required',
+validation_error_type: 'missing_required',
+},
+],
+},
+event_type: 'validation_result',
+},
+],
+Rate limits
+The following rate limits are enforced for all requests to the Data Planning API regardless of the data localization pod used.
+Resource
+Limits
+Details
+Requests per minute per account
+3000 requests per minute
+This limit applies to all GET, POST, and PATCH API actions.
+Requests per minute per organization
+6000 requests per minute
+This limit applies to all GET, POST, and PATCH API actions.
+If you encounter issues when uploading a data plan via the API but receive no error response: set your plan's status to DEV in the mParticle UI, upload your new plan, then change the status back to PROD/DEV.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

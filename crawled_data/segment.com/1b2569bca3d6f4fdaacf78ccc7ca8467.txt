@@ -1,0 +1,1432 @@
+URL: https://segment.com/docs/guides/regional-segment/#regional-segment
+
+Regional Segment | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Guides
+/
+Regional Segment
+Regional Segment
+Free x
+Team x
+Business ✓
+Add-on x
+?
+Regional Segment is available to customers on the Business Tier plan.
+See the available plans, or contact Support.
+On this page
+Regional Data Ingestion
+Create a new workspace with a different region
+EU Storage Updates
+Known Limitations
+Destination support and Regional endpoint availability
+Source Regional support
+On July 10, 2023, the European Commission adopted the Adequacy Decision for the EU-US Data Privacy Framework (DPF). This concludes that EU personal data transferred to the United States under the DPF is adequately protected when compared to the protection in the EU. With this adequacy decision in place, personal data can safely flow from the EU to US companies participating in the DPF without additional safeguards in place.
+Twilio is certified under the DPF and relies on the DPF as its primary personal data transfer mechanism for EU-US personal data transfer. Twilio will rely on the DPF for any Swiss-US personal data transfers as soon as a corresponding Swiss adequacy decision is made. Twilio understands that interpretations of data residency are multi-faceted and some customers might still want their data to reside in the EU. Twilio Segment therefore offers a data residency solution outside of the DPF.
+Segment offers customers the option to lead on data residency by providing regional infrastructure in both Europe and the United States. The default region for all users is in Oregon, United States. You can configure workspaces to use the EU West Data Processing Region to ingest (for supported sources), process, filter, deduplicate, and archive data through Segment-managed archives hosted in AWS S3 buckets located in Dublin, Ireland. The regional infrastructure has the same rate limits and SLA as the default region.
+Regional Data Ingestion
+Regional Data Ingestion enables you to send data to Segment from both Device-mode and Cloud-mode sources through regionally hosted API ingest points. The regional infrastructure can fail-over across locations within a region, but never across regions.
+Cloud-event sources
+The following cloud sources are supported in EU workspaces:
+Amazon S3
+Iterable
+Client-side sources
+You can configure Segment’s client-side SDKs for JavaScript, iOS, Android, and React Native sources to send data to a regional host after you’ve updated the Data Ingestion Region in that source’s settings. Segment’s EU instance only supports data ingestion from Dublin, Ireland with the events.eu1.segmentapis.com/ endpoint. If you are using the Segment EU endpoint with an Analytics-C# source, you must manually append v1 to the URL. For instance, events.eu1.segmentapis.com/v1.
+For workspaces that use the EU West Data Processing region, the Dublin Ingestion region is preselected for all sources.
+To set your Data Ingestion Region:
+Go to your source.
+Select the Settings tab.
+Click Regional Settings.
+Choose your Data Ingestion Region.
+If you’re in the US West data processing region, you can select from: Dublin, Singapore, Oregon, and Sydney.
+If you’re in the EU West data processing region, Segment’s EU instance only supports data ingestion from Dublin with the events.eu1.segmentapis.com/ endpoint.
+All regions are configured on a per-source basis. You’ll need to configure the region for each source separately if you don’t want to use the default region.
+All Segment client-side SDKs read this setting and update themselves automatically to send data to new endpoints when the app reloads. You don’t need to change code when you switch regions.
+Server-side and project sources
+When you send data from a server-side or project source, you can use the host configuration parameter to send data to the desired region:
+Oregon (Default) — https://events.segmentapis.com/v1
+Dublin — https://events.eu1.segmentapis.com/
+If you are using the Segment EU endpoint with an Analytics-C# source, you must manually append v1 to the URL. For instance, events.eu1.segmentapis.com/v1.
+Here is an example of how to set the host:
+Analytics.Initialize("<YOUR WRITEKEY HERE>", new Config().SetHost("https://events.eu1.segmentapis.com (https://events.eu1.segmentapis.com/)"));
+Create a new workspace with a different region
+Use this form if you need to transition from your existing US-based workspace to an EU workspace.
+To create a workspace with a different data processing region, reach out your Segment account executive, and they will assist you with enabling the feature. Once the feature has been enabled, you’ll be able to self-serve and create a new workspace in a different data processing region by following these steps:
+Log in to your Segment account.
+Click New Workspace.
+Select your Data processing region. This determines the location in which Segment collects, processes, and stores data that’s sent to and from your workspace. You can choose from US West or EU West.
+Click Create workspace.
+Once you create a workspace with a specified data processing region, you can’t change the region. You must create a new workspace to change the region.
+EU Storage Updates
+Segment Data Lakes (AWS)
+Regional Segment in the EU changes the way you configure the Segment Data Lakes (AWS) environment
+Warehouse Public IP Range
+Use Segment’s custom CIDR 3.251.148.96/29 while authorizing Segment to write in to your Redshift or Postgres port. BigQuery doesn’t require you to allow a custom IP address.
+Known Limitations
+Regional Segment is currently limited to the EU. Future expansion of Regional Segment beyond the EU is under evaluation by Segment Product and R&D.
+Edge proxies are deprecated. Customers using Regional Endpoints may see US-based IP addresses in event payloads, Segment recommends using the US-based endpoint (api.segment.io) to preserve client IP addresses. For EU customers, Segment recommends using a Regionalized EU workspace.
+Destination support and Regional endpoint availability
+Don't see a regional endpoint for a tool you're using?As more of the partner tools you use (Sources, Destinations, and Warehouses) start to support a regional endpoint, Segment will update this list. Your contact for that tool should have a timeline for when they’re hoping to support regional data ingestion. You can also visit Segment’s support page for any Segment-related questions.
+The following integrations marked with a
+(checkmark) support EU Regional endpoints.
+Integrations available in EU workspaces do not guarantee data residencyBefore you configure an integration, you should check directly with the integration partner to determine if they offer EU endpoints.
+All
+Destinations
+Warehouses
+Integration
+US Workspace
+EU workspace w/ US Endpoint
+EU workspace w/ EU Endpoint
+Destinations
+1Flow
+1Flow Mobile Plugin
+1Flow Web (Actions)
+2mee
+Aampe
+AB Smartly
+AB Tasty client side
+ABsmartly (Actions)
+Accoil Analytics
+Acoustic (Actions)
+Actable Predictive
+Actions Pipedrive
+ActiveCampaign
+Adikteev
+Adjust
+AdLearn Open Platform
+Adobe Analytics
+Adobe Target Cloud Mode
+Adobe Target Web
+AdQuick
+AdRoll
+Adtriba
+Aggregations.io (Actions)
+Airship
+Airship (Actions)
+Akita Customer Success
+Alexa
+Algolia Insights (Actions)
+Amazon Ads DSP and AMC
+Amazon EventBridge
+Amazon Kinesis
+Amazon Kinesis Firehose
+Amazon Lambda
+Amazon Personalize
+Ambassador
+Amberflo
+Amplitude
+Amplitude (Actions)
+Angler AI
+Anodot
+Appcues
+Appcues Mobile
+AppFit
+AppNexus
+AppsFlyer
+Apptimize
+Asayer
+Astrolabe
+Atatus
+Attentive Mobile
+Attio (Actions)
+Attribution
+Auryc
+AutopilotHQ
+Avo
+AWS S3
+Azure Function
+Batch
+Beamer
+Bing Ads
+Blackbaud Raiser's Edge NXT
+Blend Ai
+Blendo
+Blitzllama
+Bloomreach Engagement
+Blueshift
+Branch Metrics
+Braze
+Braze Cloud Mode (Actions)
+Braze Cohorts
+Braze Web Device Mode (Actions)
+Breyta CRM
+Bronto
+Bucket
+BugHerd
+Bugsnag
+Button
+BuzzBoard
+ByteGain
+BytePlus
+Calixa
+Callingly
+Candu
+Canny (Actions)
+Castle
+Chameleon
+Chartbeat
+ChartMogul
+Churned
+ChurnZero
+Clearbit Enrichment
+Clearbit Reveal
+ClearBrain
+CleverTap
+CleverTap (Actions)
+Clicky
+ClientSuccess
+Cliff
+Close
+CommandBar
+comScore
+Contentstack Cloud
+Contentstack Web
+ConvertFlow
+Convertly
+Convertro
+Cordial (Actions)
+Correlated
+Countly
+Courier
+Crazy Egg
+Crisp
+Criteo App & Web Events
+Criteo Audiences
+Crittercism
+Crossing Minds
+CrowdPower
+Cruncher
+Custify
+Customer.io
+Customer.io (Actions)
+Data Lakes
+Delighted
+Delivr.ai Resolve
+Display and Video 360 (Actions)
+DoubleClick Floodlight
+Dreamdata
+Drip
+Drip (Actions)
+Dynamic Yield by Mastercard Audiences
+Elevio
+Eloqua
+Email Aptitude
+Emarsys
+Emarsys (Actions)
+EMMA
+Encharge (Actions)
+Engage Messaging
+EnjoyHQ
+EPICA
+Equals
+Errorception
+events.win
+Everflow
+Experiments by GrowthHackers
+Extole Platform
+Facebook App Events
+Facebook Conversions API (Actions)
+Facebook Custom Audiences (Actions)
+Facebook Offline Conversions
+Facebook Pixel
+FactorsAI
+Firebase
+First Party Dv360
+FL0
+Flagship.io
+Flurry
+FoxMetrics
+Freshmarketer
+Freshsales
+Freshsales Suite - CRM
+Friendbuy (Cloud Destination)
+Friendbuy (Legacy)
+Friendbuy (Web Destination)
+FullStory
+Fullstory (Actions)
+Fullstory Cloud Mode (Actions)
+FunnelEnvy
+FunnelFox
+Gainsight
+Gainsight PX
+Gainsight Px Cloud (Actions)
+Gameball (Actions)
+Gauges
+Gist
+Gleap (Action)
+Google Ads (Classic)
+Google Ads (Gtag)
+Google Ads Conversions
+Google Ads Remarketing Lists
+Google Analytics 4 Cloud
+Google Analytics 4 Web
+Google Cloud Function
+Google Cloud PubSub
+Google Cloud Storage
+Google Sheets
+Google Tag Manager
+GoSquared
+GraphJSON
+Groundswell
+GWEN (Actions)
+HasOffers
+Hawkei
+Heap
+Hello Bar
+Help Scout
+HitTail
+Hotjar
+Houseware
+Hubble (Actions)
+HubSpot
+HubSpot Cloud Mode (Actions)
+HubSpot Web (Actions)
+Humanic AI
+hydra
+IBM UBX
+Impact Partnership Cloud
+Improvely
+Indicative
+Inflection
+Inkit
+Inleads AI
+InMoment (formerly Wootric)
+Innovid
+Insider Audiences
+Insider Cloud Mode (Actions)
+Inspectlet
+Intercom
+Intercom Cloud Mode (Actions)
+Intercom Web (Actions)
+Iron.io
+Iterable
+Iterable (Actions)
+Iterate Web (Actions)
+Jimo
+Jimo (Actions)
+Jivox
+journy io
+June
+June (Actions)
+Kable
+Kafka
+Kahuna
+Kameleoon (Actions)
+Kana
+Keen
+Kevel
+Kissmetrics
+Kitemetrics
+Klaviyo
+Klaviyo (Actions)
+Koala
+Koala (Cloud)
+Kochava
+Kubit
+Kustomer
+LaunchDarkly (Actions)
+LaunchDarkly Audiences
+Leanplum
+Learndot
+Librato
+LinkedIn Audiences
+LinkedIn Conversions API
+LinkedIn Insight Tag
+Listrak (Actions)
+LiveChat
+LiveIntent Audiences
+LiveLike
+LiveRamp Audiences
+Localytics
+LogRocket
+Loops (Actions)
+Lou
+Lucky Orange
+Lumen
+Lytics
+mabl
+Madkudu
+MailChimp
+Mailjet
+Mailmodo
+Mammoth
+Marketo Static Lists (Actions)
+Marketo V2
+Markettailor
+Matcha
+Matomo
+MediaMath
+Metronome (Actions)
+Millennial Media
+Mixpanel (Actions)
+Mixpanel (Legacy)
+MoEngage
+Moengage (Actions)
+Moesif API Analytics
+Moloco MCM
+Monetate
+Moosend
+Mouseflow
+MouseStats
+Movable Ink (Actions)
+Mutiny
+Nanigans
+Nat
+Natero
+Navilytics
+New Relic
+Nielsen DCR
+Ninetailed by Contentful
+Noora
+Nudgespot
+Olark
+OneSignal (New)
+Optimizely Advanced Audience Targeting
+Optimizely Data Platform
+Optimizely Feature Experimentation (Actions)
+Optimizely Full Stack
+Optimizely Web
+Orb
+Ortto
+Pardot (Actions)
+Parsely
+Peaka
+Pendo
+Pendo Web (Actions)
+Perfect Audience
+Perkville
+PersistIQ
+Personas Facebook Custom Audiences
+Personyze
+Pingdom
+Pinterest Audiences
+Pinterest Conversions API
+Pinterest Tag
+Planhat
+PlayerZero Web
+Plotline
+Podscribe (Actions)
+Podsights
+Pointillist
+PostHog
+Postscript
+ProductBird
+ProfitWell
+Proof Experiences
+ProsperStack
+Pushwoosh
+Qualaroo
+Qualtrics
+Quantcast
+QuanticMind
+Quora Conversion Pixel
+Rabble AI
+RadiumOne Connect
+Ramen
+Recombee
+Reddit Conversions API
+Refersion
+Refiner
+Regal.io
+Rehook
+Repeater
+Responsys
+Retina
+RevX Cloud (Actions)
+Richpanel
+Ripe Cloud Mode (Actions)
+Ripe Device Mode (Actions)
+Rockerbox
+Rokt
+Rokt Audiences (Actions)
+Rollbar
+Rupt
+SaaSquatch v2
+Sailthru v2
+Salescamp CRM
+Salesforce (Actions)
+Salesforce Marketing Cloud (Actions)
+Salesmachine
+Saleswings (Actions)
+SatisMeter
+Savio
+Schematic
+ScopeAI
+Screeb
+Screeb Web (Actions)
+Scuba Analytics
+Segment Connections
+Segment Data Lakes (Azure)
+Segment Profiles
+SegMetrics
+Selligent Marketing Cloud
+SendGrid
+Sentry
+Serenytics
+ShareASale
+Sherlock
+SIGNL4 Alerting
+SimpleReach
+SingleStore
+Singular
+Skalin
+Slack
+Slack (Actions)
+SlicingDice
+Smartlook
+Snapboard
+Snapchat Audiences
+Snapchat Conversions API
+SnapEngage
+Spideo
+Spinnakr
+Split
+Sprig (Actions)
+Sprig Cloud
+StackAdapt
+Startdeliver
+Startdeliver-v2
+Statsig
+Stitch Data
+Stonly
+Stories
+Stormly
+Strikedeck
+Survicate
+Survicate (Actions)
+Swrve
+Taboola (Actions)
+Talkable
+Talon.One
+Talon.One (Actions)
+Tamber
+Taplytics
+Tapstream
+The Trade Desk Crm
+TikTok Audiences
+TikTok Conversions
+Tiktok Offline Conversions
+TikTok Pixel
+Toplyne Cloud Mode (Actions)
+Topsort
+Totango
+Track JS
+Trackier
+Tractionboard
+TrafficGuard
+tray.io
+Treasure Data
+Trustpilot
+TUNE
+Twitter Ads
+Unwaffle
+Upcall
+Upollo
+Upollo Web (Actions)
+User.com
+UserGuiding
+UserIQ
+Userlens by Wudpecker
+Userlist
+Usermaven (Actions)
+UserMotion (Actions)
+Userpilot Cloud (Actions)
+Userpilot Web (Actions)
+Userpilot Web Plugin
+UserVoice
+Variance
+Vero
+Vespucci
+Vidora
+Visual Website Optimizer
+Vitally
+Voucherify
+Voucherify (Actions)
+VWO Cloud Mode (Actions)
+VWO Web Mode (Actions)
+WalkMe
+WebEngage
+Webhooks (Actions)
+Whale Alerts
+Whale Watch
+Wigzo
+Windsor
+Wisepops
+Wishpond
+Woopra
+Xplenty
+Xtremepush
+Xtremepush (Actions)
+Yahoo Audiences
+Yandex Metrica
+Yellowhammer
+Youbora
+Zaius
+Zapier
+Zendesk
+Zopim
+Warehouses
+Amazon S3
+AWS S3
+Azure Synapse Analytics Warehouse
+BigQuery
+Databricks
+IBM Db2 Warehouse
+Postgres
+Redshift
+Segment Data Lakes
+Snowflake
+Source Regional support
+Don't see regional support for a source you're using?As more of the partner Sources start to support posting data to our regional endpoint, Segment will update this list. Your contact for that tool should have a timeline for when they’re hoping to support regional data ingestion. You can also visit Segment’s support page for any Segment-related questions.
+The following Sources marked with a
+(checkmark) are supported in EU workspaces.
+Integration
+US Workspace
+EU workspace
+Sources
+.NET
+ActiveCampaign
+Aircall
+Airship
+Alloy Flow
+Amazon S3
+Amplitude Cohorts
+Antavo
+Apple
+Authvia
+AutopilotHQ
+Beamer
+Blip
+Bluedot
+Blueshift
+Braze
+Candu
+Chatlio
+CleverTap
+Clojure
+CommandBar
+ConfigCat
+Customer.io
+Delighted
+Drip
+Dub
+Elastic Path
+Elastic Path CX Studio
+Facebook Ads
+Facebook Lead Ads
+Factual Engine
+Flutter
+Foursquare Movement
+Freshchat
+Friendbuy
+Gladly
+Go
+Google Ads
+GWEN Webhooks
+Herow
+HTTP API
+HubSpot
+IBM Watson Assistant
+Inflection
+Insider
+Intercom
+Iterable
+Java
+Javascript
+Jebbit
+Klaviyo
+Klenty
+Kotlin
+Kotlin (Android)
+LaunchDarkly
+Leanplum
+Listrak
+LiveLike (Source)
+Looker
+Mailchimp
+Mailjet
+Mailmodo
+Mandrill
+Marketo
+Mixpanel Cohorts
+MoEngage (Source)
+Moesif API Analytics
+Navattic
+Nudgespot
+One Creation
+OneSignal
+OneTrust
+Paytronix
+Pendo
+PHP
+Pixel Tracking API
+ProveSource
+Pushwoosh Source
+Python
+Qualtrics
+Quin AI
+Radar
+React Native
+Refiner
+Roku (alpha)
+Ruby
+Salesforce
+Salesforce Marketing Cloud
+Selligent Marketing Cloud
+SendGrid
+SendGrid Marketing Campaigns
+Shopify (by Littledata)
+Shopify - Powered by Fueled
+Statsig
+Stripe
+Synap
+Twilio
+Unity
+Upollo
+UserGuiding
+Vero
+Voucherify
+White Label Loyalty
+WorkRamp
+Xamarin
+Yotpo
+Zendesk
+This page was last modified: 28 Jan 2025
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Regional Data Ingestion
+Create a new workspace with a different region
+EU Storage Updates
+Known Limitations
+Destination support and Regional endpoint availability
+Source Regional support
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

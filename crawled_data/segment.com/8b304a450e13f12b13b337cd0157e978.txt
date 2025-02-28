@@ -1,0 +1,806 @@
+URL: https://segment.com/docs/guides/audiences-and-journeys/
+
+Audiences, Journeys, and Broadcasts | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Guides
+/
+Audiences, Journeys, and Broadcasts
+Audiences, Journeys, and Broadcasts
+Free x
+Team x
+Business ✓
++
+Engage Foundations ✓
+?
+Engage Foundations requires a Business tier account and includes Unify.
+See the available plans, or contact Support.
+On this page
+Back to basics
+Engage and the customer lifecycle
+Choosing between Audiences, Journeys, and Broadcasts
+Putting it together
+Audiences, Journeys, and Broadcasts are fundamental to Twilio Engage and let you segment your users, send them personalized content, and show them ads from platforms like Facebook or Google.
+In this guide, you’ll learn how to choose between an Audience, a Journey, and a Broadcast for a number of marketing use cases across the customer lifecycle.
+Back to basics
+First, consider the following definitions for an Audience, Journey, and Broadcast.
+Audience
+In Engage, an Audience is a group of users that share certain characteristics. When you create an Audience, you group users who meet certain conditions, like having performed an event or having a Computed Trait.
+Once you’ve created an Audience, you can sync it to marketing automation tools, ads platforms, analytics tools, or data warehouses. Depending on the Audience’s conditions and connected Destination(s), Segment syncs the Audience’s users in batches or in real time, as they meet the Audience’s conditions.
+Journey
+A Journey is a logic-driven workflow that progresses users through steps based on conditions and time delays. You add users to a Journey with an entry condition, then users progress through the Journey’s steps based on conditions you define during Journey setup.
+As with Audiences, Segment can sync users to Destinations at designated points in the Journey. Unlike an Audience, a Journey can send users to Twilio Engage’s native email and SMS channels.
+Broadcast
+A Broadcast is a one-time SMS or email campaign sent to a group of users. Whereas Segment continously updates Audience membership, Segment only calculates the users who will receive your Broadcast once. Marketers commonly use Broadcasts for newsletters, promotional campaign, and events.
+Engage and the customer lifecycle
+The customer lifecycle provides a helpful framework for thinking about Audiences, Journeys, and Broadcasts.
+Audiences and Broadcasts tend to be most effective at the top of the customer lifecycle funnel, where brand awareness and discovery occurs.
+A Journey becomes a better option as customers progress down the funnel, where a more complex strategy involving messaging, social ads, and newsletters helps move customers closer to conversion.
+Choosing between Audiences, Journeys, and Broadcasts
+With the customer lifecycle in mind, use the following table as a starting point for selecting an Audience or Journey for common marketing use cases:
+Use Case
+Audience, Journey, or Broadcast
+I want to send email and SMS campaigns.
+Journey or Broadcast
+I want to send a one-time email or SMS campaign.
+Broadcast
+I only have one intended touchpoint.
+Audience or Broadcast
+I need branching logic.
+Journey
+I want to run A/B tests.
+Journey
+I want to re-target customers with the same ad.
+Audience
+While these suggestions will work for most use cases, you may need to consider other factors before you implement your own campaign. Asking the following questions will help you identify the right approach.
+Over the course of a campaign, how many touchpoints do I want to create?
+Audiences and Broadcasts work best for single, one-off messages or touchpoints. If you need a campaign with time delays and branching logic, opt for a Journey.
+For example, an Audience works well if you want to show a single ad when a user abandons a cart. If, however, you want to show an ad, wait several days, then send the user an email if they’ve not completed their purchase, go with a Journey.
+Do I want to use Engage Premier Channels like SMS and email?
+You can message users with Engage Premier Channels. If you’d like to send an SMS or email campaign to a customer, use a Journey.
+Do I need branching logic?
+Create a Journey if you want to incorporate branching logic into your campaign.
+Do I want to conduct an A/B test or create a holdout group?
+A number of Journeys step types, like randomized splits, let you run experiments and test your campaigns. If you want to experiment with different groups, use a Journey.
+Do I want my customers to receive the same campaign more than once?
+With Journeys, you can allow customers to re-enter a Journey they’ve exited or restrict them to a one-time Journey.
+Audiences, on the other hand, admit users whenever they meet the Audience’s criteria. For example, you may want to retarget a user with an ad whenever they view a page on your website. In this case, an Audience works well since the user can re-enter the Audience regardless of how many times they’ve already done so.
+Putting it together
+With this guidance in mind, take your next steps with Engage by learning how to build a Journey, work with Engage Audiences, and send a Broadcast.
+This page was last modified: 12 Jun 2023
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Back to basics
+Engage and the customer lifecycle
+Choosing between Audiences, Journeys, and Broadcasts
+Putting it together
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

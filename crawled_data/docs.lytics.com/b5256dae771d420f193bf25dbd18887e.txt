@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss?tag=personalization engine
+
+Community
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a Question 0 1ANSWEREDOur site is built using a framework in .net. Can I still use the free developer tier?Your free tier mentions Drupal and WordPress but we are curious if there are capabilities outside of those two CMS platforms?developer tierpersonalization enginePosted by -- 4 months ago FAQsRecentUnansweredaudiencesbest practicescompetitivecompliancecssdata exportdata sciencedeploymentdeveloperdeveloper tierexperiencesflickerga4graphical databaseinternationalizationloginmergeoppersonalization enginepersonalization sdkprivacyprivate instanceregion controlrollupschemasdksecurity

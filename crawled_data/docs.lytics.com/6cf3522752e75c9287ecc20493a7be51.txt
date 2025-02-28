@@ -1,0 +1,5 @@
+URL: https://docs.lytics.com/discuss/6786db27cbc550007054a398#content
+
+How to manage multiple environments
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0How to manage multiple environments about 1 month ago by Sean McMahonDoes Lytics have logically separated environments within an instance so that you can share some data source, but keep other separate for different brands, regions, or b2b vs b2c
+(basically like salesforce data cloud's data spaces)?Add Comment

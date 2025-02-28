@@ -1,0 +1,5 @@
+URL: https://docs.lytics.com/discuss/66cf1d62533ae5002bc2c7e3
+
+Usage statistics in BigQuery
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Usage statistics in BigQuery 6 months ago by Niels VerbeeckWe manage several Lytics accounts and want to keep a close look on our usage. Which type of export to BigQuery do you suggest? I'm using Export Activity Data. What to do when using multiple data streams? Is there a field to identify the lytics account?
+Thanks!Add Comment

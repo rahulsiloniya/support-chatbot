@@ -1,0 +1,225 @@
+URL: https://docs.mparticle.com/developers/apis/platform/feeds/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingFeeds
+Get all partner feeds for a workspace
+GET /workspace/<workspaceId>/partnerfeeds?accountId=1
+Returns a list of partner feeds set up for a workspace.
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/workspace/1/partnerfeeds?accountId=1`"
+Response
+{
+"data": [
+{
+"id": "4302",
+"name": "SFMC Feed",
+"data_type": "partner_feed",
+"created_on": "2019-04-05T10:40:23"
+}
+],
+"dataType": "partner_feed",
+"errors": null
+}
+Get a specific feed
+GET /partnerfeeds/<feed-id>?accountId=1
+Get details and settings for a specific partner feed.
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/partnerfeeds/229?accountId=1`"
+Response
+{
+"data": [
+{
+"module_name": "MailChimp",
+"name": "Mailchimp1",
+"os": "Unknown",
+"is_debug": false,
+"settings": [
+{
+"value": null,
+"name": "apiKey"
+},
+{
+"value": null,
+"name": "listId"
+},
+{
+"value": "html",
+"name": "emailType"
+},
+{
+"value": "True",
+"name": "doubleOptIn"
+},
+{
+"value": "False",
+"name": "deleteMemberOnUnsubscribe"
+},
+{
+"value": "True",
+"name": "deleteMemberAtSubscriptionEnd"
+}
+],
+"data_type": "Partner Feed",
+"id": 229
+}
+],
+"data_type": "Partner Feed",
+"errors": null
+}
+Create a new feed
+POST /workspace/<workspace-id>/partnerfeeds?accountId=1
+Creates a new feed.
+Field
+Description
+Notes - examples
+module_name
+Name of the feed module
+radar
+name
+A unique name for the feed configuration.
+radariOSFeed
+os
+Platform the feed should act as.
+iOS, tvOS, Android, MobileWeb, Roku, Alexa, SmartTV, FireTV, Xbox, Unknown
+settings
+Array of objects for each feed setting. Each object should have a name and value. Not all feeds have settings.
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{ \
+\"module_name\": \"radar\", \
+\"name\": \"radariOSFeed\", \
+\"os\": \"ios\", \
+\"settings\": [], \
+\"is_debug\": true \
+}" \
+"https://api.mparticle.com/v1/workspace/1/partnerfeeds?accountId=1"
+Response
+{
+"data": [
+{
+"data_type": "Partner Feed",
+"id": 689,
+"created_on": "2019-07-16T20:46:45.25"
+}
+],
+"data_type": "Partner Feed",
+"errors": null
+}
+Update a feed
+PUT /workspace/<workspace-id>/partnerfeeds/<feed-id>?accountId=1
+Updates an existing feed.
+Field
+Description
+Notes - examples
+module_name
+Name of the feed module.
+radar
+name
+A unique name for the feed configuration.
+radariOSFeed
+os
+Platform the feed should act as.
+iOS, tvOS, Android, MobileWeb, Roku, Alexa, SmartTV, FireTV, Xbox, Unknown
+settings
+Array of objects for each feed setting. Each object should have a name and value. Not all feeds have settings.
+is_debug
+If true, the feed data is sent to the development environment.
+true or false
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{ \
+\"module_name\": \"radar\", \
+\"name\": \"radariOSFeed\", \
+\"os\": \"ios\", \
+\"settings\": [], \
+\"is_debug\": true \
+}" \
+"https://api.mparticle.com/v1/workspace/1/partnerfeeds?accountId=1"
+Response
+{
+"data": [
+{
+"data_type": "Partner Feed",
+"id": 689,
+"created_on": "2019-07-16T20:46:45.25"
+}
+],
+"data_type": "Partner Feed",
+"errors": null
+}
+Get all output configurations
+GET /workspace/<workspace-id>/<module_name>/serviceconfigurations?accountId=1
+List all available configurations for a particular module
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/workspace/3999/indicative/serviceconfigurations?accountId=1`"
+Response
+{
+"data": [
+{
+"id": 24020,
+"name": "Indicative Main Project",
+"data_type": "Service Configuration",
+"created_on": "2018-02-09T20:54:25.52"
+},
+{
+"id": 24022,
+"name": "Indicative Development",
+"data_type": "Service Configuration",
+"created_on": "2018-02-12T21:02:11.317"
+}
+],
+"data_type": "Service Configuration",
+"errors": null
+}
+Create a new feed subscription
+POST /partnerfeeds/<module-id>/subscriptions?accountId=1
+Creates and configures a new feed subscription.
+Field
+Description
+Notes - examples
+service_configuration_id
+Name of the feed module.
+radar
+is_active
+If true, data from the feed is forwarded to the output service.
+true or false
+settings
+Array of objects for each feed setting. Each object should have a name and value. Not all feeds have settings.
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{ \
+\"service_configuration_id\": 24017, \
+\"is_active\": \false, \
+\"os\": \"ios\", \
+\"settings\": [{\"name\": \"useCustomerId\", \"value\": true}] \
+}" \
+"https://api.mparticle.com/v1/workspace/1/partnerfeeds?accountId=1"
+Response
+{
+"data": [
+{
+"data_type": "PartnerFeed Subscription",
+"id": 26368,
+"created_on": "2019-07-16T16:49:31.852015-04:00"
+}
+],
+"data_type": "PartnerFeed Subscription",
+"errors": null
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

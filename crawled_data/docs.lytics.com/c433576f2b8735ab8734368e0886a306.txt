@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/67575493083a6d0044fa6df9
+
+how to post json data by using this API call
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0how to post json data by using this API call 3 months ago by Sandyawhat are the changes of API call https://api.lytics.io/collect/json/stream?dryrun=false and how to post json data by using this API call?Add Comment

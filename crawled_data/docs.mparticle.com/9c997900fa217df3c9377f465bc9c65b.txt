@@ -1,0 +1,94 @@
+URL: https://docs.mparticle.com/developers/client-sdks/android/event-tracking/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingEvent Tracking
+Overview
+The mParticle platform supports many different types of “events,” and the Android SDK is a stateful HTTP client for the mParticle events API. The SDK maintains a current user state (as mentioned in the IDSync and user guides), as well as a lightweight SQLite database to record events and ensure reliable delivery to the mParticle events API regardless of network coverage, app force-closes, and other challenging scenarios.
+When the SDK performs an upload it does so as a “batch” of data which contains:
+an array of events
+the current mParticle ID (MPID), a 64-bit signed integer
+the current user’s user identities
+the current user’s user attributes
+a “device info” object containing device IDs and other device-specific metadata
+an “application info” object containing application metadata such as app version
+Please see the events API reference for more information on the schema of mParticle batch uploads, and see the Android SDK configuration guide for more information on how events are persisted and uploaded.
+Event Types
+An “event” can represent almost any form of activity in your app. Some events are collected automatically by the SDK whereas others must be collected manually.
+Automatically tracked events
+The following events are collected automatically by the Android SDK without needing to write any code:
+Application state transition (this include installs, foregrounds, and backgrounds)
+Session start and end
+User identity change
+User attribute change
+Push registration and notification (depending on your SDK setup)
+Manually tracked events
+The following are a subset of the events must be instrumented manually in your app:
+Free-form custom or “app” events (covered below)
+Commerce events are a specialized event type designed to track products, transactions, and advertising in your app.
+Error events capture designed error states in your app, such as failed logins.
+Push notification can be tracked manually if you choose to implement your own Push receiver.
+It’s important to use the appropriate event type to track each activity in your app, since event types drive the behavior of mParticle’s integrations. For example, a particular integration might increment the revenue associated with a user in response to a purchase-type event. When you record a purchase as an mParticle “commerce” event, mParticle knows to trigger the partner’s respective revenue APIs. When you record the purchase as a custom event, a record of the purchase may still be forwarded, but the revenue associated with a user may not be incremented, since mParticle will not identify the event as a purchase.
+The remainder of this page is concerned only with custom events.
+Custom Events
+A basic custom event contains:
+an free-form name string
+a custom event type
+a free-form map of custom attributes
+Custom Event Type
+Custom events are just one type of mParticle event and can themselves be further categorized with a “custom event type.” In most cases, custom event types do not affect how custom events are forwarded to integration partners and the same mapping will be applied across all custom events. However, they can be a useful way to organize your data if you collect a lot of events. For example, data filters in the mParticle dashboard organize custom events by type, allowing you to manage events of the same type in bulk.
+public enum EventType {
+Navigation,
+Location,
+Search,
+Transaction,
+UserContent,
+UserPreference,
+Social,
+Other;
+}
+Capture a Custom Event
+Custom events are logged using the MPEvent.Builder builder object. This also allows you to keep a reference to an event whose lifespan is longer than the execution of the current block of code. You can then pass the MPEvent in to the logEvent method when you’re ready.
+JavaKotlin
+Map<String, String> customAttributes = new HashMap<String, String>();
+customAttributes.put("category", "Destination Intro");
+customAttributes.put("title", "Paris");
+MPEvent event = new MPEvent.Builder("Video Watched", EventType.Navigation)
+.customAttributes(customAttributes)
+.build();
+MParticle.getInstance().logEvent(event);
+val customAttributes = mapOf(
+"category" to "Destination Intro",
+"title" to "Paris"
+)
+val event = MPEvent.Builder("Video Watched", EventType.Navigation)
+.customAttributes(customAttributes)
+.build()
+MParticle.getInstance().logEvent(event)
+Custom Flags
+Custom flags are used to send partner-specific data points:
+By design, custom flags are sent only to the specific partner for which they are required, unlike custom event attributes, which mParticle will send to all partners which support generic key/value attributes.
+Custom Flags cannot be used within an audience definition.
+Reference the guide for each integration and ask your solutions consultant to see if you need custom flags.
+JavaKotlin
+MPEvent event = new MPEvent.Builder("Set Category", MParticle.EventType.UserPreference)
+.addCustomFlag("Google.Category", "Music")
+.build();
+MParticle.getInstance().logEvent(event);
+val event = MPEvent.Builder("Set Category", MParticle.EventType.UserPreference)
+.addCustomFlag("Google.Category", "Music")
+.build()
+MParticle.getInstance().logEvent(event)
+Exclude Events from mParticle Server Upload
+If you have a high-volume event that you would like to forward to kits but exclude from uploading to mParticle, set the Boolean flag shouldUploadEvent per event.
+By default, all events upload to the mParticle server unless explicitly set not to.
+If set, events won’t be available for data plan validation, as this validation is initiated in the SDK service.
+You can set this Boolean flag in the same manner for Commerce Events.
+JavaKotlin
+MPEvent event = new MPEvent.Builder("Set Interest", MParticle.EventType.UserPreference)
+.shouldUploadEvent(false)
+.build();
+MParticle.getInstance().logEvent(event);
+val event = MPEvent.Builder("Set Interest", MParticle.EventType.UserPreference)
+.shouldUploadEvent(false)
+.build()
+MParticle.getInstance().logEvent(event)
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

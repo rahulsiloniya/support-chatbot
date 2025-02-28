@@ -1,0 +1,418 @@
+URL: https://docs.mparticle.com/developers/apis/platform/data-points/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingData PointsA DataPoint represents a unique data item that has been detected by our system. A DataPoint can be created by calling methods on our SDK such as logEvent, or they can be created using the Events API.
+Examples of DataPoints are Screen Views, Purchase Events, Navigation Events and Search events among others. All DataPoints are specific to a particular App.
+Get data points for an app
+GET /apps/1/datapoints
+Retrieves a list of DataPoints that exist for an App. The 1 after /apps/ is a placeholder for the Application ID.
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/datapoints?accountId=1"
+Response
+{
+"data": [
+{
+"name": "my event",
+"attribute_name": null,
+"type": "Event",
+"event_type": "navigation",
+"data_type": "datapoint",
+"created_on": "2015-06-04T18:11:06.027"
+},
+{
+"name": "my event",
+"attribute_name": "my event attribute",
+"type": "EventAttribute",
+"event_type": "navigation",
+"data_type": "datapoint",
+"created_on": "2015-06-04T18:53:23.25"
+},
+{
+"name": "my screen view",
+"attribute_name": null,
+"type": "ScreenView",
+"event_type": null,
+"data_type": "datapoint",
+"created_on": "2015-06-04T18:53:23.25"
+},
+{
+"name": "my screen view",
+"attribute_name": "my screen view attribute",
+"type": "ScreenViewAttribute",
+"event_type": null,
+"data_type": "datapoint",
+"created_on": "2015-06-04T18:53:23.25"
+}
+],
+"dataType": "datapoint",
+"errors": null
+}
+Supported Data Point Types
+Name
+Description
+Event
+A standard event.
+EventAttribute
+An attribute of an event.
+UserAttribute
+A user attribute.
+ScreenView
+A screen view.
+ScreenViewAttribute
+An attribute of a screen view.
+Identity
+A user identity type.
+Commerce
+A commerce event.
+CommerceAttribute
+An attribute of a commerce event.
+Supported DataPoint Event Types
+If a DataPoint is of type “Event” or “EventAttribute”, then the EventType field will be populated
+with one of the following values:
+Name
+Description
+unknown
+Unknown Event.
+navigation
+Navigation Event.
+location
+Location Event.
+search
+Search Event.
+transaction
+Transaction Event.
+user_content
+User Content Event.
+user_preference
+User Preference Event.
+social
+Social Event.
+other
+Other Event.
+media
+Media Event.
+If a DataPoint is of type Commerce or CommerceAttribute, then the EventType field will be populated
+with one of the following values:
+Name
+Description
+product_add_to_cart
+Add to Cart Event.
+product_remove_from_cart
+Remove from Cart Event.
+product_checkout
+Checkout Event.
+product_checkout_option
+Checkout Option Event.
+product_click
+Click Event.
+product_view_detail
+View Detail Event.
+product_purchase
+Purchase Event.
+product_refund
+Refund Event.
+promotion_view
+Promotion View Event.
+promotion_click
+Promotion Click Event.
+Create a data point
+PUT /apps/1/datapoints
+Adds a new DataPoint for an App.
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"name\":\"my event\",\"type\":"event",\"event_type\": "navigation"}" \
+"https://api.mparticle.com/v1/apps/1/datapoints?accountId=1"
+Example HTTP request
+[
+{
+"name": "my event",
+"type": "event",
+"event_type": "navigation"
+}
+]
+Request body parameters
+Accepts an array of DataPoint objects, which have the following properties:
+Name
+Type
+Description
+name
+string
+The name of the DataPoint.
+attribute_name
+string
+An attribute name (optional).
+type
+enum
+The type of DataPoint.
+event_type
+enum
+Can only be set if DataPoint type is “Event”, “EventAttribute”, “Commerce” or “CommerceAttribute”.
+Supported DataPoint Types
+The “type” field can be set to one of the following values:
+Name
+Description
+Event
+A standard event.
+EventAttribute
+An attribute of an event.
+UserAttribute
+A user attribute.
+ScreenView
+A screen view.
+ScreenViewAttribute
+An attribute of a screen view.
+Identity
+A user identity type.
+Commerce
+A commerce event.
+CommerceAttribute
+An attribute of a commerce event.
+Supported Event Types
+The “event_type” field can be set to one of the following values. This field is only required when the “type” is set to “Event” or “EventAttribute”.
+Name
+Description
+unknown
+Unknown Event.
+navigation
+Navigation Event.
+location
+Location Event.
+search
+Search Event.
+transaction
+Transaction Event.
+user_content
+User Content Event.
+user_preference
+User Preference Event.
+social
+Social Event.
+other
+Other Event.
+media
+Media Event.
+You can add new DataPoints for an App using the API. DataPoints are automatically detected when data is received from your App, however it may be more convenient to insert this data using the API in advance, rather than waiting until your App is fully instrumented using the mParticle SDK. This will allow you to configure features such as Data Filtering without having to wait for App instrumentation to be completed.
+Get a service filter
+GET /apps/1/GoogleAnalyticsEventForwarder?accountId=1
+Get default filtering behavior for a service.
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/GoogleAnalyticsEventForwarder?accountId=1"
+Response
+{
+"data": [
+{
+"name": "GoogleAnalyticsEventForwarder",
+"sendNewDataPointsByDefault": true
+}
+],
+"dataType": "datapoint",
+"errors": null
+}
+This call shows any filtering configuration that exists at the Service level. Currently, this is just one property, "sendNewDataPointsByDefault", which controls whether newly detected DataPoints are sent to this Service by default.
+Update a service filtering
+PUT /apps/1/GoogleAnalyticsEventForwarder?accountId=1
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"sendNewDataPointsByDefault\":false}" \
+"https://api.mparticle.com/v1/apps/1/GoogleAnalyticsEventForwarder/datapoints?accountId=1"
+Example HTTP request
+{
+"sendNewDataPointsByDefault": false
+}
+Parameters
+Name
+Type
+Description
+sendNewDataPointsByDefault
+bool
+Controls whether newly detected DataPoints are sent to this service by default.
+Setting "sendNewDataPointsByDefault" to false will prevent newly detected DataPoints from being sent to the specified Service. Any existing DataPoints will not be affected, and will continue to be sent or filtered based on the existing configuration.
+Get all data point filters
+GET /apps/1/GoogleAnalyticsEventForwarder/datapoints?accountId=1
+Retrieve a list of DataPoint filters for a specific App and Service.
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/GoogleAnalyticsEventForwarder/datapoints?accountId=1"
+Response
+{
+"data": [
+{
+"name": "my event",
+"attribute_name": null,
+"type": "Event",
+"event_type": "navigation",
+"enabled": true,
+"data_type": "datapoint_filter"
+},
+{
+"name": "my event",
+"attribute_name": "my event attribute",
+"type": "EventAttribute",
+"enabled": false,
+"event_type": "navigation",
+"data_type": "datapoint_filter"
+}
+],
+"dataType": "datapoint_filter",
+"errors": null
+}
+Note that this list of DataPoints are filtered by types that are supported by the service.
+If the service does not support the ScreenView DataPoint for example, then this DataPoint will not appear in the list.
+The DataPoint types "EventAttribute", "ScreenViewAttribute", and "CommerceAttribute" are child DataPoints that have a parent DataPoint. In these cases, "attribute_name" will contain the name of the attribute, and "name" will contain the name of the parent.
+Update a data point filter
+PUT /apps/1/GoogleAnalyticsEventForwarder/datapoints?accountId=1
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "[{\"name\":\"my event\", \"type\":\"event\", \"event_type\": \"navigation\", \"enabled\": true},{\"name\": \"my event\",\"attribute_name\": \"my event attribute\",\"event_type\": \"navigation\",\"type\": \"eventattribute\",\"enabled\": false}]"
+"https://api.mparticle.com/v1/apps/1/GoogleAnalyticsEventForwarder/datapoints?accountId=1"
+Response
+[
+{
+"name": "my event",
+"type": "Event",
+"event_type": "navigation",
+"enabled": true
+},
+{
+"name": "my event",
+"attribute_name": "my event attribute",
+"type": "EventAttribute",
+"event_type": "navigation",
+"enabled": false
+}
+]
+Parameters
+Accepts an array of DataPoint Filter objects, which have the following properties:
+Name
+Type
+Description
+name
+string
+The name of the DataPoint.
+attribute_name
+string
+An attribute name (optional).
+type
+enum
+The type of DataPoint.
+event_type
+enum
+Can only be set if DataPoint type is “Event”, “EventAttribute”, “Commerce” or “CommerceAttribute”.
+enabled
+bool
+Set to false to prevent this DataPoint from being sent to this service.
+Supported DataPoint Filter Types
+The "type" field can be set to one of the following values:
+Name
+Description
+Event
+A standard event.
+EventAttribute
+An attribute of an event.
+UserAttribute
+A user attribute.
+EventType
+Filter all app events of a particular type.
+ScreenView
+A screen view.
+ScreenViewAttribute
+An attribute of a screen view.
+UserIdentity
+A user identity type.
+Commerce
+A commerce event.
+CommerceAttribute
+An attribute of a commerce event.
+All_User_Attributes
+Used to toggle on/off all user attributes.
+All_Workspace_User_Attributes
+Used to toggle on/off all workspace level user attributes.
+All_Account_User_Attributes
+Used to toggle on/off all account level user attributes, if this feature is enabled.
+Supported User Identity Types
+If the "type" is set to "UserIdentity", then the "name" field should be set to one of the following allowed values:
+Name
+Description
+CustomerId
+Customer Id.
+Facebook
+Facebook Id.
+Twitter
+Twitter Handle.
+Google
+Google Id.
+Microsoft
+Microsoft Id.
+Yahoo
+Yahoo Id.
+Email
+Email Address.
+Other
+Other.
+Supported Event Types
+If the "type" is set to "Event" or "EventAttribute", the "event_type" field can be set to one of the following values. If "type" is set to "EventType", then the "name" field should be set to one of the values below:
+Name
+Description
+unknown
+Unknown Event.
+navigation
+Navigation Event.
+location
+Location Event.
+search
+Search Event.
+transaction
+Transaction Event.
+user_content
+User Content Event.
+user_preference
+User Preference Event.
+social
+Social Event.
+other
+Other Event.
+media
+Media Event.
+If the "type" is set to "Commerce" or "CommerceAttribute", the "event_type" field can be set to one of the following values:
+Name
+Description
+product_add_to_cart
+Add to Cart Event.
+product_remove_from_cart
+Remove from Cart Event.
+product_checkout
+Checkout Event.
+product_checkout_option
+Checkout Option Event.
+product_click
+Click Event.
+product_view_detail
+View Detail Event.
+product_purchase
+Purchase Event.
+product_refund
+Refund Event.
+promotion_view
+Promotion View Event.
+promotion_click
+Promotion Click Event.
+When configuring DataPoints of type "EventAttribute" or "ScreenViewAttribute" or "CommerceAttribute", you must include the name of the attribute in "attribute_name", and the name of the parent DataPoint in "name".
+When configuring DataPoints of type "Event" or "EventAttribute", you must set the "event_type" field. Failure to do so will cause an error to occur. The "event_type" field is ignored for other types of DataPoints other than “Event” and "EventAttribute".
+If the DataPoint specified does not exist, it will be created automatically. Please note that to avoid creating duplicate DataPoints unintentionally, "type", "name", "attribute_name" and "event_type" should all be set correctly.
+Due to the hierarchical nature of DataPoints, disabling some types of DataPoints will cause child DataPoints to also become disabled automatically. For example, turning off EventType "Navigation" will cause all Events and EventAttributes of that Event Type to become disabled. Turning off an Event will cause all child Event Attributes to become disabled.Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

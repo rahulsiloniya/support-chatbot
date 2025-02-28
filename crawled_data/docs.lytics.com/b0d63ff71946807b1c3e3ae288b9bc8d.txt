@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/6453e1c2cabed5190cd6c553
+
+Why my audience is not being returned in the Lytics Javascript tag?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Why my audience is not being returned in the Lytics Javascript tag? almost 2 years ago by Mark HaydenYou will need to check the Enable API option in the audience editor of the audience you would like to see returned to the Javascript tag.audiencesAdd Comment

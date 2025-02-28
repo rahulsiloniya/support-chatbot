@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/6786e4fb4ca762006c71c013#content
+
+Integration with PowerBI?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Integration with PowerBI? about 1 month ago by Sean McMahonDo you have a direct integration with PowerBI?Add Comment

@@ -1,0 +1,7 @@
+URL: https://docs.lytics.com/discuss/6453e23ec6e828000b972bc6
+
+How do you A/B Test within Lytics Audiences?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0How do you A/B Test within Lytics Audiences? almost 2 years ago by Mark HaydenA/B testing within Lytics Audiences can be used to understand how Lytics Audiences are performing. Using a random generator generator, Lytics assigns 2 random numbers to each user profile calls splits. These fields are named Random Split 1 and Random Split 2.
+To use these fields, log in to Lytics and navigate to the Audience -> Create New Audience, then search for Random Split 1 or Random Split 2 within Custom Rule. These fields evenly assign a value from 0-99. To create an audience of 1% of the population, select a number (47 in the example below) and use the equals operator.
+To create random groups smaller than 1% of the population, you can leverage both of the split fields. In the example below, we create an audience of roughly 0.5% of the total user base by defining Split 1 = 47 and Split 2 < 50.
+*Note that this field is approximate and won't necessarily be perfectly distributed.audiencesAdd Comment

@@ -1,0 +1,214 @@
+URL: https://docs.mparticle.com/developers/apis/idsync/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingIDSync
+Overview
+The Identity HTTP API is utilized by the mParticle iOS, Android, and Web SDKs, and can also be used directly. See our IDSync guide for more information.
+Base URL
+The mParticle Identity endpoint is available at:
+https://identity.mparticle.com/v1
+Swagger Documentation
+For a full API reference, download the Swagger spec file and open it in the Swagger Editor.
+Authentication
+The mParticle Identity API supports three methods of authentication:
+Basic Authentication
+HMAC-based digest
+API key only
+All methods use platform-level API credentials. To find or create API credentials, navigate to Setup > Inputs in the mParticle dashboard, and select a platform (iOS, Android, Web, etc).
+Basic Authentication
+You can use basic authentication in 2 ways:
+Many HTTP clients support basic authentication out of the box. Use the platform API Key for the “username” and your API Secret for “password”.
+Manually set the authentication header by encoding your key and secret together:
+2.1 Concatenate your API Key and API Secret together with a colon (:) separating the two:
+example-api-key:example-api-secret
+2.2 Base64 with UTF-8 encode the result:
+ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+2.3 Prefix the encoded string with Basic, including a space:
+Basic ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+2.4 Set resulting string as the Authorization header in your HTTP requests:
+Authorization: Basic ZXhhbXBsZS1hcGkta2V5OmV4YW1wbGUtYXBpLXNlY3JldA==
+HMAC-based digest Authentication
+The HMAC digest authentication method should be used by all clients of the Identity API. The requirements are as follows:
+Include your mParticle platform API Key as the x-mp-key header in the request.
+Include the current date in ISO 8601 format (ex 20170712T224127Z) as the Date header in the request.
+Include the signature described below as the x-mp-signature header in the request.
+Building the signature
+Concatenate the following:
+HTTP method (ex POST) + newline
+ISO 8601 date from above (ex 20170712T224127Z) + newline
+Path of the request (ex /v1/identify) + Body of the request
+For example, your concatenation should look similar to:
+POST
+20170712T224127Z
+/v1/identify{"client_sdk":{"platform":"android","sdk_vendor":"mparticle","sdk_version":"5.0.0"},"environment":"development","request_timestamp_ms":1499875715564,"request_id":"ad58a7c1-cf35-4be5-8c42-a09989f85cc1","known_identities":{"android_uuid":"f924f1e5707b34b7"}}
+Encode the string
+Using the utf-8 bytes of your mParticle platform API Secret (matching the API Key in the x-mp-key header), and the string above, create a byte encoding using HMAC SHA256 and convert the result to a hexadecimal string. Include that string as the x-mp-signature header.
+API key-only Authentication
+On devices that cannot support the above algorithm, you may use only the mParticle platform API Key for authentication, by providing it as the x-mp-key header. This is only selectively enabled - and is disabled by default.
+Paths
+/identify
+The identify request should be used to establish a user identity, typically when an app is first initialized. It accepts a set of known identities and returns an mParticle ID, in accordance with an Identity Strategy. You should provide all available identifying information for the given user.
+Request Body
+The identify, search, login, and logout requests accept a POST body with the following schema.
+You must always supply at least one known identity
+{
+"client_sdk": {
+"platform": "ios",
+"sdk_vendor": "string",
+"sdk_version": "string"
+},
+"context": "string",
+"environment": "production",
+"request_id": "string",
+"request_timestamp_ms": 0,
+"previous_mpid": "string",
+"known_identities": {
+"ios_idfa": "string",
+"android_aaid": "string",
+"amp_id": "string",
+"android_uuid": "string",
+"ios_idfv": "string",
+"push_token": "string",
+"roku_publisher_id": "string",
+"roku_aid": "string",
+"fire_aid": "string",
+"customerid": "string",
+"email": "string",
+"facebook": "string",
+"facebookcustomaudienceid": "string",
+"google": "string",
+"microsoft": "string",
+"other": "string",
+"twitter": "string",
+"yahoo": "string",
+"device_application_stamp": "string"
+}
+}
+Property
+Type
+Required
+Description
+client_sdk.platform
+enum
+Accepted values are ios, android, web, tvos, roku, alexa, smart_tv, fire, xbox, and other.
+context
+string
+An encoded string representing the result of the previous request. This is available in the Response body.
+environment
+enum
+Required
+Either production or development.
+request_id
+string
+A UUID for the request.
+request_timestamp_ms
+integer
+Unix timestamp for the request.
+previous_mpid
+string
+The mParticle ID returned by the previous request.
+known_identities
+object
+Required
+An object containing all available identifiers for a user, to be used by mParticle to match and return a user profile. This object must include at least one identifier. See the example for a full list of allowed identifiers.
+Response Body
+The identify, search, login, and logout return a body with the following schema:
+{
+"context": "string",
+"mpid": "string",
+"matched_identities": {
+"ios_idfa": "string",
+"android_aaid": "string",
+"amp_id": "string",
+"android_uuid": "string",
+"ios_idfv": "string",
+"push_token": "string",
+"roku_publisher_id": "string",
+"roku_aid": "string",
+"fire_aid": "string",
+"customerid": "string",
+"email": "string",
+"facebook": "string",
+"facebookcustomaudienceid": "string",
+"google": "string",
+"microsoft": "string",
+"other": "string",
+"twitter": "string",
+"yahoo": "string",
+"device_application_stamp": "string"
+},
+"is_ephemeral": true
+}
+Property
+Type
+Description
+context
+string
+Encoded version of the response, may be used as the context parameter in the next request
+mpid
+string
+The mParticle ID of the matched user profile
+matched_identities
+object
+Each identifier from the known_identities object in the request body that matched to an identifier in the returned user profile. N.B - only identifiers which were matched from your request will be returned. This is not a complete list of all identities associated with the user profile.
+is_ephemeral
+bool
+The returned identity can be removed from local storage when you transition to the next identity
+/search
+The search path should be used when you wish to determine the existence of a user identity. It is similar to identify in that it accepts a set of known identities and returns an mParticle ID. You should provide all available identifying information for the given user. However, the search path is different from identify in that if there are no matches, it will not create a new mParticle ID, it will return a user not found error message.
+Request / Response
+The search endpoint takes the same request and response objects as the Identify request.
+/login and /logout
+These paths should be used when you wish to transition user states in your app. For example, you may use /login to transition from your initial state with an anonymous user, to a logged in state with a known user. Just as with /identify, these paths accept a set of known identities and return an mParticle ID, in accordance with an Identity Strategy. You should provide all available identifying information for the given user.
+For both /login and /logout, the known_identities object should refer to the user profile you wish to transition to. For logout, this may mean that you only include a device id or a device_application_stamp that you generate to associate with the unauthenticated user/device.
+Request / Response
+The login, and logout endpoints take the same request and response objects as the Identify request.
+/{mParticle ID}/modify
+Modify must be performed on an existing mParticle ID. It will mutate an existing user, and will never result in a new user. Use the JSON null sentinel to convey the addition or removal of an ID:
+Request Body
+{
+"client_sdk": {
+"platform": "ios",
+"sdk_vendor": "string",
+"sdk_version": "string"
+},
+"environment": "production",
+"request_id": "string",
+"request_timestamp_ms": 0,
+"identity_changes": [
+{
+"old_value": "string",
+"new_value": "string",
+"identity_type": "ios_idfa"
+},
+{
+"old_value": "string",
+"new_value": null,
+"identity_type": "ios_idfv"
+},
+{
+"old_value": null,
+"new_value": "email@example.com",
+"identity_type": "email"
+}
+]
+}
+Errors
+Error
+Description
+400 Bad Request
+See the response body for detailed error message.
+401 Unauthorized
+Request failed authentication.
+429 Too Many Requests
+Too many requests have been submitted. To correct, perform an exponential backoff. Learn more about API throttling in Default Service Limits.
+5xx Server Error
+A server-side error has occured. Try your request again.
+Error Body
+{
+"errors": [
+{
+"code": "string",
+"message": "string"
+}
+]
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

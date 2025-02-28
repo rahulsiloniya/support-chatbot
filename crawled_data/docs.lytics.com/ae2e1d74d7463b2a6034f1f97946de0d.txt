@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/6453e1a28868d11fe375c652
+
+Why are my audiences different sizes on different pages?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Why are my audiences different sizes on different pages? almost 2 years ago by Mark HaydenLytics regularly caches the sizes of audiences to increase the responsiveness of the interface. If you have recently edited a segment, or have just sent large amount of event data, the dashboard and summary pages may have an out-of-date audience size. To see the most accurate audience size, view the audience and click the pencil icon to edit. The audience editor will always show the most up-to-date segment size.audiencesAdd Comment

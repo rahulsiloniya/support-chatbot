@@ -1,0 +1,6 @@
+URL: https://docs.lytics.com/discuss/6707c6aa642673001185ddbd#content
+
+Personalization Engine - Tag Implementation - CMS Plugin or Google Tag Manager?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Personalization Engine - Tag Implementation - CMS Plugin or Google Tag Manager? 5 months ago by James McDermottFrom an agency partner:
+We see that there are two ways to install the Lytics script 1) Drupal Module or Wordpress Plugin OR 2) Google Tag Manager.
+From a “performance” standpoint what is your recommended approach?Add Comment

@@ -1,0 +1,5 @@
+URL: https://docs.lytics.com/discuss/6453e1d4682d72146c3d2b1b
+
+What are characteristics?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0What are characteristics? almost 2 years ago by Mark HaydenCharacteristics are a type of pre-defined audience, meant to represent factual information about a user with the sole purpose of enhancing audience segmentation capabilities. For instance, the “Has Email” characteristic is comprised of all profiles that have some value for email. This can be viewed as an aggregate, how many users are a member of “Has Email,” or on the individual profile level.
+It is best to think of characteristics as a high-level analytics metric as well as a set of predefined building blocks for your custom segments.audiencesAdd Comment

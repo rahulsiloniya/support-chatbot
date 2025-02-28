@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/6786e5253c89910024e79139#content
+
+Cookie sync to activate anonymous audiences
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 1Cookie sync to activate anonymous audiences about 1 month ago by Sean McMahonCan Lytics do cookie sync to activate anonymous audiences?Add Comment

@@ -1,0 +1,341 @@
+URL: https://docs.mparticle.com/developers/apis/profile-api/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingProfile APIThe Profile API can be used to query identities, user attributes, audience memberships, and other data available on an mParticle User Profile, anywhere you can make an HTTP request. Profile API can be used to drive one-to-one personalized experiences for your users across any channel:
+Deliver customized product or content recommendations
+Identify churn-risk customers in an automated voice support flow and launch a win-back campaign.
+Deliver personalized offers in brick and mortar stores by integrating your point-of-sale systems.
+The Profile API is available to all mParticle accounts with a 15 RPS (requests per second) rate limit to support testing. Rates beyond this are a premium feature which you can request with mParticle Support.
+Base URL
+The base URL for the Profile API is https://api.mparticle.com.
+Authentication
+The Profile API is authenticated with a bearer token. To create a bearer token, first create a set of API credentials in the UI.
+Create your API credentials
+Log in to your mParticle account.
+Click the User Profile icon at the bottom of the left nav bar, click Settings, and select the API Credentials tab.
+Click + Add Credential.
+Enter a descriptive name for the Display name.
+Check the box next to Profile API, and then expand the available workspaces by clicking the + button. Check the box next to each workspace you need to access user profile data for.
+Click Save, and copy the Client ID and Client Secret displayed in the modal window before clicking Done.
+The Client Secret is only available once at the time of creation, and cannot be recovered later. You can issue new credentials at any time.
+Create a bearer token
+To create a bearer token, send a POST request to mParticle’s SSO token endpoint at https://sso.auth.mparticle.com/oauth/token.
+The JSON body of the request must contain:
+client_id - the client ID, issued by mParticle when creating the API credentials
+client_secret - the client secret, issued by mParticle when creating the API credentials
+audience - set to a value of "https://api.mparticle.com"
+grant_type - set to a value of "client_credentials"
+Example curl request
+curl --request POST \
+--url https://sso.auth.mparticle.com/oauth/token \
+--header 'content-type: application/json' \
+--data '{"client_id":"your-client-id","client_secret":"your-client-secret","audience":"https://api.mparticle.com","grant_type":"client_credentials"}'
+Example HTTP request
+POST /oauth/token HTTP/1.1
+Host: sso.auth.mparticle.com
+Content-Type: application/json
+{
+"client_id": "your_client_id",
+"client_secret": "your_client_secret",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}
+Using your bearer token
+A successful POST request to the token endpoint results in a JSON response as follows:
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Subsequent requests to the API can then be authorized by setting the authorization header to:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but will expire after approximately 8 hours. The initial token request can take between 1 and 3 seconds, and subsequent requests should be significantly faster due to server-side caching. Even accounting for server-side caching, it is still essential for production use cases that you cache the token and refresh it only when necessary to ensure that your application performs well.
+Rate limits
+mParticle imposes default service limits on the Profile API. For the specific limits on retrieving user profiles using the Profile API, see Default Service Limits.
+Best practices
+Do not submit client-side queries to Profile API from your application’s frontend. Instead, maximize performance in your app by creating a backend personalization service to submit these queries, acting as an intermediary between your app and the mParticle Profile API. This service can be built directly into your app’s existing backend framework, or it can an independent service.
+As an example workflow:
+Your app’s client requests user information (like product recommendations) from your personalization service by providing an identifier for the current user.
+Your personalization service queries the Profile API using the supplied identifier. Based on information in the returned profile, your personalization service determines the best behavior for your app.
+Your personalization service send only the information necessary to implement the desired personalization to your app’s frontend. For example, an array of product recommendations.
+A simple example personalization service implemented with Node and Express is available on GitHub.
+Manage user profiles
+Get a profile by mParticle ID
+GET /userprofile/v1/{orgID}/{accountId}/{workspaceId}/{mpid}?fields=device_identities,user_identities,user_attributes,audience_memberships,attribution
+Path parameters
+Path Parameter
+Type
+Description
+{orgID}
+Integer
+ID of the mParticle organization containing the user profile.
+{accountID}
+Integer
+ID of the mParticle account containing the user profile.
+{workspaceID}
+Integer
+ID of the mParticle workspace containing the user profile.
+{mpid}
+Integer
+The mParticle ID for the user profile you want to retrieve.
+Query parameters
+Query Parameter
+Type
+Required
+Description
+{fields}
+String
+Yes
+A comma-separated list of fields you want returned for the user profile. See list below for permitted values.
+List of supported fields that can be returned with a user profile:
+device_identities
+user_identities
+user_attributes (includes any calculated attributes)
+audience_memberships
+attribution
+Example curl request
+curl \
+-X GET \
+-H "Authorization: Bearer {accessToken}" \
+"https://api.mparticle.com/userprofile/v1/{orgId}/{accountId}/{workspaceId}/{mpid}?fields=device_identities,user_identities,user_attributes,audience_memberships,attribution"
+Example JSON request body
+No request body.
+Response
+A successful request receives a 200 response with a JSON object for the user profile.
+{
+"mpid": 9080350317581165000,
+"created_timestamp_ms": 1574704283462,
+"last_stored_timestamp_ms": 1575301484215,
+"is_opted_out": false,
+"limit_ad_tracking": null,
+"device_identities": [
+{
+"type": "android_id",
+"encoding": "none",
+"value": "8789c459016a94b0"
+},
+{
+"type": "unknown",
+"encoding": "none",
+"value": "0c48aafbd6c69b3e1921fab5ccb528397eb1000854db2b99b1efc8507884b07a"
+},
+{
+"type": "google_advertising_id",
+"encoding": "none",
+"value": "481c8a31-7d5d-4d96-93a0-2de7427167fc"
+},
+{
+"type": "unknown",
+"encoding": "none",
+"value": "1b4469f3fb1f7bee7ba6705d1ce4b9d8a23e76592c34aa6c4a4eea3d0a07aa64"
+}
+],
+"user_identities": [
+{
+"type": "customer_id",
+"encoding": "none",
+"value": "Example-Customer-mxr15"
+},
+{
+"type": "email",
+"encoding": "none",
+"value": "Example-Customer-mxr15@example.com"
+}
+],
+"account_user_attributes": null,
+"user_attributes": {
+"ml_product_recs": [
+"123849",
+"294933",
+"937592",
+"500422"
+],
+"view_preference": "Dark Mode",
+"tp_age": "18-34",
+"tp_gender": "male",
+"last_purchase_category": "Home Decor",
+"churn_risk_score": "4",
+"ltv": "342.1",
+"$city": "New York",
+"$state": "NY",
+"$country": "USA",
+"$firstname": "Marky",
+"$lastname": "Mark"
+},
+"audience_memberships": [
+{
+"audience_id": 17802,
+"audience_name": "Meret final CA test",
+"expiration_timestamp_ms": null
+},
+{
+"audience_id": 17918,
+"audience_name": "Decor Remarketing",
+"expiration_timestamp_ms": null
+}
+]
+}
+Get a profile by immutable ID
+POST /userprofile/v1/resolve/{orgId}/{accountId}/{workspaceId}
+Allows you to retrieve a profile without the mParticle ID. To use this method, your account must have an immutable identity configured in your identity strategy. An immutable identity is set only once and cannot be changed once it is set. It is usually the Customer ID.
+Path parameters
+Path Parameter
+Type
+Description
+{orgID}
+Integer
+ID of the mParticle organization containing the user profile.
+{accountID}
+Integer
+ID of the mParticle account containing the user profile.
+{workspaceID}
+Integer
+ID of the mParticle workspace containing the user profile.
+Query parameters
+Query Parameter
+Type
+Required
+Description
+{fields}
+String
+Yes
+A comma-separated list of fields you want returned for the user profile. See list below for permitted values.
+List of supported fields that can be returned with a user profile:
+device_identities
+user_identities
+user_attributes (including any calculated attributes)
+audience memberships
+attribution
+Request body parameters
+Name
+Type
+Required
+Description
+environment_type
+string
+Yes
+Either development or production.
+identity.type
+string
+Yes
+The type of identity being sent. Must be an immutable identity type, like customer_id or other
+identity.value
+string
+Yes
+The identity value.
+Example curl request
+curl \
+-X POST \
+-H "Authorization: Bearer {accessToken}" \
+"https://api.mparticle.com/userprofile/v1/resolve/{orgId}/{accountId}/{workspaceId}?fields=device_identities,user_identities,user_attributes,audience_memberships,attribution" \
+-d "{ \"environment_type\": \"production\", \
+\"identity\": {\"type\": \"customer_id\",\"value\": \"12345\"}}"
+Example JSON request body
+{
+"environment_type": "production",
+"identity": {
+"type": "customer_id",
+"value": "12345"
+}
+}
+Response
+A successful request receives a 200 response with a JSON object for the user profile.
+{
+"mpid": 9080350317581165000,
+"created_timestamp_ms": 1574704283462,
+"last_stored_timestamp_ms": 1575301484215,
+"is_opted_out": false,
+"limit_ad_tracking": null,
+"device_identities": [
+{
+"type": "android_id",
+"encoding": "none",
+"value": "8789c459016a94b0"
+},
+{
+"type": "unknown",
+"encoding": "none",
+"value": "0c48aafbd6c69b3e1921fab5ccb528397eb1000854db2b99b1efc8507884b07a"
+},
+{
+"type": "google_advertising_id",
+"encoding": "none",
+"value": "481c8a31-7d5d-4d96-93a0-2de7427167fc"
+},
+{
+"type": "unknown",
+"encoding": "none",
+"value": "1b4469f3fb1f7bee7ba6705d1ce4b9d8a23e76592c34aa6c4a4eea3d0a07aa64"
+}
+],
+"user_identities": [
+{
+"type": "customer_id",
+"encoding": "none",
+"value": "Example-Customer-mxr15"
+},
+{
+"type": "email",
+"encoding": "none",
+"value": "Example-Customer-mxr15@example.com"
+}
+],
+"account_user_attributes": null,
+"user_attributes": {
+"ml_product_recs": [
+"123849",
+"294933",
+"937592",
+"500422"
+],
+"view_preference": "Dark Mode",
+"tp_age": "18-34",
+"tp_gender": "male",
+"last_purchase_category": "Home Decor",
+"churn_risk_score": "4",
+"ltv": "342.1",
+"$city": "New York",
+"$state": "NY",
+"$country": "USA",
+"$firstname": "Marky",
+"$lastname": "Mark"
+},
+"audience_memberships": [
+{
+"audience_id": 17802,
+"audience_name": "Meret final CA test",
+"expiration_timestamp_ms": null
+},
+{
+"audience_id": 17918,
+"audience_name": "Decor Remarketing",
+"expiration_timestamp_ms": null
+}
+]
+}
+Error handling
+Response code
+Error message
+Description
+400
+Bad request
+The request syntax is invalid or the requested profile is invalid.
+401
+Unauthorized
+Verify that you have created the correct API credentials for the FeatureName API and that you are using the correct authentication method.
+403
+Forbidden
+Verify that you have created the correct API credentials for the FeatureName API and that you are using the correct authentication method.
+404
+Not found
+The user profile either does not exist, or has expired.
+429
+Too Many Requests
+You have exceeded your provisioned limit. The endpoints may return a Retry-After response header with a value containing a non-negative decimal integer indicating the number of seconds to delay. If the header is not present, we recommend retrying your request in an exponential backoff pattern. Learn more about API throttling in Default Service Limits.
+503
+Service Unavailable
+The service is unavailable, we recommend retrying your request in an exponential backoff pattern.
+5xx
+Server Error
+A server-side error occured, try your request again.
+Profile expiration
+User profiles expire and will not be returned by the Profile API if they are not accessed or updated for a period of 90 days. The default 90 day expiration period may be adjusted depending on your contract with mParticle. For more information about your account’s profile expiration period, contact your account representative. Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

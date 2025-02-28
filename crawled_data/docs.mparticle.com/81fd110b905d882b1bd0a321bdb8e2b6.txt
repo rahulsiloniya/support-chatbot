@@ -1,0 +1,170 @@
+URL: https://docs.mparticle.com/developers/apis/bulk-profile-deletion-api/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingBulk Profile Deletion API ReferenceThe Bulk Profile Deletion API allows you to programatically remove customer profiles, helping to improve your data quality and maintain your compliance with privacy requirements. This API-first approach to profile deletion allows you to automate an often complex and time-consuming process.
+By removing erroneous or unnecessary profiles in bulk, you can resolve data integrity problems that propagated from a small error or bug in your code.
+The Bulk Profile Deletion API may not be used to fulfill customer initiated data subject requests. If you need to fulfill a data subject request, use the DSR API.
+The Bulk Profile Deletion API should not be confused with the Data Subject Requests (DSR) API. There are several critical differences:
+Only the DSR API can be used to fulfill a request originating from a customer to delete a profile, because the DSR API complies with governmental regulations like the GDPR and CCPA. For example, (as required by the GDPR and CCPA) DSR API requests incur a default waiting period of 14 days. In other words, deletion requests are not fulfilled immediately to give customers the opportunity to revoke their request. Additionally, the DSR API executes a physical deletion of user data as opposed to the Bulk Profile Deletion API, which only executes a logical deletion.
+The Bulk Profile Deletion API is designed to remove user profiles quickly and in large quantities. To make this possible, the Bulk Profile Deletion API does not comply with GDPR and CCPA requirements when fulfilling customer initiated profile deletion requests.
+Profile deletion and identity scope
+Profiles removed using the Bulk Profile Deletion API are always removed within the scope of a single workspace. For example, if a profile exists in two workspaces A and B in the same account, and the Profile Deletion API is used to remove the profile in workspace A, it will still exist in workspace B.
+To remove the profile from both workspaces, you must make the same deletion request twice, once for each workspace, using two sets of credentials: one scoped for workspace A and another scoped for workspace B.
+When verifying the deletion of a profile using the methods described below, you will see different results depending on your identity scope settings:
+Continuing with the example above, if both workspaces A and B have the same identity scope:
+The same identifiers included with events sent to both workspaces will all resolve to the same profile with the same MPID in both workspaces.
+After deleting the profile from workspace A, the profile will still appear in the User Activity View in both workspaces, but it will only belong to workspace B.
+However, if workspace A and B have different identity scopes:
+The same identifiers included with events sent to both workspaces will resolve to two different profiles, with a unique MPID in each workspace.
+After deleting the profile from workspace A, the profile will no longer appear in the User Activity View in workspace A.
+This is because the User Activity View filters profiles to display based account and identity scope. Learn more about how data is organized in mParticle in Accounts, organizations, and workspaces.
+Authentication
+You must authenticate requests to the Bulk Profile Data Deletion API using basic authentication with a workspace key and secret.
+To obtain a Workspace key and secret:
+Log into your mParticle account, and navigate to the Workspace Settings page by clicking your workspace name in the left nav bar, and then clicking Settings.
+In the list of workspaces, select the workspace where you want to delete profiles.
+Expand the Workspace Key/Secret section, and copy the Workspace Key and Secret to use as your username and password for the Basic Auth connection.
+If necessary, click the Issue Key/Secret button to generate your Workspace credentials.
+Delete multiple users
+POST <base_url>/userprofile/bulkdelete
+The base URL is specific to the pod location your account is hosted in. Replace <base_url> with the appropriate URL:
+US1: https://s2s.mparticle.com
+US2: https://s2s.us2.mparticle.com
+EU1: https://s2s.eu1.mparticle.com
+AU1: https://s2s.au1.mparticle.com
+You can use either MPIDs (mParticle IDs) or unique identities to specify profiles to delete in your request body.
+mParticle MPIDs are 64-bit signed integers. Some languages, such as Javascript, do not support these and will truncate. We suggest storing and sending these as strings to avoid truncation or rounding.
+Unique identifiers are any user identifiers that have been configured to be unique to a profile. To see which identities are set as unique identities in your account:
+Log into your mParticle account.
+In the left hand nav bar, hover your cursor over the Settings cog and click Platform under Settings.
+Select the Identity Settings tab, and look in the Identity Scopes table to view which identity types are assigned as unique identities.
+Your request should contain an array of one or more objects where each object represents a deletion request for a single profile. Even a single deletion request object should be contained within an array.
+Example JSON request body
+[
+{
+"environment_type": "production",
+"action": "delete",
+"mpid": "valid-mpid-id",
+"identities": {
+// Unique identities should be added here if no MPID is given
+}
+},
+{
+"environment_type": "production",
+"action": "delete",
+// If no MPID is given, unique identities should be added in the identities object below
+"identities": {
+"customerid": "valid-customer-id"
+}
+}
+]
+Request body fields
+Field Name
+Data Type
+Required
+Description
+environment_type
+string
+Required
+The mParticle environment type for the profiles you want to delete. Valid values are production or development.
+action
+string
+Required
+The action to perform on the profiles. Valid value is delete.
+identities
+JSON object
+Required if no MPID is given
+A JSON object containing a list of key/value pairs where the key the unique identity type (like customerid or email)
+and the value is the unique identity for the profile to delete.
+mpid
+integer
+Required if no identities are given
+A 64-bit signed integer used to uniquely identify a user profile to delete. The MPID must be added directly to the JSON object for each deletion request, not within the identities object.
+You must provide either one or more unique identities or an MPID for a profile. If you submit a deletion request without either of these, mParticle will return an error. If you submit both an MPID and one or more identities for a profile, the identities are ignored and the MPID is used to delete the profile.
+Response
+A successful request receives a 202 Accepted response.
+It's possible for the API to return a 202 Accepted response without deleting the identities in your request. This could result from a failure to find any profiles that match the identities. To positively verify that a profile was deleted, follow the steps in Verify the deletion request.
+Limits
+1500 profiles per second
+100 profiles per request
+Profile data that is deleted will become effectively inaccessible but will not be entirely physically deleted from mParticle’s underlying event store. To remove user data from the event store, you can either:
+Ask your mParticle account representative to reset your event storage window to a value near zero, which effectively erases your historical stored events, and all included user data.
+Ask your mParticle account representative to delete a section of your event store corresponding to the period of time erroneous data was logged. However, this requires that erroneous data was sent only within the specified time period.
+Verify the deletion request
+There are two optional methods you can use to verify the successful removal of specific user data:
+Verify using Audiences
+Verify using the Profile API
+Verify using Audiences
+Before submitting a deletion request, find or create an audience containing all the users you want to delete.
+After submitting the deletion request, create a new audience with the same selection criteria used with your first audience. If your deletion request was successful, none of the deleted user profiles will appear in the new audience.
+For example, assume invalid data was sent to a set of profiles between February 1st and February 10th, and you need to delete the now compromised profiles:
+Create a new audience constrained to users first seen between February 1 and February 10.
+Submit a profile deletion request for the same set of users.
+If the deletion request was successful, a new audience constrained to users first seen between Feb 1 and Feb 10 will be empty.
+Verify using the Profile API
+Since the Profile API can retrieve user profiles from mParticle, it can also be used to verify the removal of specific profiles.
+Create a set of API credentials for the Profile API as described in Authentication.
+Create a bearer token by sending a POST request to mParticle’s SSO token endpoint at https://sso.auth.mparticle.com/oauth/token.
+The JSON body of the request must contain:
+client_id - the client ID, issued by mParticle when creating the API credentials
+client_secret - the client secret, issued by mParticle when creating the API credentials
+audience - set to a value of "https://api.mparticle.com"
+grant_type - set to a value of "client_credentials"
+Example cURL request
+curl --request POST \
+--url https://sso.auth.mparticle.com/oauth/token \
+--header 'content-type: application/json' \
+--data '{"client_id":"...","client_secret":"...","audience":"https://api.mparticle.com","grant_type":"client_credentials"}'
+Example HTTP request
+POST /oauth/token HTTP/1.1
+Host: sso.auth.mparticle.com
+Content-Type: application/json
+{
+"client_id": "your_client_id",
+"client_secret": "your_client_secret",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}
+A successful POST request to the token endpoint results in a JSON response as follows:
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Your request to the Profile API can be authorized by setting the authorization header to:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but will expire after approximately 8 hours. The initial token request can take between 1 and 3 seconds, and subsequent requests should be significantly faster due to server-side caching. Even accounting for server-side caching, it is still essential for production use cases that you cache the token and refresh it only when necessary to ensure that your application performs well.
+Submit a GET request to /userprofile/v1/<orgId>/<accountId>/<workspaceId>/<mpid>, using the organization ID, account ID, workspace ID, and MPID for the profile you removed.
+If your deletion request was successful, you will receive an error stating that the MPID provided could not be found, indicating the successful removal. If your deletion request failed, you will receive the profile information in a JSON object.
+If you are verifying the removal of a large number of profiles, remember that the Profile API has a default throttle limit of 1500 requests per second.
+Error handling
+Response code
+Error message
+Description
+400
+Bad Request - malformed JSON or required field missing.
+The JSON in your request body could be invalid or it could include a syntax error. Use a JSON linter to verify your JSON formatting, and make sure your request contains a single array of between 1-100 properly formatted deletion objects.
+400
+Invalid request. Please ensure the request is not null.
+Your request body must contain an array of JSON objects, where each object contains the MPIDs or unique identities you want to delete.
+400
+Invalid request. Please ensure the action is set to delete.
+You must include the action field set to delete within every object in your deletion request.
+400
+Invalid request. Please ensure the request contains an MPID or identities.
+Each object in your deletion request must contain either an MPID or an object containing a list of unique identities for the profile you want to delete.
+400
+Invalid request. The identity type(s) must be unique. Please check your identity settings and only request deletion using unique identity types or MPIDs.
+Each identity type in your deletion request must be unique. You can confirm which identities are configured unique for your mParticle workspace in the UI. Learn more.
+401
+Unauthorized - authentication missing or invalid.
+Make sure your authorization header is formatted correctly with a valid API key/secret for your workspace.
+403
+Forbidden - API key/secret are present but not valid.
+Make sure that the API credentials used are valid for your mParticle workspace.
+429
+Too many requests - rate limiting is being applied.
+You have submitted too many requests.
+503
+Service unavailable - the message should be retried after a back off.
+After exponentially backing off your requests, retry. If you continue to encounter this error, contact mParticle Support.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

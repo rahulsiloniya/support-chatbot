@@ -1,0 +1,1 @@
+uncomment till line 48 to run web crawling if crawled_data is empty

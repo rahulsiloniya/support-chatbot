@@ -1,0 +1,1005 @@
+URL: https://segment.com/docs/getting-started/04-full-install/
+
+A Full Segment Implementation | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Getting started
+/
+A Full Segment Implementation
+A Full Segment Implementation
+On this page
+Segment methods in detail
+Anatomy of a Segment message
+Identify calls
+Traits in Identify calls
+How to Call Identify
+Using analytics.reset()
+Page and Screen
+Track calls
+Event Naming Best Practices
+Related content
+Best Practices for Event Calls
+Best Practices for Identifying Users
+Before you start implementing from your tracking plan, let’s review the Segment methods, what they do, and when you should use each.
+Segment methods in detail
+Segment’s libraries generate and send messages to our tracking API in JSON format, and provide a standard structure for the basic API calls. We also provide recommended JSON structure (also known as a schema, or ‘Spec’) that helps keep the most important parts of your data consistent, while allowing great flexibility in what other information you collect and where.
+There are six calls in the basic tracking API, which answer specific questions:
+Identify: Who is the user?
+Track: What are they doing?
+Page: What web page are they on?
+Screen: What app screen are they on?
+Group: What account or organization are they part of?
+Alias: What was their past identity?
+Among these calls, you can think of Identify, Group, and Alias as similar types of calls, all to do with updating our understanding of the user who is triggering Segment messages. You can think of these calls as adding information to, or updating an object record in a database. Objects are described using “traits”, which you can collect as part of your calls.
+The other three, Track, Page, and Screen, can be considered as increasingly specific types of events. Events can occur multiple times, but generate separate records which append to a list, instead of being updated over time.
+A Track call is the most basic type of call, and can represent any type of event. Page and Screen are similar and are triggered by a user viewing a page or screen, however Page calls can come from both web and mobile-web views, while Screen calls only occur on mobile devices. Because of the difference in platform, the context information collected is very different between the two types of calls.
+Segment recommends that you always use the Page and Screen calls when recording a page-view, rather than creating a “Page Viewed” Track event, because the Page/Screen calls automatically collect more contextual information.
+Anatomy of a Segment message
+The most basic Segment message requires only a userID or anonymousID; all other fields are optional to allow for maximum flexibility. However, a normal Segment message has three main parts: the common fields, the “context” object, and the properties (if it’s an event) or traits (if it’s an object).
+The common fields include information specific to how the call was generated, like the timestamp and library name and version. The fields in the context object are usually generated by the library, and include information about the environment in which the call was generated: page path, user agent, OS, locale settings, etc. The properties and traits are optional and are where you customize the information you want to collect for your implementation.
+Another common part of a Segment message is the integrations object, which you can use to explicitly filter which destinations the call is forwarded to. However this object is optional, and is often omitted in favor of non-code based filtering options.
+Identify calls
+analytics.identify (user_id: "12345abcde",
+traits: {
+email: 'michael.phillips@segment.com',
+name: 'Michael Phillips',
+city: 'New York',
+state: 'NY',
+internal: True })
+The Identify call allows Segment to know who is triggering an event.
+When to call Identify
+Call Identify when the user first provides identifying information about themselves (usually during log in), or when they update their profile information.
+When called as part of the login experience, you should call Identify as soon as possible after the user logs in. When possible, follow the Identify call with a Track event that records what caused the user to be identified.
+When you make an Identify call as part of a profile update, you only need to send the changed information to Segment. You can send all profile info on every Identify call if that makes implementation easier, but this is optional.
+Learn MoreBest Practices for Identifying Users
+Traits in Identify calls
+These are called traits for Identify calls, and properties for all other methods.
+The most important trait to pass as part of the Identify call is userId, which uniquely identifies a user across all applications.
+You should use a hash value to ensure uniqueness, although other values are acceptable; for example, email address isn’t the best thing to use as a userid, but is usually acceptable since it will be unique, and doesn’t change often.
+Beyond that, the Identify call is your opportunity to provide information about the user that can be used for future reporting, so you should try to send any fields that you might want to report on later.
+Consider using Identify and traits when:
+Gathering user profile data (for example, company, city/state, job title, or other user-level data)
+Gathering company-level data (for example, company size, number of seats, etc)
+How to Call Identify
+You can call Identify from any of Segment’s device-based or server-based libraries, including Javascript, iOS, Android, Ruby, and Python.
+Here are two examples of calling Identify from two different libraries:
+JavaScript Identify call
+Ruby Identify call
+analytics.identify("12345abcde", {
+"email": "michael.phillips@segment.com",
+"name": "Michael Phillips",
+"city": "New York",
+"state": "NY",
+"internal": True
+});
+analytics.identify( user_id: "12345abcde",
+traits: {
+email: 'michael.phillips@segment.com',
+name: 'Michael Phillips',
+city: 'New York',
+state: 'NY',
+internal: True })
+Using analytics.reset()
+When a user explicitly signs out of one of your applications, you can call analytics.reset() to stop logging further event activity to that user, and create a new anonymousId for subsequent activity (until the user logins in again and is subsequently identify-ed). This call is most relevant for client-side Segment libraries, as it clears cookies in the user’s browser.
+Make a reset() call as soon as possible after sign-out occurs, and only after it succeeds (not immediately when the user clicks sign out). For more info on this call, see the JavaScript source documentation.
+Page and Screen
+The Page and Screen calls tell Segment what web page or mobile screen the user is on. This call automatically captures important context traits, so you don’t have to manually implement and send this data.
+Page context auto-captured
+Screen context auto-captured
+title
+window.location.title
+app
+build, name, namespace, version
+url
+window.location.url
+device
+adTrackingEnabled, advertisingId (IDFA/AAID), device ID, manufacturer, model, type (android/ios)
+path
+window.location.path
+library
+name, version
+referrer
+window.document.referrer
+locale
+window.document.referrer
+search
+window.location.search
+network
+cellular, wifi
+ip
+address
+ip
+address
+userAgent
+string
+os
+name, version
+campaign
+utm_source, utm_medium, utm_campaign, utm_content
+screen
+height, width
+Page and Screen call properties
+You can always override the auto-collected Page/Screen properties with your own, and set additional custom page or screen properties.
+Some downstream tools (like Marketo) require that you attach specific properties (like email address) to every Page call.
+This is considered a destination-specific implementation nuance, and you should check the documentation for each destination you plan to use and make a list of these nuances before you start implementation.
+Named Page & Screen Calls
+You can specify a page “Name” at the start of the page or Screen call, which is especially useful to make list of page names into something more succinct for analytics. For example, on an ecommerce site you might want to call analytics.page( "Product" ) and then provide properties for that product:
+Named Page Call for Javascript
+Named Screen Call for iOS
+analytics.page("Product", {
+"category": "Smartwatches",
+"sku": "13d31"
+});
+[[SEGAnalytics sharedAnalytics] screen:@"Product"
+properties:@{ @"category": @"Smartwatches", @"sku": @"13d31" }];
+}];
+When to Call Page
+Segment automatically calls a Page event whenever a web page loads. This might be enough for most of your needs, but if you change the URL path without reloading the page, for example in single page web apps, you must call Page manually .
+If the presentation of user interface components don’t substantially change the user’s context (for example, if a menu is displayed, search results are sorted/filtered, or an information panel is displayed on the exiting UI) measure the event with a Track call, not a Page call.
+When you manually trigger a Page call, make sure the call happens after the UI element is successfully displayed, not when it is called. It shouldn’t be called as part of the click event that initiates it.
+For more info on Page calls, review Page spec and Analytics.js docs.
+When to call Screen
+Segment Screen calls are essentially the Page method, except for mobile apps. Mobile Screen calls are treated similarly to standard Page tracking, only they contain more context traits about the device. The goal is to have as much consistency between web and mobile as is feasible.
+Track calls
+The Track call allows Segment to know what the user is doing.
+When to call Track
+The Track call is used to track user and system events, such as:
+The user interacting with a UI component (for example, “Button Clicked”)
+A significant UI component appearing, other than a page (for example, search results or a payment dialog)
+Events and Properties
+Your Track calls should include both events and properties. Events are the actions you want to track, and properties are the data about the event that are sent with each event.
+Properties are powerful. They enable you to capture as much context about the event as you’d like, and then cross-tabulate or filter your downstream tools. For example, let’s say an eLearning website is tracking whenever a user bookmarks an educational article on a page. Here’s what a robust analytics.js Track call could look like:
+analytics.track('Article Bookmarked', {
+"title": 'How to Create a Tracking Plan',
+"course": 'Intro to Data Strategy',
+"author": 'Dr. Anna Lytics',
+"publish_year": '2019',
+"publish_month": '03',
+"length": 'Medium - 1000-2000 words',
+"assets": {'Infographics','Interactive Charts'},
+"topics": {'Data Planning','Segment','Data Flow'},
+"button_location": 'Subheader - 3rd Column'
+});
+With this Track call, we can analyze which authors had the most popular articles, which months and years led to the greatest volume of bookmarking overall, which button locations drive the most bookmark clicks, or which users gravitate towards infographics related to Data Planning.
+Event Naming Best Practices
+Each event you track must have a name that describes the event, like ‘Article Bookmarked’ above. That name is passed in at the beginning of the Track call, and should be standardized across all your properties so you can compare the same actions on different properties.
+Segment’s best practice is to use an “Object Action” (Noun<>Verb) naming convention for all Track events, for example, ‘Article Bookmarked’.
+Segment maintains a set of Business Specs which follow this naming convention around different use cases such as eCommerce, B2B SaaS, and Mobile.
+Let’s dive deeper into the Object Action syntax that all Segment Track events should use.
+Objects are Nouns
+Nouns are the entities or objects that the user or the system acts upon.
+It’s important to be thoughtful when naming objects so that they are referred to consistently within an application, and so that you refer to the same objects that might exist in multiple applications or sites by the same name.
+Use the following list of objects to see if there is a logical match with your application. If you have objects that aren’t in this list, name it in a way that makes sense if it were to appear in other applications, and/or run it by Product Analytics.
+Some suggested Nouns
+Menu
+Navigation Drawer (the “Hamburger” menu in the upper left corner of a UI)
+Profile
+Account
+Video
+Actions are Verbs
+Verbs indicate the action taken by either a user on your site. When you name a new Track event, consider if you can describe the current interaction using a verb from the list below.
+If you can’t, choose a verb that describes what the user is trying to do in your specific case, but try to be flexible enough so that you could use it in other scenarios.
+Some suggested Verbs
+Applied - Applying a new format to the UI results.
+Clicked - Catch-all for events where a user activated some part of the UI but no other verb captures the intent.
+Created/Deleted - The user- or system-initiated action of creating or deleting an object (e.g., new search, favorite, post)
+Displayed/Hidden - The user- or system-initiated action of hiding or displaying an element
+Enabled/Disabled - Enabling or disabling some feature (e.g., audible alarms, emails, etc).
+Refreshed - When a set of search results is refreshed.
+Searched - When an app is searched
+Selected - User clicked on an individual search result.
+Sorted - The user or UI action that causes data in a table, for example, to be sorted
+Unposted - Making a previously publicly-viewable posting private.
+Updated - The user action that initiates an update to an object (profile, password, search, etc.; typically be making a call to the backend), or the they system having actually completed the update (often this tracking call will be made in response to a server-side response indicating that the object was updated, which may or may not have an impact on the UI).
+Viewed - (exactly what it says on the tin)
+Property naming best practices
+Segment recommends that you record property names using snake case (for example property_name), and that you format property values to match how they are captured. For example, a username value would be captured in whatever case it the user typed it in as.
+Ultimately, you can decide to use a casing different from our recommendations; however, the single most important aspect is that you’re consistent across your entire tracking with one casing method.
+You can read more about best practices for Track calls, .
+All of the basic Segment methods have a common structure and common fields which are automatically collected on every call. You can see these in the common fields documentation.
+Common properties to send with a Track call
+The following properties should be sent with every Track call:
+Event Context
+Property Name
+Description
+Any Track call
+initiator
+States whether the event was initiated by the user or the system.
+Any Track call
+display_format
+Responsive or not (or some other indicator of the current page layout template)
+Search Initiated or Search Results Displayed
+[Search Parameters]
+All search parameters, with the names being the snake case version of the internal names.
+Search Results Displayed
+total_result_count
+The total number of results returned that match the search parameters.
+This number represents the number of results that could be returned to the user even if only a subset of those were actually returned (for example, if the results are paginated).
+Paginated List Displayed
+total_items_pages
+The total number of pages of items available to be viewed by the user.
+Paginated List Displayed
+items_per_page
+The number of possible items in each page of items (for example, if the UI is showing 50 search results per page).
+The actual number of items in the current page may be less than this number if, for example, the system is displaying the last page of results and there aren’t enough results to fill to the page’s maximum (for example, if there are 27 results when the page could display as many as 50).
+Paginated List Displayed
+current_item_page
+The current page number displayed to the user.
+External Link Clicked
+destination_url
+The URL that the user is taken to when clicked. Ideally, this will be the final destination (for example, after any redirects), but only the immediate destination is likely in most cases.
+Item List Sorted
+sort_column
+The internal name of the column that was sorted.
+Item List Sorted
+sort_direction
+Whether the items sort in ascending or descending order.
+How to call Track
+You can make a Track call from any of Segment’s client-side or server-side libraries, including JavaScript, iOS, Android, Ruby, and Python. Here are two examples of calling Track from two different libraries:
+JavaScript Track call
+Ruby Track call
+analytics.track('Article Bookmarked', {
+"title": 'How to Create a Tracking Plan',
+"course": 'Intro to Data Strategy',
+"author": 'Dr. Anna Lytics',
+});
+analytics.track( user_id: '12345abcde',
+event: 'Article Bookmarked',
+properties: {
+title: 'How to Create a Tracking Plan',
+course: 'Intro to Data Strategy',
+author: 'Dr. Anna Lytics'})
+back
+Planning a Full Installation
+Think through your goals, plan your calls, and set yourself up for success.
+next
+Sending data to Destinations
+Unlock the power of Segment with Destinations.
+This page was last modified: 07 Feb 2025
+Further reading
+Best Practices for Event Calls
+Best Practices for Identifying Users
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Segment methods in detail
+Anatomy of a Segment message
+Identify calls
+Traits in Identify calls
+How to Call Identify
+Using analytics.reset()
+Page and Screen
+Track calls
+Event Naming Best Practices
+Related content
+Best Practices for Event Calls
+Best Practices for Identifying Users
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

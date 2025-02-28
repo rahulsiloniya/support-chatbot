@@ -1,0 +1,322 @@
+URL: https://docs.mparticle.com/developers/apis/group-identity-api/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingGroup Identity API Reference
+Group Identity is now available and being gradually rolled out to customers. Express interest here.
+Use the Group Identity API to create and manage groups of users that are related by a single shared user identifier. Groups can contain shared attributes, where each profile of a user in a group inherits all of the shared attributes values.
+Example use case
+Imagine you want to send a discount coupon to all of your users who own a dog, but you know that some of the users you want to reach might live in a household where only one person is identified as the dog owner.
+By creating a group definition for members of a household, where a household consists of users who share the same physical address, you can create an attribute has_dog (or use an existing attribute) that is inherited by all members of the group if any other member’s profile has that attribute.
+You can then use the shared, or inherited, attribute when creating audiences of users.
+Step 1: Create a group definition
+First, we use the Group Identity API to create a new group definition for families by sending a POST API request to /platform/workspaces/{workspace_id}/groups/
+The body of our request is:
+{
+"id": "household",
+"description": "users who share the same physical address",
+"source_user_attribute": "$address",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+]
+}
+The source_user_attribute field is how mParticle determines if a user should be added to a group. In this example, two users who share the same $address will be added to a new group.
+Every group definition includes a list of group attributes in the attributes array, where each attribute is represented by an object with an id equaling the name of the user attribute to use as a group attribute and a type specifying the aggregation logic used for attribute. To learn more about group attributes and attribute aggregation logic, see the Group attributes overview.
+Group attributes are added to the profiles for all users who join a group. User profiles are updated with new group attributes every Monday on a weekly basis.
+Step 2: mParticle automatically adds users to a group
+Once you have created a group definition, mParticle runs a search on a recurring, weekly schedule looking for any users with a user attribute matching a group identity’s source_user_attribute. Users with matching attributes are added to a group instance created using the group definition. Their profiles then inherit any group attributes listed in the group’s definition.
+In our example, imagine two users John Doe and Jane Doe where both John and Jane have the same address, "$address": "123 Main St". Since they share the same address, they are added to a new group using the household group definition.
+Both profiles for John and Jane then also display the new shared attribute has_dog. If any member of the group has a user attribute has_dog: true, then the group attribute household:has_dog=true is added to all other members of the same group. Otherwise, the value of household:has_dog remains false for all group members.
+By default, mParticle builds and refreshes group membership and group attributes on a weekly basis each Monday. You can change the frequency that this job is run by contacting your mParticle Customer Success Manager.
+Step 3: Create an audience using your new group definition and group attributes
+In the mParticle audience builder, we can now use our new group attributes, such as household:has_dog, as criteria to create or supplement an audience that contains users who are members of a household that has a dog. For more information on how to create audiences, see Create an audience.
+The Group Identity API allows you to create group definitions. mParticle then uses these definitions to create groups of users based on their shared user identifiers. This means you can create one group definition for families that results in the creation of multiple family groups. (For example, all the “Jones” family members and all the “Smith” family members.)
+If your account uses [Unlimited Lookback](/guides/platform-guide/data-retention/#data-retention-and-unlimited-lookback), group definitions and attributes are available in the range for your long-term data retention.
+Authentication
+The Group Identity API can be authenticated using a bearer token.
+Authenticate with a bearer token
+To create a bearer token, send a POST request to mParticle’s SSO token endpoint at https://sso.auth.mparticle.com/oauth/token.
+The JSON body of the request must contain:
+client_id - the client ID, issued by mParticle when creating the API credentials
+client_secret - the client secret, issued by mParticle when creating the API credentials
+audience - set to a value of "https://api.mparticle.com"
+grant_type - set to a value of "client_credentials"
+Example cURL request
+curl --request POST \
+--url https://sso.auth.mparticle.com/oauth/token \
+--header 'content-type: application/json' \
+--data '{"client_id":"...","client_secret":"...","audience":"https://api.mparticle.com","grant_type":"client_credentials"}'
+Example HTTP request
+POST /oauth/token HTTP/1.1
+Host: sso.auth.mparticle.com
+Content-Type: application/json
+{
+"client_id": "your_client_id",
+"client_secret": "your_client_secret",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}
+A successful POST request to the token endpoint results in a JSON response as follows:
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Subsequent requests to the API can then be authorized by setting the authorization header to:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but they expire every eight hours. The initial token request can take between one and three seconds, so mParticle recommends that you cache the token and refresh it only when necessary.
+Get a specific group definition by its group ID
+GET https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}
+Path parameters
+Path Parameter
+Type
+Description
+{workspace_id}
+Integer
+The ID of the workspace containing the group definition you want to retrieve.
+{group_id}
+String
+The ID for the group definition you want to retrieve.
+Example cURL request
+curl --location --request GET 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 200 response with a JSON object for the group.
+{
+"id": "neustar-household-group",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+],
+"created_on": "2023-11-13T21:50:17.732Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-13T21:50:17.732Z",
+"last_modified_by": "developer@example.com"
+}
+Get all group definitions contained in a workspace
+GET https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/
+Path parameters
+Path Parameter
+Type
+Description
+{workspace_id}
+Integer
+The ID of the workspace containing the group definitions you want to retrieve.
+Example cURL request
+curl --location --request GET 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 200 response with an array containing all groups.
+[
+{
+"id": "neustar-household-group",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+],
+"created_on": "2023-11-13T21:50:17.732Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-13T21:50:17.732Z",
+"last_modified_by": "developer@example.com"
+}
+]
+Create a new group definition in a workspace
+POST https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/
+Request body options
+Field
+Description
+id
+A unique ID used to identify the group definition.
+description
+A human readable description for the group definition.For example: users who all share the same Neustar household ID
+source_user_attribute
+A single user attribute that mParticle uses to determine users’ group memberships.For example: $neustar-household-id
+attributes
+An array of group attribute objects, where each attribute contains an id and type.The id can be any string value you want to use to identify the attribute.For example, has_dogThe type represents the aggregation logic used for the attribute. Valid options are: latest, boolean_or, sum, or average. Read more about attribute aggregation logic here.
+Example cURL request
+curl --location --request POST 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+{
+"id": "neustar-household-group",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+]
+}
+Response
+A successful request receives a 200 response with a JSON object for the new group.
+{
+"id": "neustar-household-group",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+],
+"created_on": "2023-11-13T21:50:17.732Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-13T21:50:17.732Z",
+"last_modified_by": "developer@example.com"
+}
+Update a group definition
+PUT https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}
+Path parameters
+Path Parameter
+Type
+Description
+{workspace_id}
+Integer
+The ID of the workspace containing the group definition.
+{group_id}
+String
+The ID for the group definition you want to update.
+Example cURL request
+curl --location --request PUT 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+{
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+]
+}
+Response
+A successful request receives a 200 response with a JSON object for the group.
+{
+"id": "group-id",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+}
+],
+"created_on": "2023-11-13T21:53:57.917Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-13T21:53:57.917Z",
+"last_modified_by": "developer@example.com"
+}
+Set attributes for a group
+PATCH https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}
+Path parameters
+Path Parameter
+Type
+Description
+{workspace_id}
+Integer
+The ID of the workspace containing the group definition.
+{group_id}
+String
+The ID for the group definition you want to add attributes to.
+Example cURL request
+curl --location --request PUT 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+{
+"attributes": [
+{
+"id": "has_dog",
+"type": "boolean_or"
+},
+{
+"id": "country",
+"type": "latest"
+}
+]
+}
+Response
+A successful request receives a 200 response with a JSON object for the group.
+{
+"id": "group-id",
+"description": "A group of users related by shared Neustar household ID",
+"source_user_attribute": "neustar-household-id",
+"attributes": [
+{
+"id": "id of the attribute shared by the group",
+"type": "either 'latest' or 'boolean_or'"
+}
+],
+"created_on": "2023-11-13T21:57:26.947Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-13T21:57:26.947Z",
+"last_modified_by": "developer@example.com"
+}
+Delete a group
+DELETE https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}
+Path parameters
+Path Parameter
+Type
+Description
+{workspace_id}
+Integer
+The ID of the workspace containing the group definition you want to delete.
+{group_id}
+String
+The ID of the group definition you want to delete.
+Example cURL request
+curl --location --request DELETE 'https://api.mparticle.com/platform/workspaces/{workspace_id}/groups/{group_id}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 204 response with an empty body.
+Limitations
+Limit
+Description
+Group ID
+Must be between 3 and 32 characters
+Group description
+Must be between 0 and 255 characters
+Group attribute ID’s
+Must be between 1 and 223 characters
+Number of group definitions per workspace
+1
+Number of attributes per group
+10
+Number of users per group
+10
+Error handling
+Response code
+Error message
+Description
+400
+No user ID provided
+You must provide a valid user ID when attempting to view a user.
+401
+Unauthorized
+Verify that you have created the correct API credentials for the FeatureName API and that you are using the correct authentication method.
+403
+Forbidden
+Verify that you have created the correct API credentials for the FeatureName API and that you are using the correct authentication method.
+404
+Not found
+The specified resource was not found.
+422
+Unprocessable entity
+The request was understood but cannot be processed.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

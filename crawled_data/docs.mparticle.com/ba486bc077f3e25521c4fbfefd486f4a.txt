@@ -1,0 +1,500 @@
+URL: https://docs.mparticle.com/developers/apis/warehouse-sync-api/data-mapping/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingData MappingWarehouse Sync can be used to ingest two types of data:
+User attribute data: data describing your users
+Event data: data describing actions your users take
+If you want to ingest event data, you must use the Field Transformations API to map the source data coming from your warehouse to the mParticle event data schema.
+If you are creating a warehouse sync pipeline to ingest user data, you can specify how your inbound user data maps to mParticle user attributes in the data model. While field transformations are not required for user data, they are not limited to event data and can be used to improve edge case handling.
+What is a field transformation?
+A field transformation maps external data (such as a column, row, field, or more complex data object) to an event attribute or field within the mParticle platform. When ingesting data through a warehouse sync pipeline, a field transformation tells mParticle exactly where to store each new piece of data within the context of the JSON schema, the overarching definition for how data is organized in mParticle.
+Field transformations are JSON formatted specifications created using the Field Transformations API, a subcomponent of the mParticle Platform API. The Field Transformations API is grouped with the Platform API instead of the Warehouse Sync API because its functionality is not necessarily limited to Warehouse Sync, and future mParticle features may leverage field transformations. The Field Transformations API simply provides a structured method of mapping one data object to another.
+Example field transformation
+Imagine the following simple data table and mParticle JSON data schema:
+Example source database table:
+eventId
+sessionId
+timeStamp
+eventType
+1234
+5678
+1402521613976
+screen_view
+…
+…
+…
+…
+Example mParticle JSON data schema:
+{
+"events": [
+{
+"data": {
+"event_id": 1234,
+"session_id": 5678,
+"timestamp_unixtime_ms": 1402521613976
+},
+"event_type": "screen_view"
+}
+]
+}
+When ingesting this data through a warehouse sync pipeline, we need to map each source column of our table to the appropriate fields in the mParticle JSON schema:
+Source column name
+Destination field name
+eventId
+event_id
+sessionId
+session_id
+timeStamp
+timestamp_unixtime_ms
+eventType
+event_type
+The field transformation would be:
+{
+"id": "example-field-transformation-id",
+"name": "Example Field Transformation",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "$eventId",
+"destination": "events[].data.event_id"
+},
+{
+"mapping_type": "column",
+"source": "$sessionId",
+"destination": "events[].data.session_id"
+},
+{
+"mapping_type": "column",
+"source": "$timeStamp",
+"destination": "events[].data.timestamp_unixtime_ms"
+},
+{
+"mapping_type": "column",
+"source": "$eventType",
+"destination": "events[].event_type"
+}
+],
+"created_on": "2023-11-14T21:15:43.182Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-14T21:15:43.182Z",
+"last_modified_by": "developer@example.com"
+}
+Note that each field mapping is listed as an individual item within the array called mappings.
+When we refer to the source field name in the mParticle JSON schema, we use a simplified JSON path that reflects the nested structure of events data. For example, events[].data.event_id refers to the field called event_id in the data object that sits within the events array. You can find a detailed explanation of the JSON path format in the Field Transformation API reference.
+Mappings array
+Source data fields and their destinations in mParticle are expressed using the mappings array in a field transformation. For every data object (either a column, single value, or array) you want to map, include a separate configuration object in the mappings array.
+Each mapping object in the mappings array can be configured with the following settings:
+mapping_type: specifies the way the source data is mapped. Options include:
+column: maps a column in your database to a destination in mParticle
+static: maps the value given to the value property to a destination field in mParticle
+ignore: excludes the source data defined for source from being ingested
+source: the name of the column or field being mapped from
+destination: the name of the field in mParticle being mapped to
+value: used with a static or column mapping type. The value assigned to this property will be mapped directly to the mParticle field set in destination
+For a detailed reference of each property in a field transformation, see Field Transformations in the Platform API documentation.
+How to create a field transformation
+There are four steps to creating and using a field transformation:
+Identify your source data: this is the names of the columns, fields, or rows of data in your data warehouse
+Identify your field destinations: these are the field names as they exist in the mParticle JSON schema
+Write your mappings: create the individual mapping objects for each data object you want to map
+Create your field transformation: send an API request to the Field Transformations API with your new mappings
+Step 1: Identify your source data
+This first step is accomplished when setting up a warehouse sync pipeline. Part of the warehouse sync configuration requires you to create a data model. This data model is a SQL query that mParticle sends to your warehouse to retrieve the names of the data columns and fields in your warehouse that your pipeline will ingest.
+These column and field names are what you supply for the values of the source setting of a mapping.
+If you create a mapping for a column that is not returned by your data model's SQL query, the mapping will fail to validate when you create it. This is to ensure that you don't accidentally miss data you intended to ingest into mParticle.
+For more information about writing SQL queries for your data model, see the Warehouse Sync SQL Reference.
+Step 2: Identify your field destinations
+Your field destinations are the names of the fields you want to map your source data as specified in the mParticle JSON data structure.
+Since data in mParticle is structured as a series of nested JSON objects and arrays, mappings refers to these fields using simplified JSON paths.
+If you map source data to a field that does not exist in the JSON schema, the mapping will fail to validate when you create it. If you map to a field using a template in such a way that the destination field cannot be identified until actual data is being ingested, then the mapping will fail once that row of data is reached during a pipeline sync.
+If a field name within your destination contains a period (.) character, then the field name must be escaped using curly braces and single quotes. For example: {{'field.name'}}. This is due to how Warehouse Sync parses through nested objects and fields when creating your mappings. If a period is found that doesn't indicate a nested object or field, you will receive an error.
+This is commonly encountered when mapping to an mParticle custom flag, such as TikTok.URL. Because URL isn't a field nested within an object called TikTok, Warehouse sync will return an error unless you enclose the entire field within curly braces: {{'TikTok.URL'}}.
+Step 3: Write your mappings
+For every column of data you plan to ingest, you must create a mapping so that mParticle can determine where to put the data in that column.
+Mappings are configured using a combination of the mapping_type, source, destination, and value settings.
+Example mapping:
+{
+"mapping_type": "column",
+"source": "$eventId",
+"destination": "events[].data.event_id"
+}
+To learn about the specific mapping settings, see Mapping object settings in the Field Transformations API reference.
+Step 4: Create your field transformation
+Once you have completed writing each mapping object in your mappings array for all of your source data fields, you can create a field transformation by sending a POST API request to the endpoint located at:
+https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields
+The body of your API request must contain:
+A unique id for your field transformation. This ID is referenced when creating your warehouse sync pipeline.
+A unique name for your field transformation.
+The destination_type for your field transformation. Currently, the only valid value is event_batch.
+The mappings array you created in step 3.
+Example field transformation request body:
+{
+"id": "unique-id",
+"name": "your-field-transformation-name",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "your-column-name",
+"destination": "mparticle-field"
+}
+]
+}
+Step 5: Add your field transformation to a warehouse sync pipeline
+When creating a warehouse sync pipeline, you can use the ID of the field transformation you just created as the value for field_transformation_id.
+Grouping commerce and crash event data
+All data in mParticle is stored in either list fields or single-value fields. Single-value fields contain things like transaction IDs, email addresses, or product names. List fields contain lists of data objects, such as ecommerce products or error data.
+When mParticle ingests commerce or crash event data from your warehouse, data that is mapped to a list field can be grouped within a single “event” according to a shared unique ID that you specify (like a transaction ID for a commerce product action).
+To group commerce or crash data into a list field in mParticle, you must:
+Find an ID, which we will refer to as a message ID, that uniquely identifies your commerce or crash event. For example: an event ID or transaction ID.
+Map your unique message ID to the events[].data.source_message_id field in mParticle.
+Map the remaining columns in your source data to their respective fields in mParticle. Note the following:
+Columns mapped to lists in mParticle may have multiple values across rows, even if each row has the same message ID value.
+Columns mapped to single-value fields must have the same value across rows if they have the same source message ID value. If a row is found with the same source message ID, but it has a different single-value field, then it won’t be able to be mapped to mParticle.
+The list fields in the mParticle JSON schema that commerce and crash event data can be mapped to are:
+events[].data.product_impressions
+events[].data.product_impressions[].products
+You can create an additional mapping between any unique string ID and events[].data.product_impressions[].product_impressions_list to further segment product impressions into product impression lists.
+events[].data.promotion_action.promotions
+events[].data.product_action.products
+events[].data.shopping_cart.products
+events[].data.breadcrumbs
+This is the source_message_id of the crash_report event type.
+How is commerce and crash data grouped?
+mParticle groups event data into list fields if, and only if, a shared unique ID (such as a transaction ID or promotion ID) is mapped from your source data to the events[].data.source_message_id field in mParticle.
+As mParticle ingests data, any time a unique set of source field values are mapped to a list field, a new object is added to that list.
+For example, if a source field is mapped to events[].data.product_action.products[].name, then a new product object will be added to events[].data.product_action.products[] whenever unique value for name is found.
+Example product action grouping
+Imagine that an ecommerce customer purchases three different items in the same transaction. If Warehouse Sync were to ingest that event data without the shared transaction ID, it would create three separate events with product lists in mParticle, one for each of the three purchased items.
+However, if a mapping exists between the source transaction ID and the source_message_id, Warehouse Sync creates a single product list containing all three items.
+Each row sharing the same events[].data.source_message_id must able to be grouped within the same event, otherwise your pipeline will return an error. In the source data below, each row sharing the same transaction_id of 1 must have the same value for action, which is purchase.
+Example source data
+transaction_id
+action
+name
+price
+1
+purchase
+shirt
+20.00
+1
+purchase
+hat
+10.00
+1
+purchase
+scarf
+5.00
+Example mapping
+[
+{
+"mapping_type": "column",
+"source": "transaction_id",
+"destination": "events[].data.source_message_id"
+},
+{
+"mapping_type": "column",
+"source": "action",
+"destination": "events[].data.product_action.action"
+},
+{
+"mapping_type": "column",
+"source": "name",
+"destination": "events[].data.product_action.products[].name"
+},
+{
+"mapping_type": "column",
+"source": "price",
+"destination": "events[].data.product_action.products[].price"
+}
+]
+Example output
+{
+"events": [
+{
+"data": {
+"source_message_id": "1",
+"product_action": {
+"action": "purchase",
+"transaction_id": 1,
+"products": [
+{
+"name": "shirt",
+"price": "20.00"
+},
+{
+"name": "hat",
+"price": "10.00"
+},
+{
+"name": "scarf",
+"price": "5.00"
+}
+]
+}
+}
+}
+]
+}
+Without mapping transaction_id to source_message_id, the output would instead be:
+{
+"events": [
+{
+"data": {
+"product_action": {
+"action": "purchase",
+"products": [
+{
+"name": "shirt",
+"price": "20.00"
+}
+]
+}
+}
+},
+{
+"data": {
+"product_action": {
+"action": "purchase",
+"products": [
+{
+"name": "hat",
+"price": "10.00"
+}
+]
+}
+}
+},
+{
+"data": {
+"product_action": {
+"action": "purchase",
+"products": [
+{
+"name": "scarf",
+"price": "5.00"
+}
+]
+}
+}
+}
+]
+}
+Example product impression grouping
+Example source data
+event_id
+impression_group_id
+product_impressions
+product_name
+product_price
+1
+1
+“banner ad”
+“shirt”
+20.00
+1
+1
+“banner ad”
+“hat”
+10.00
+1
+2
+“video ad”
+“scarf”
+5.00
+Example mapping
+[
+{
+"mapping_type": "column",
+"source": "event_id",
+"destination": "events[].data.source_message_id"
+},
+{
+"mapping_type": "column",
+"source": "product_impressions",
+"destination": "events[].data.product_impressions[].product_impressions_list"
+},
+{
+"mapping_type": "column",
+"source": "product_impressions",
+"destination": "events[].data.product_impressions"
+},
+{
+"mapping_type": "column",
+"source": "product_name",
+"destination": "events[].data.product_impressions[].products[].name"
+},
+{
+"mapping_type": "column",
+"source": "price",
+"destination": "events[].data.product_impressions[].products[].price"
+}
+]
+Example output
+{
+"events": [
+{
+"data": {
+"source_message_id": "1",
+"product_impressions": [
+{
+"product_impression_list": "banner ad",
+"products": [
+{
+"name": "shirt",
+"price": "20.00"
+},
+{
+"name": "hat",
+"price": "10.00"
+}
+]
+},
+{
+"product_impression_list": "video ad",
+"products": [
+{
+"name": "scarf",
+"price": "5.00"
+}
+]
+}
+]
+}
+}
+]
+}
+Field Transformation examples
+Following are some field transformation examples for common use cases:
+Ignoring fields with null values
+Ignoring empty fields
+Mapping multiple fields to an mParticle array
+Mapping multiple fields in an object to multiple mParticle fields
+Ignore null values
+Example source data
+first_name
+premium_start_date
+premium_discounts_applied
+free_trial_expiration
+free_trial_ad_impressions
+“Bob”
+2023-11-29
+["blackfriday20"]
+null
+null
+Example mapping
+[
+{
+"mapping_type": "column",
+"source": "premium_*",
+"destination": "user_attributes.*",
+"ignore_when": "$null"
+},
+{
+"mapping_type": "column",
+"source": "free_trial_*",
+"destination": "user_attributes.*",
+"ignore_when": "$null"
+}
+]
+Example output
+{
+"user_attributes": {
+"premium_start_date": "2023-11-29",
+"premium_discounts_applied": ["blackfriday20"]
+}
+}
+Ignore empty fields
+Example source data
+first_name
+premium_start_date
+premium_discounts_applied
+free_trial_expiration
+free_trial_ad_impressions
+“Bob”
+2023-11-29
+["cybermonday24"]
+Example mapping
+[
+{
+"mapping_type": "column",
+"source": "premium_*",
+"destination": "user_attributes.*",
+"ignore_when": "$empty"
+},
+{
+"mapping_type": "column",
+"source": "free_trial_*",
+"destination": "user_attributes.*",
+"ignore_when": "$empty"
+}
+]
+Example output
+{
+"user_attributes": {
+"premium_start_date": "2023-11-29",
+"premium_discounts_applied": ["cybermonday24"]
+}
+}
+Mapping multiple fields to an array
+Example source data
+first_name
+favorite_store_1
+favorite_store_2
+favorite_store_3
+“Bob”
+“target”
+“old navy”
+“walmart”
+Example mapping
+{
+"mapping_type": "column",
+"source": "favorite_store_*",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ value | upcase }}"
+}
+Example output
+{
+"user_attributes": {
+"favorite_stores": [
+"TARGET",
+"OLD NAVY",
+"WALMART"
+]
+}
+}
+Mapping fields from an object
+Example source data
+Imagine the following object of data within a column called profile_data:
+profile_data
+{"customer_id": "12345", "first_name": "Bob", "ua_shirt_size": "M", "ua_favorite_color": "blue"}
+Using the column mapping type and the * wildcard, we create the following mapping:
+Example mapping
+[
+{
+"mapping_type": "column",
+"source": "profile_data.customer_id",
+"destination": "user_identities.customer_id"
+},
+{
+"mapping_type": "column",
+"source": "profile_data.fname",
+"destination": "user_attributes.$firstname"
+},
+{
+"mapping_type": "column",
+"source": "profile_data.ua_*",
+"destination": "user_attributes.*"
+}
+]
+Example output
+{
+"user_identities": {
+"customer_id": "12345"
+},
+"user_attributes": {
+"$firstname": "Bob",
+"ua_shirt_size": "M",
+"ua_favorite_color": "blue"
+}
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

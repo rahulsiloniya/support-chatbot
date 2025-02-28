@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/67bf9426a46f270036619e13#content
+
+What are the best practices for deploying the Lytics Javascript tag with respect to cookie compliance regulations?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0What are the best practices for deploying the Lytics Javascript tag with respect to cookie compliance regulations? 1 day ago by Nick BrooksHow can I ensure that users have consented to cookies when loading the Lytics Javascript tag? Can I do this with tools like OneTrust or Google Tag Manager?Add Comment

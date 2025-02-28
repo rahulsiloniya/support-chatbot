@@ -1,0 +1,475 @@
+URL: https://docs.mparticle.com/developers/apis/warehouse-sync-api/migration/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingWarehouse Sync API v2 MigrationmParticle released version 2 of the Warehouse Sync API on October 31, 2023. All Warehouse Sync pipelines created using v1 of the API were automatically migrated to v2, so you do not need to take any action to update or migrate your existing pipelines.
+This doc highlights the key differences between the v1 and v2 APIs by resource group.
+Connections
+v2 has removed, reorganized, and renamed many of the configuration fields specific to Snowflake, BigQuery, and Redshift. Navigate between each warehouse provider using the tabs below to see tables illustrating these changes side-by-side.
+Snowflake
+Snowflake
+v1 Field
+v2 Field
+Change description
+id
+id
+No change
+name
+name
+No change
+workspace_id
+-
+Removed in v2
+-
+state
+New field. Can be new, active or inactive
+is_faulted
+status
+Renamed
+type
+service_provider
+Renamed
+-
+config
+v2 uses a JSON objected called config to contain the warehouse specific config settings
+source_account_id
+account_identifier
+Renamed
+region
+region
+No change
+warehouse
+warehouse
+No change
+database
+database
+No change
+role
+role
+No change
+user
+user
+No change
+password
+password
+No change
+snowflake_aws_iam_user_arn
+aws_iam_user_arn
+Renamed
+snowflake_aws_external_id
+aws_external_id
+Renamed
+created_on
+created_on
+No change
+created_by
+created_by
+No change
+last_modified_on
+last_modified_on
+No change
+last_modified_by
+last_modified_by
+No change
+Example v1 Snowflake connection
+{
+"id": "example-connection",
+"name": "Example Connection",
+"workspace_id": 5328,
+"is_faulted": false,
+"type": "snowflake",
+"source_account_id": "gd1234",
+"region": "us-central1.gcp",
+"warehouse": "compute_wh",
+"database": "indicative",
+"role": "mp_role",
+"user": "mp_user",
+"password": "************",
+"snowflake_aws_iam_user_arn": "arn:aws:iam::123456:user/externalstages/abcdefg",
+"snowflake_aws_external_id": "GD1234=2_abcdefg==",
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Example v2 Snowflake connection
+{
+"id": "example-connection",
+"name": "Example Snowflake Connection",
+"state": "active",
+"status": "healthy",
+"service_provider": "Snowflake",
+"config": {
+"account_identifier": "gd12345",
+"region": "us-central1.gcp",
+"warehouse": "compute_wh",
+"database": "my_database",
+"role": "mparticle_role",
+"user": "mparticle_user",
+"password": "************",
+"aws_iam_user_arn": "arn:aws:iam::123456:user/externalstages/abcdefg",
+"aws_external_id": "GD1234=2_abcdefg=="
+},
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Google BigQuery
+Google BigQuery
+v1 Field
+v2 Field
+Change description
+id
+id
+No change
+name
+name
+No change
+workspace_id
+-
+Removed in v2
+-
+state
+New field. Can be new, active or inactive
+is_faulted
+status
+Renamed
+type
+service_provider
+Renamed
+-
+config
+v2 uses a JSON objected called config to contain the warehouse specific config settings
+region
+region
+No change
+service_account_id
+service_account_id
+No change
+service_account_key
+service_account_key
+No change
+project_id
+project_id
+No change
+dataset_id
+dataset_id
+No change
+created_on
+created_on
+No change
+created_by
+created_by
+No change
+last_modified_on
+last_modified_on
+No change
+last_modified_by
+last_modified_by
+No change
+Example v1 BigQuery connection
+{
+"id": "example-connection",
+"name": "Example Connection",
+"workspace_id": 1234,
+"is_faulted": false,
+"type": "bigquery",
+"region": "us-east4",
+"service_account_id": "mp_service",
+"service_account_key": "************",
+"project_id": "mp-project",
+"dataset_id": "mp-dataset",
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Example v2 BigQuery connection
+{
+"id": "example-bigquery-connection",
+"name": "Example BigQuery Connection",
+"state": "active",
+"status": "healthy",
+"service_provider": "BigQuery",
+"config": {
+"region": "us-east1",
+"project_id": "my-gcp-project",
+"dataset_id": "my-dataset",
+"service_account_id": "mparticle-account@my-gcp-project.iam.gserviceaccount.com",
+"service_account_key": "************"
+},
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Amazon Redshift
+Amazon Redshift
+v1 Field
+v2 Field
+Change description
+id
+id
+No change
+name
+name
+No change
+workspace_id
+-
+Removed in v2
+-
+state
+New field. Can be new, active or inactive
+is_faulted
+status
+Renamed
+type
+service_provider
+Renamed
+-
+config
+v2 uses a JSON objected called config to contain the warehouse specific config settings
+database
+database
+No change
+user
+user
+No change
+password
+password
+No change
+redshift_aws_iam_role_arn
+aws_iam_role_arn
+Renamed
+host
+host
+No change
+port
+port
+No change
+created_by
+created_by
+No change
+last_modified_on
+last_modified_on
+No change
+last_modified_by
+last_modified_by
+No change
+Example v1 Redshift connection
+{
+"id": "example-connection",
+"name": "Example Connection",
+"workspace_id": 5328,
+"is_faulted": false,
+"type": "redshift",
+"database": "mp",
+"user": "mp_user",
+"password": "************",
+"redshift_aws_iam_role_arn": "arn:aws:iam::1234567:role/mparticle_redshift_role",
+"host": "cluster.abcd1234.us-east-1.redshift.amazonaws.com",
+"port": "5439",
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Example v2 Redshift connection
+{
+"id": "example-redshift-connection",
+"name": "Redshift Connection",
+"state": "active",
+"status": "healthy",
+"service_provider": "Redshift",
+"config": {
+"database": "dev",
+"host": "dwi-test.ab123yyxwwzz.us-east-1.redshift.amazonaws.com",
+"port": "5439",
+"user": "mParticle",
+"password": "************",
+"aws_iam_role_arn": "arn:aws:iam::123456789:role/mParticle_role"
+},
+"created_on": "2023-02-03T23:53:08.413",
+"created_by": "developer@mparticle.com",
+"last_modified_on": null,
+"last_modified_by": null
+}
+Data models
+The main difference between data models in v1 and v2 is that v2 data models are defined as SQL statements within a new JSON object called config. Each of the four timestamp configuration fields in v1 have also been removed, because v2 Warehouse Sync pipelines allow you to define what data to include in your syncs using any column in your database you want using the sync_mode fields of your pipeline.
+v1 Field
+v2 Field
+Change description
+id
+id
+No change
+name
+name
+No change
+workspace_id
+-
+Removed in v2
+-
+state
+New field. Can be active or inactive.
+-
+status
+New field
+type
+type
+No change
+-
+config
+v2 uses a JSON objected called config to contain the data model’s SQL query
+sql_query
+sql_query
+sql_query has been moved into the JSON object called config
+load_timestamp_field_type
+-
+Removed in v2
+load_timestamp_field_name
+-
+Removed in v2
+load_timestamp_field_time_zone
+-
+Removed in v2
+load_timestamp_field_time_offset
+-
+Removed in v2
+created_on
+created_on
+No change
+created_by
+created_by
+No change
+last_modified_on
+last_modified_on
+No change
+last_modified_by
+last_modified_by
+No change
+Example v1 data model
+{
+"id": "example-data-model",
+"name": "Example Data Model",
+"workspace_id": 5328,
+"type": "sql",
+"sql_query": "SELECT email AS email, COUNT(id) AS \"count_of_open_tickets\", LAST_UPDATED_DATE_TIME FROM mp.demo_service.tickets WHERE t.status = 'open'",
+"load_timestamp_field_type": "timestamp_ltz",
+"load_timestamp_field_name": "LAST_UPDATED_DATE_TIME",
+"load_timestamp_field_time_zone": null,
+"load_timestamp_field_time_offset": 0,
+"created_on": "2022-09-16T16:58:47.317",
+"created_by": "developer@mparticle.com",
+"last_modified_on": "2022-11-04T16:48:21.507",
+"last_modified_by": "developer@mparticle.com"
+}
+Example v2 data model
+{
+"id": "string",
+"name": "example-data-model",
+"state": "active",
+"status": "valid",
+"errors": [
+{
+"message": "string"
+}
+],
+"type": "sql",
+"config": {
+"sql_query": "SELECT email AS email, COUNT(id) AS \"count_of_open_tickets\", LAST_UPDATED_DATE_TIME FROM mp.demo_service.tickets WHERE t.status = 'open'"
+},
+"created_on": "2023-10-24T21:05:19.281Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-10-24T21:05:19.281Z",
+"last_modified_by": "developer@example.com"
+}
+Pipelines
+The main difference between v1 and v2 pipelines is how you configure the type, or “sync mode”, of your Warehouse Sync pipeline, and the schedule of your pipeline.
+Sync mode
+In v2, all of your sync mode settings are contained in a single JSON object called sync_mode. There are two basic types of syncs in v2:
+Incremental syncs: these pipelines ingest data from your warehouse into mParticle in discrete segments on a recurring schedule.
+Full syncs: these pipelines ingest all of the data you specify using your sync mode settings each time your pipeline is ran.
+In v1, mParticle would determine what data to sync from your warehouse into mParticle by looking at a column in your warehouse that had to contain timestamps. This allowed mParticle to recognize data of a certain age in your warehouse that should either be included or excluded in your syncs according to your settings.
+In v2, you can use any column in your warehouse to define what data to include in your syncs, as long as that column contains a datatype that can be incremented. This is defined by the iterator and iterator_data_type fields. For most use cases, the best iterator will still be a column containing timestamps, but you can use any column that contains easily compared integers, numbers, dates, timestamps, or strings.
+The from and unil fields allow you to specify what data to include in your syncs. For example, a sync could include all data from an iterator value of 1 January 2020 until 1 February 2023. Note that the from and until fields are not used to schedule when syncs occur, but to define a range of rows in your database to sync.
+Sync schedule
+In v2, all of your scheduling settings are contained in a single JSON object called schedule. All syncs in v2 can be scheduled to be ran:
+Once, by setting type in the schedule object to once
+On-demand, by setting type to on-demand
+Incrementally, according to your schedule settings, by setting type to interval
+For a complete reference of the difference between v1 and v2 pipelines, refer to the following table:
+v1 Field
+v2 Field
+Change description
+id
+id
+No change
+name
+name
+No change
+workspace_id
+-
+Removed in v2
+is_active
+state
+is_active and is_draft are replaced by state in v2
+is_draft
+-
+Removed in v2
+connection_id
+connection_id
+No change
+data_model_id
+data_model_id
+No change
+partner_feed_id
+partner_feed_id
+No change
+partner_feed_key
+partner_feed_key
+No change
+-
+sync_mode
+v2 uses a JSON object named sync_mode to contain the settings for which data is synced between your database and mParticle
+-
+type
+New field. Can be incremental or full
+-
+iterator_field
+New field
+-
+iterator_data_type
+New field. Since iterator_field can use any datatype as long as it’s an incremental datatype, you must specify the the datatype mParticle should expect
+-
+from
+New field. Specifies the initial value of iterator_field from which data will begin syncing
+-
+until
+New field. Specifies the final value of iterator_field that will terminate a sync
+-
+schedule
+v2 uses a JSON object named schedule to contain the sync scheduling settings
+schedule_interval
+type
+type replaces schedule_interval. Can beinterval, once, or on-demand
+-
+frequency
+New field. Only used if type is set to interval. Can be hourly, daily, weekly, monthly
+-
+delay
+New field. Determines amount of time to wait before a scheduled interval sync
+schedule_start_time
+start
+start replaces schedule_start_time. Specifies the timestamp of the initial run of a scheduled sync
+schedule_end_time
+end
+end replaces schedule_end_time. Specifies the timestamp of final run of a scheduled sync
+plan_id
+data_plan_id
+Renamed
+plan_version
+data_plan_version
+Renamed
+environment
+environment
+No change
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

@@ -1,0 +1,853 @@
+URL: https://segment.com/docs/getting-started/use-cases/setup//#use-cases-setup
+
+Use Cases Setup | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Getting started
+/
+Use cases
+/
+Use Cases Setup
+Use Cases Setup
+On this page
+Use case setup overview
+Example setup: Personalize winback
+Activate your data with Unify and Engage
+Next steps
+Use Cases help you onboard quickly and efficiently to Segment by guiding you through specific steps tailored to your business needs.
+This page walks you through the steps to set up a use case in your Segment instance.
+PermissionsTo implement a use case, you’ll need to be a Workspace Owner for your Segment account. See the Roles documentation for more information.
+You can onboard to Segment with a Use Case if you’re a new Business Tier customer or haven’t yet connected a source and destination.
+Use case setup overview
+From a high level, setting Segment up with a use case takes place in four stages:
+Pick your business goal. What do you want to achieve?
+Choose from 4 common business goals like optimizing advertising, personalizing first conversions, boosting retention, and increasing customer retention.
+Select a use case. After you pick your business goal, Segment shows you several potential use cases from which to choose.
+Follow the in-app guide. With your use case chosen, Segment shows you an interactive checklist of events to track, as well as sources and destinations that Segment recommends you connect. You’ll carry these steps out in a sandboxed development environment.
+Test and launch your setup. Push your connections to a production environment and verify that events flow as expected through the debugger. After you’re done, your Segment instance is up and running.
+Example setup: Personalize winback
+This section provides a detailed, step-by-step guide to setting up the Personalize Winback use case from the Personalize communications and product experiences business goal in your Segment account. All use cases follow this same setup flow.
+Step 1: Navigate to Use Cases
+Log in to your Segment account.
+If you see the Welcome to Segment screen, click Get Started. If logging in takes you to your Segment workspace, click Guided Setup.
+Step 2: Pick your business goal and select a use case
+Choosing a use caseSegment lets you implement one use case. If you’re not sure which use case to choose, view Choosing a Use Case.
+In the What is your business goal? screen, select Personalize communications and product experiences, then click Next.
+Segment moves you to the Which use case would you like to set up? screen. Choose Personalize winback, then click Next.
+Segment shows you information about dev and prod labels. After you’ve read it, click Next.
+Segment takes you to the Setup checklist page.
+Working with dev and prod environments
+For most cases, you’ll want to start with development or staging sources to test and debug your Segment implementation. This approach lets you verify that everything is working correctly before sending live data downstream. To facilitate this, Segment automatically creates development (dev) and production (prod) spaces for you and labels your sources accordingly to simplify tracking.
+Segment strongly recommends beginning your setup in the dev environment. This allows for thorough testing and debugging of your configuration. Once you’re confident in your dev setup, Segment will guide you on how to apply these configurations to your live production sources.
+Step 3: Review suggested events
+Changing your use caseOnce you’ve reviewed the suggested events for a use case, you won’t be able to change the use case. If you want to see a full breakdown of each use case before commiting to one, click Change use case to begin the use case flow again. You can also view the Use Cases Reference guide to see what Segment recommends for each use case.
+On the Setup checklist page, you’ll see the full checklist for the use case you’ve chosen. This checklist applies to all use cases, though the suggested events, sources, and destinations differ between use cases.
+In the Review suggested events list item, click Review.
+Segment shows you the recommended events and properties typically tracked for your use case.
+Set up event tracking based on the events and properties Segment shows.
+This table shows Segment’s recommended events and properties for the Personalize winback use case:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Page Scrolled
+pct_scrolled, page_category
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+Make sure that you’re tracking these events to get the most of the Personalize winback campaign. For more information on event tracking, see Data Collection Best Practices.
+Step 4: Connect dev sources
+You’re now ready to connect sources to your dev environment.
+In the Connect dev sources step, Segment shows you the recommended sources you should connect. For Personalized winback, these include Website, Mobile, and Reverse ETL.
+Review the recommended sources, then click Connect.
+Segment takes you to the Add a source setup. Choose the source(s) you want to add, then click Next.
+Name your source, then click Create source.
+Carry out the source-specific steps, then click Next.
+Test your connection and troubleshoot it, if necessary. Click Done.
+(Optional:) Click Connect More and repeat steps 2 through 6 to add more sources.
+Adding a warehouse as a souceIf you connect a warehouse as a source, Segment automatically creates a Profiles destination that shows up in the Connect your data tab. Do not delete this destination, as Segment requires this destination to create profiles from your warehouse.
+Cloud object sourcesIf you connect a cloud object source, you’ll need to create a warehouse to sync profiles into Segment. For more information, see Cloud Sources.
+Step 5: Connect dev destinations
+With sources connected, you can now connect destinations to your dev environment.
+Under the Connect dev destinations step, Segment shows you the recommended sources you should connect. For Personalize winback, these include Reverse ETL, Personalization, and Analytics.
+Review the recommended destinations, then click Connect.
+Segment takes you to the Choose a Destination setup. Choose the destination(s) you want to add, then click Next.
+Name your destination, then click Create Destination.
+Choose a source to connect to the destination, then click Next.
+Carry out the destination-specific steps, then click Done.
+(Optional:) Click Connect More and repeat steps 2 through 6 to add more destinations.
+Step 6: Publish your setup to a prod environment
+Until this point, you’ve set up event tracking and connected sources and destinations to a development environment.
+After you’ve confirmed that data is flowing from your sources into your destinations as expected, you’re ready to publish your setup to a production environment.
+On the Setup checklist page, click the Prod environment tab.
+On the Connect 1 prod source radio button, click Connect.
+Segment shows you the sources you previously connected in your dev environment. Click the source you want to connect to prod, then click Continue.
+Carry out any additional steps in the Add a Source page, click Create Source, then click Next. Segment returns you to the Prod environment tab.
+Publish the events set up in your dev environment sources to production. Check the debugger to verify that data is flowing into Segment correctly, then click Mark as complete.
+On the Connect 1 prod destination bullet, click Connect.
+Segment shows you the destinations you previously connected in your dev environment. Click the source you want to connect to prod, then click Continue.
+Choose a source to connect to the destination, then click Next.
+Name your destination, then click Create Destination.
+Your data is now in production, and you’ve successfully configured Segment.
+Activate your data with Unify and Engage
+Now that you’ve successfully set up Connections and Destinations, you can build upon your Segment implementation with Unify and Engage.
+Accessing Unify and EngageUnify and Engage may not yet be enabled for your account. To add Engage to your Segment workspace, click Request a demo in the Unify and Engage tabs on the Guided Setup page.
+Step 1: Set up identifiers with Unify
+In the Guided Setup page, click Build profiles from your data.
+Click Add default identifiers. Segment displays the Select Identifiers popup.
+Select as many of the recommended identifiers that best fit your use case; Segment recommends selecting all identifiers. Click Save.
+On the Guided Setup page, click Mark complete.
+Your identifiers are now set up in your dev space, though it could take a few minutes for Segment to create profiles from your selected identifiers.
+For more information, see the Unify documentation.
+Step 2: Create audiences with Engage
+Click the Engage customers with your data tab, then click Create audience. Segment takes you to the New Audience Builder.
+On the Select Audience Type page, select either Users or Accounts, then click Next.
+Configure, preview, and create your audience.
+Segment then begins sending your new audience(s) to the destinations in your dev environment. Verify in those destinations that the audiences are coming through as intended, then click Mark complete.
+For more information on Audiences, see the Engage documentation.
+Step 3: Republish to a prod environment
+At this point, you’ll have already published your initial setup to a prod environment. Next, you’ll publish your Unify and Engage setup to the same prod environment.
+Return to the Prod environment tab.
+In the Build profiles from your data tab, click Import rules.
+Review the rules that Segment will import, then click Import.
+In the Engage customers with your data tab, click Create audience
+Configure, preview, and create your audience. Segment returns you to the Guided Setup page.
+Segment then begins sending your new audience(s) to the destinations in your dev environment. Verify in those destinations that your audiences are coming through as intended, then click Mark complete.
+Next steps
+Use Cases pulls together a number of core Segment features, like Sources, Destinations, data collection, and Reverse ETL. View the documentation for each to learn how you can continue to expand and build on what you’ve alreay achieved.
+This page was last modified: 08 Oct 2024
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Use case setup overview
+Example setup: Personalize winback
+Activate your data with Unify and Engage
+Next steps
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

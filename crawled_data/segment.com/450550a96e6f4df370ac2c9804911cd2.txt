@@ -1,0 +1,886 @@
+URL: https://segment.com/docs/guides/how-to-guides/forecast-with-sql/#forecasting-ltv-with-sql-and-excel-for-e-commerce
+
+Forecasting LTV with SQL and Excel for E-Commerce | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Guides
+/
+How to guides
+/
+Forecasting LTV with SQL and Excel for E-Commerce
+Forecasting LTV with SQL and Excel for E-Commerce
+On this page
+Calculating LTV: Buy ‘Til You Die
+How to use the Google Spreadsheet
+Model and predict future customer purchases
+Rank your customers
+Reward your best customers
+Customer Lifetime Value (“LTV”) is the amount of money that an individual customer will spend with a given business in the future. It’s often used to value cohorts in your customer base, determine how much to spend in acquiring or retaining new users in a given cohort, rank customers, and measure the success of marketing activities from a baseline LTV forecast.
+The LTV calculation is not straightforward for e-commerce businesses, since future payments are not contractual: at any moment, a customer may never make a single purchase again. Additionally, forecasting future purchases requires statistical modeling that many current LTV formulas lack.
+This guide shows how to calculate forward-looking LTV for non-contractual businesses using SQL and Excel. This analytical approach allows you to accurately rank your highest value customers, as well as predict their future purchase sizes to help focus your marketing efforts.
+This guide assumes you’re using the tracking schema described in How to implement an e-commerce tracking plan and are storing data in a Segment Warehouse.
+Talk to a product specialist to learn how companies like Warby Parker and Crate & Barrel use a data warehouse to increase engagement and sales.
+Calculating LTV: Buy ‘Til You Die
+In a non-contractual setting, you can’t use a simple retention rate to determine when customers terminate their relationship. This is because the retention rate is a linear model that doesn’t accurately predict whether a customer has ended her relationship with the company or is merely in the midst of a long hiatus between transactions.
+The most accurate non-contractual LTV model, named “Buy Til You Die” (“BTYD”), focuses on calculating the discounted estimation of future purchases based on recency of last purchase, frequency of purchases, and average purchase value. This model uses non-linear modeling to predict whether or not a user is “alive” or “dead” given historic transactions to forecast future probability and size of purchases.
+Since LTV is a critical metric for e-commerce companies, it’s important that this model, instead of simpler linear formula that is based on retention rates, is used for it’s calculation.
+Use SQL to build the necessary table, which will be exported as a CSV and opened in Google Sheets. Then, use Solver to estimate the predictive model parameters, which ultimately calculates the future purchases of each customer. Finally, the LTV calculation is simply the net present value of each customer’s future purchases. Rank them by LTV, then find behavioral patterns across the top 10 or 50 customers to figure out how best to target or retain this cohort.
+Recency, frequency, and average size
+As a growth analyst at the fictitious on-demand artisanal toast company, Toastmates, it’s important to know which customers are worth more to the business than others. Most important, you should understand what similarities these customers all have to help guide the marketing team in their efforts.
+The first step in creating the BTYD model is to get historic purchasing data of at least a month. In your analysis, you can use data from the past six months. The data must include the columns userId (email is fine too), number of purchases within the specified time window, days since last purchase, and days since first purchase.
+Then, use this Google Sheet, which provides all of the complex calculations for estimating the model parameters, as well as forecasting the future sales of each customer. This sheet is View Only, so be sure to copy it entirely so you can use it.
+To retrieve a table with the right columns for analysis, use the follow SQL query:
+with
+first_transaction as (
+select  u.email,
+datediff('day', min(oc.received_at)::date, current_date) as first
+from  toastmates.order_completed oc
+left join  toastmates.users u
+on  oc.user_id = u.email
+where  oc.received_at > dateadd('month', -6, current_date)
+group by  1
+),
+frequency as (
+select  u.email,
+count(distinct oc.checkout_id) as frequency
+from  toastmates.order_completed oc
+left join  toastmates.users u
+on  oc.user_id = u.email
+where  oc.received_at > dateadd('month', -6, current_date)
+group by  1
+),
+last_transaction as (
+select  u.email,
+datediff('day', max(oc.received_at)::date, current_date) as last
+from  toastmates.order_completed oc
+left join  toastmates.users u
+on  oc.user_id = u.email
+where  oc.received_at > dateadd('month', -6, current_date)
+group by  1
+),
+average_transaction_size as (
+select  u.email,
+avg(oc.total) as avg
+from  toastmates.order_completed oc
+left join  toastmates.users u
+on  oc.user_id = u.email
+where  oc.received_at > dateadd('month', -6, current_date)
+group by  1
+order by  2 desc
+)
+select  distinct
+u.email,
+nvl(f.frequency, 0) as frequency,
+nvl(z.last, 0) as days_since_last_transaction,
+nvl(a.first, 0) as days_since_first_transaction,
+t.avg as average_transaction_size
+from  toastmates.users u
+left join  first_transaction a
+on  u.email = a.email
+left join  frequency f
+on  u.email = f.email
+left join  last_transaction z
+on  u.email = z.email
+left join  average_transaction_size t
+on  u.email = t.email
+order by  2 desc
+This returns a table where each row is a unique user and the columns are email, number of purchases within the time window, number of discrete time units since last purchase, and average purchase order.
+Here is a screenshot of the first twelve rows returned from the query in Mode Analytics.
+Export this data to a CSV, then copy and paste it in the first sheet of the Google Sheet where the blue type is in the below screenshot:
+Also be sure to add the total time in days in cell B6. This is important as the second sheet uses this time duration for calculating net present value of future payments.
+How to use the Google Spreadsheet
+After you paste in the CSV from the table into the first tab of the sheet, the next step is to estimate the model parameters (the variables on the top left of the sheet). In order to do this, we need to use a feature of Microsoft Excel called Solver.
+You can export your Google Sheet as an Excel document. Then, use Excel Solver to minimize the log-likelihood number in cell B5, while keeping the parameters from B1:B4 greater than 0.0001.
+After Solver runs, cells B1:B4 will be updated to represent the model’s estimates. Now, you can hard code those back into the sheet on Google Sheets. The next sheet relies on these model estimates to calculate the expected purchases per customer.
+Model and predict future customer purchases
+The model requires four pieces of information about each customer’s past purchasing history: her “recency” (how many “time units” her last transaction occurred), “frequency” (how many transactions she made over the specified time period), the length of time over which we have observed her purchasing behavior, and the average transaction size.
+In the example, you have the purchasing behavior data over the course of six months with each unit of time being a single day.
+You can apply a both a beta-geometric and a negative binomial distribution (“BG/NBD”) to these inputs and then use Excel to estimate the model parameters (an alternative would be the Pareto/NBD model). These probability distributions are used because they accurately reflect the underlying assumptions of the aggregation of realistic individual buying behavior. (Learn more about these models).
+After estimating the model parameters, you can predict a particular customer’s conditional expected transactions by applying the same historic purchasing data to Bayes’ Theorem, which describes the probability of an event based on prior knowledge of conditions related to the event.
+Estimating the model parameters
+The top left part of the first sheet represent the parameters of the BG/NBD model that must be fitted to the historic data you paste in. These four parameters (r, alpha, a, and b) will have “starting values” of 1.0, since you’ll use Excel Solver to determine their actual values.
+The values in columns F to J represent variables in the BG/NBD model. Column F, in particular, defines a single customer’s contribution to a the overarching function, on which we’ll use Solver to determine the parameters. In statistics, this function is called the likelihood function, which is a function of the parameters of a statistical model.
+In this particular case, this function is the log-likelihood function, which is B5, as calculated as the sum of all cells in column F. Logarithmic functions are easier to work with, since they achieve its maximum value at the same points as the function itself. With Solver, find the maximum value of B5 given the parameters in B1:B4.
+With the new parameter estimates, you can now predict a customer’s future purchases.
+Predicting a customer’s future purchases
+In the next sheet, you can apply Bayes’ Theorem to the historic purchasing information to forecast the quantity of transactions in the next period. Multiply the expected quantity with the average transaction size to calculate the expected revenue for that period, which you can extrapolate as an annuity, of which you can find the present discounted value (assuming discount rate is 10%).
+Central to the Bayes’ Theorem formula is the Gaussian hypergeometric function, which is defined by “2F1” in column M. Evaluate the hypergeometric function as if it were a truncated series: by adding terms to the series until each term is small enough that it becomes trivial. In the spreadsheet, we sum the series to it’s 50th term.
+The rest of the variables in Bayes’ Theorem is in columns I through L, which use the inputs from the customer’s historic purchasing information, as well as the model parameter estimates as determined from Solver (cells B1:B4).
+The expected quantity of purchases in the next time period is calculated in column H.
+Finally, multiply that with the average transaction size and you can get the expected revenue for the next time period.
+Rank your customers
+This exercise allows you to rank your customers from most valuable to least by ordering column F in descending order. You can take the userId s of the top several customers and look across their shopping experiences to identify any patterns that they share, to understand what behaviors are leading indicators to becoming high value customers.
+Below is a simple query to get a table of a user’s actions in rows. Just replace the user_idwith the user in question.
+with anonymous_ids as (
+select  anonymous_id from toastmates.tracks
+where  user_id = '46X8VF96G6'
+group by  1
+),
+page_views as (
+select  *
+from  toastmates.pages p
+where  p.user_id = '46X8VF96G6'
+or  anonymous_id in (select anonymous_id from anonymous_ids)
+order by  p.received_at desc
+),
+track_events as (
+select  *
+from  toastmates.tracks t
+where  t.user_id = '46X8VF96G6'
+or  anonymous_id in (select anonymous_id from anonymous_ids)
+order by  t.received_at desc
+)
+select  url,
+received_at
+from  page_views
+union
+select  event_text,
+received_at
+from  track_events
+order by  received_at desc
+This above query for user whose user_id is "46X8VF96G6" returns the below table:
+At Toastmates, most of the highest forward-looking expected LTV customers share one thing in common: averaging two orders per month with an average purchase size of $20.
+With that in mind, you can define a behavioral cohort in our email tool, Customer.io, as well as create a trigger workflow so we can send an email offer to these customers.
+Learn how to use email tools to target this cohort of high value customers.
+Reward your best customers
+This exercise is useful not only as a forward looking forecasting model for customer LTV, but also as a quality ranking system to see which customers are worth more to your business. Coupled with the ability to glance across the entire shopping experience of a given customer, you can identify broad patterns or specific actions that may be an early signal for a high value shopper. Recognizing these high value shoppers means being proactive in nurturing, rewarding, and retaining them.
+And this is just the beginning. Having a rich set of raw customer data allows you to create accurate projection models for LTV so you know not only how much you can spend to acquire them, but also how to rank your customers by value. Ultimately, these insights lead to the right actions that can build an engaging shopping experience and drive sales.
+Talk to a product specialist to learn how companies like Warby Parker and Crate & Barrel use a data warehouse to increase engagement and sales.
+This page was last modified: 15 Mar 2024
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Calculating LTV: Buy ‘Til You Die
+How to use the Google Spreadsheet
+Model and predict future customer purchases
+Rank your customers
+Reward your best customers
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

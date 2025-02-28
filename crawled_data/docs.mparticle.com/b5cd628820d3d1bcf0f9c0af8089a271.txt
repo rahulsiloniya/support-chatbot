@@ -1,0 +1,76 @@
+URL: https://docs.mparticle.com/developers/client-sdks/android/configuration/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingConfigurationMany functions of the Android SDK are customizable via the MParticleOptions object, a few examples of which are documented below. Reference the complete API Reference for all of the configuration options.
+Environment
+All data sent into an mParticle input must be marked as either “development” or “production”. The SDK attempts to detect the environment by based on whether the Android APK is “debuggable” according to its AndroidManifest.xml, setting it to development-mode when the API is debuggable.
+In addition to uploading data as development, the SDK will also adjust some of its functionality to allow for a faster integration process:
+In development mode, data is uploaded every 10 seconds, rather than the configurable upload interval
+In development mode, the SDK will throw IllegalArgumentException and IllegalStateException exceptions when invalid objects are passed to its APIs, such as the IDSync and commerce APIs.
+While in development mode, log level is configurable. See below for more information.
+You can override the environment in your MParticleOptions object:
+JavaKotlin
+MParticleOptions.Builder options = MParticleOptions.builder(this);
+options.environment(MParticle.Environment.Production);
+var options = MParticleOptions.builder(this)
+options.environment(MParticle.Environment.Production)
+All development data will appear in your workspace’s live stream. In order to see production data, log into the mParticle platform, navigate to live stream, select your app, and filter on the appropriate devices based on Google Ad ID (GAID).
+Data Master
+Data Master allows you to define the format of any data being sent to the mParticle SDK. After creating a data plan in the mParticle UI, you simply set the data plan ID in the MParticleOptions object along with the optional data plan version and initialize the SDK as normal. When you return to the mParticle UI and visit the Live Stream section to view incoming data, you’ll find warnings for any data that has been recieved that does not conform to your data plan.
+JavaKotlin
+MParticleOptions options = MParticleOptions.builder(this)
+.credentials("REPLACE WITH APP KEY", "REPLACE WITH APP SECRET")
+.environment(MParticle.Environment.Development)
+.dataplan("mobile_data_plan", 2)
+.build()
+MParticle.start(options)
+var options = MParticleOptions.builder(this)
+.credentials("REPLACE WITH APP KEY", "REPLACE WITH APP SECRET")
+.environment(MParticle.Environment.Development)
+.dataplan("mobile_data_plan", 2)
+.build()
+MParticle.start(options)
+Log Level
+You can configure the log level via the loglevel property of the MParticleOptions object:
+JavaKotlin
+MParticleOptions.Builder options = MParticleOptions.builder(this);
+options.logLevel(MParticle.LogLevel.VERBOSE);
+var options = MParticleOptions.builder(this)
+options.logLevel(MParticle.LogLevel.VERBOSE)
+You can also enable logging at runtime using the adb setprop command with the “mParticle” tag:
+adb shell setprop log.tag.mParticle VERBOSE
+Reference the Android development documentation for more information on issuing adb commands.
+Event Upload Interval
+To save bandwidth and device battery, mParticle does not upload each event as it is recorded. Instead, events are assembled into batches and uploaded based on specific triggers. When a trigger is fired, the SDK will:
+Query for the current events stored in a dedicated SQLite database table
+Assemble batches of events, enriching the batch with user, device, and other application state information
+Store each batch in a different, dedicated SQLite table, and delete the respective events from the events table
+Attempt to upload each batch by order of creation, including batches from previous sessions.
+Failed uploads will be continously retried whenever the trigger next fires, and batches are individually deleted from the device only upon successful upload.
+The following will trigger SDK batch creation and upload:
+When the app is opened first time to ensure that install events are immediately available
+When the app is sent to background
+When a commerce event is recorded
+When the mParticle session ends - this will be after a user navigates away from your app according to the configured session timeout
+After the configured upload interval (see below)
+When the manual upload API is invoked (see below)
+Configured Upload Interval
+You can configure the regular upload trigger:
+JavaKotlin
+MParticleOptions.Builder options = MParticleOptions.builder(this);
+options.uploadInterval(60)
+var options = MParticleOptions.builder(this)
+options.uploadInterval(60)
+Force an Event Upload
+You can also force an upload trigger with the upload method:
+JavaKotlin
+MParticle.getInstance().upload();
+MParticle.getInstance().upload()
+Fire TV Support
+In addition to the Google Play Store and its compatible Android devices, the same core Android SDK also supports Amazon’s Fire TV store and platform. Within a Fire TV app, the core Android SDK will attempt to query for the Amazon Advertising ID (instead of the Google Advertising ID), but otherwise the SDK functions identically.
+In order to use the Android SDK within a Fire TV app, you must override the OperatingSystem during SDK initialization:
+JavaKotlin
+MParticleOptions options = MParticleOptions.builder(this)
+.operatingSystem(MParticle.OperatingSystem.FIRE_OS)
+var options = MParticleOptions.builder(this)
+.operatingSystem(MParticle.OperatingSystem.FIRE_OS)
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

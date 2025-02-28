@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+huggingface-hub = "*"
+sentence-transformers = "*"
+flask = "==2.0.1"
+werkzeug = "==2.2.2"
+flask-cors = "*"
+langchain = "==0.0.352"
+tiktoken = "*"
+unstructured = {extras = ["local-inference"], version = "*"}
+llama-index = "*"
+llama-index-llms-groq = "*"
+llama-index-embeddings-huggingface = "*"
+torch = "*"
+requests = "*"
+beautifulsoup4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

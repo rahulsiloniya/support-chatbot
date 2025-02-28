@@ -1,0 +1,7 @@
+URL: https://docs.lytics.com/discuss/673d9424e0ae0a001251fe54
+
+Does Lytics support PDPA compliance?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Does Lytics support PDPA compliance? 3 months ago by Raghavendra kumarHi Team,
+Could you please confirm if Lytics supports compliance with the Personal Data Protection Act (PDPA)?
+If yes, could you provide some details or documentation on how this compliance is ensured?
+Thank you!Add Comment

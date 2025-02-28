@@ -1,0 +1,6 @@
+URL: https://docs.lytics.com/discuss/652fba8fcf5ad70024dfd907
+
+Any Audit Informations exists for a profile in Lytics
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Any Audit Informations exists for a profile in Lytics over 1 year ago by MathewThe profile information's in our Lytics account are created through Lytics API and frequently the profile details are getting updated within
+via Lytics API calls from our internal systems.
+So is there any way to know when a profile is updated in Lytics and what all values are modified and does lytics keep track of audits against a profileAdd Comment

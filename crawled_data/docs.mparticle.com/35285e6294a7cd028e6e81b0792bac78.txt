@@ -1,0 +1,136 @@
+URL: https://docs.mparticle.com/developers/apis/warehouse-sync-api/sql/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingWarehouse Sync SQL ReferenceA SQL query can be provided as part of the Data Model request body with type set to sql. mParticle passes your SQL query to your warehouse,
+so be sure to use valid syntax for your warehouse. For example, each warehouse has slightly different ways to utilize SQL functions with
+different parameters.
+Warehouse Sync API supports ingesting data from Snowflake, Google BigQuery, Amazon Redshift, and Databricks.
+Data Models and SQL Queries
+The data in your warehouse is mapped to the user profile in mParticle according to the column names in the SQL you provide in the data model request following these rules:
+The provided SQL query supports being wrapped in an outer SELECT statement
+Column name casing follows the default identifier naming conventions for your specific warehouse, wrap column names in "" or [] to preserve casing.
+The iterator_field parameter of a Warehouse Sync pipeline is case-insensitive by default. Avoid using strict casing statements in your SQL query when selecting the column in your database that you will use as your iterator_field.
+For example: using SELECT my_iterator_field AS "MyIterator" may force your iterator field to be case-sensitive, which can result in an error stating that your iterator is invalid. Instead, use SELECT my_iterator AS MyIterator (omitting the quotes around MyIterator, which is the strict casing syntax). This syntax and behavior may vary by database provider.
+Supported SQL commands
+The following SQL commands are fully supported:
+SELECT
+DISTINCT
+FROM
+ORDER BY
+GROUP BY
+WHERE
+JOIN
+AS
+ON
+IN
+The following SQL commands are not supported:
+DELETE
+UPDATE
+DROP
+CREATE
+ALTER
+WITH
+Default mapping for user attribute pipelines
+User attribute pipelines can be created without field transformations to allow for simpler mappings based on column names in your SQL query.
+Every column is mapped to a user attribute except:
+The column matches the optional load_timestamp_field_type field (case-insensitive) in the data model request
+The column matches a reserved mParticle user or device identity column name
+Reserved mParticle user or device identity column name
+For a row to be associated to a profile, the following reserved column names are mapped to the mParticle User Identities or Device Identities. Additional columns are mapped as custom user attributes.
+The following reserved names are only applicable to warehouse sync pipelines that do not use field transformations/data mappings. If you are creating a pipeline that does use field transformations/data mappings, then the following column names are not reserved and can be used within your mappings.
+The following column names in your warehouse (case-insensitive) will be mapped to mParticle user identities automatically:
+mpid
+customerid,customer_id
+facebook
+twitter
+google
+microsoft
+yahoo
+email
+facebook_custom_audience_id
+other
+other_id_2
+other_id_3
+other_id_4
+other_id_5
+other_id_6
+other_id_7
+other_id_8
+other_id_9
+other_id_10
+mobile_number
+phone_number_2
+phone_number_3
+The following column names in your warehouse (case-insensitive) will be mapped to mParticle device identities automatically:
+android_uuid
+ios_advertising_id
+push_token
+ios_idfv
+android_advertising_id
+amp_id
+roku_advertising_id
+roku_publisher_id
+microsoft_advertising_id
+microsoft_publisher_id
+fire_advertising_id
+mp_deviceid
+Example SQL Queries
+Example 1: Import user’s propensity with a list of their favorite categories from your warehouse
+mParticle’s demo database has a few user attributes and alongside a prediction for the likelihood they may purchase. The following query will import this alongside their favorite categories as a simple list and apply it to the corresponding Profile according to their customer_id.
+SELECT
+a.date_updated,
+a.customer_id,
+a.firstname AS "$firstname",
+c.propensity_to_buy AS "propensity_to_buy",
+ARRAY_AGG(f.value) WITHIN GROUP (ORDER BY f.value ASC) AS "favorite_categories"
+FROM mp.demo.attr a
+JOIN mp.demo.calc c ON a.customer_id = c.customer_id
+JOIN mp.demo.favs f ON a.customer_id = f.customer_id
+GROUP BY
+a.date_updated,
+a.customer_id,
+a.firstname,
+c.propensity_to_buy
+Example 2: Import detail’s about a customer’s service tickets
+mParticle’s demo ticket database contains details about the number of requests a user has made. The following query will import the number of open tickets to that user’s Profile according to their e-mail address.
+SELECT
+u.email AS email,
+COUNT(t.id) AS "count_of_open_tickets"
+FROM mp.demo_service.tickets t
+JOIN mp.demo_service.users u
+ON u.id = t.requester_user_id
+WHERE t.status = 'open'
+Troubleshooting SQL Queries
+mParticle materializes your query by wrapping it in an outer SELECT statement to build more complex statements to execute against your data warehouse. These are the queries you will see looking at the history/audit logs in your data warehouse. For example, assume that a data model has the following query:
+SELECT
+a.scanned_timestamp_ms,
+c.propensity_to_buy
+FROM demodw.demo.mp_dw_demo_attr a
+JOIN demodw.demo.mp_dw_demo_calc c ON a.customer_id = c.customer_id
+The query will be wrapped into (but not limited to) queries such as:
+Query the number of rows in your provided data model. The values in the filter predicate are available as data_interval_start and data_interval_end in the pipeline run status API:
+SELECT COUNT(*)
+FROM
+(
+SELECT a.scanned_timestamp_ms, c.propensity_to_buy
+FROM demodw.demo.mp_dw_demo_attr a
+JOIN demodw.demo.mp_dw_demo_calc c ON a.customer_id = c.customer_id
+)
+WHERE SCANNED_TIMESTAMP_MS BETWEEN '2023-03-01 14:28:55+0000' AND '2023-03-01 14:41:17+0000'
+Query the number of columns in your provided data model:
+SELECT *
+FROM
+(
+SELECT a.scanned_timestamp_ms, c.propensity_to_buy
+FROM demodw.demo.mp_dw_demo_attr a
+JOIN demodw.demo.mp_dw_demo_calc c ON a.customer_id = c.customer_id
+)
+LIMIT 0
+Query generated from a scheduled sync run. The values in the filter predicate are available as data_interval_start and data_interval_end in the pipeline run status API.
+SELECT OBJECT_CONSTRUCT_KEEP_NULL(*)
+FROM
+(
+SELECT a.scanned_timestamp_ms, c.propensity_to_buy
+FROM demodw.demo.mp_dw_demo_attr a
+JOIN demodw.demo.mp_dw_demo_calc c ON a.customer_id = c.customer_id
+)
+WHERE SCANNED_TIMESTAMP_MS BETWEEN '2023-03-01 14:28:55+0000' AND '2023-03-01 14:41:17+0000'Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

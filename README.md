@@ -12,7 +12,7 @@ ReactJS + Flask + Groq Llama3 (small) + ChromaDB + LlamaIndex
 5. Run `pip install -r requirement.txt`
 6. If `llama-index-vector-stores-chroma` gives dependency errors, install it manually using `pip install llama-index-vector-stores-chroma`
 
-### NOTE: Data collected through webcrawling is included to save time for repeated execution
+### NOTE: Data collected through webcrawling is included and crawling is turned off by default to prevent redundancy
 
 5. IF `crawled_data` is empty or changes are made to crawler function:
     - In `api/api.py` uncomment till line 48 to run web crawling if crawled_data is empty

@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/6453e1e605b1ca2270174372#content
+
+How long does it take for my audiences to update in Lytics?
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0How long does it take for my audiences to update in Lytics? almost 2 years ago by Mark HaydenAudiences membership update in real-time as data is received by the Lytics platform. As event data is received from your multiple channels, Lytics determines if this new data effects audience membership, the Lytics platform will move the user into and out of the audiences that you have defined.audiencesAdd Comment

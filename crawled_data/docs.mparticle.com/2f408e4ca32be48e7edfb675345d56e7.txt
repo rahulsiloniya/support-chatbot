@@ -1,0 +1,140 @@
+URL: https://docs.mparticle.com/developers/apis/warehouse-sync-api/troubleshooting/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingWarehouse Sync Troubleshooting GuideWhen setting up Warehouse Sync, it is possible to encounter problems with one or more components of your configuration:
+Initial data warehouse connectivity
+SQL query syntax
+Pipeline issues related to security or how mParticle parses your database
+Problems with mapping data from your warehouse to user profiles in mParticle
+Following are several troubleshooting guides for each of these problem categories. If you are still encountering issues after following the appropriate steps below, contact mParticle support.
+You must have an mParticle user role with either "Admin", "Admin & Compliance", or "Support Access" permissions to create and modify Warehouse Sync configurations. Custom Access Rolesdoes not currently support Warehouse Sync inbound integrations.
+Data warehouse connectivity
+Connectivity issues are often the result of an incomplete or incorrect first-time configuration.
+Common symptoms
+Receiving an error code when using the API to create a connection to a warehouse
+Before troubleshooting, verify the following:
+Your mParticle account representative has enabled Warehouse Sync for the account you are using.
+You can successfully connect to your data warehouse outside of mParticle, using the same username and password.
+You followed the set-up steps specific to your data warehouse. Simple mistakes or typos made during this phase may prevent Warehouse Sync from working.
+All of the relevant mP IP addresses are whitelisted.
+Troubleshooting steps
+Validate all the data warehouse parameters in the POST {baseURI}/connections API call. Are they correct for the data warehouse instance you are trying to connect to?
+Compare your actual data location pod, organization, account, and workspace ID values with the values you are supplying in your API calls.
+From another application, connect to your warehouse using the username and password you created or specified. Ensure those credentials are permitted to access the pertinent datasets, tables, compute warehouses, and storage integrations.
+SQL syntax
+Errors or incompatibility in the SQL syntax of your data model will return errors and prevent the sync from succeeding.
+Common symptoms
+The report API returns an error message indicating there is a syntax issue in the SQL statement provided in the data model.
+Before troubleshooting, run the SQL query outside of mParticle. If it doesn’t run successfully or return the expected results, the issue is likely in your query, independent of Warehouse Sync.
+Troubleshooting steps
+If you receive an error after running the SQL query, remove the part of the query highlighted in the error message.
+Verify your SQL syntax. While most data warehouses support common SQL syntax, it is possible to encounter exceptions in SQL extension for your warehouse. For example:
+Snowflake doesn’t match case-sensitive, explicit identifiers to case-insensitive statements. For example, the statement SELECT current_timestamp AS \"tstamp\" FROM tableXYZ ... " in your SQL query will fail if iterator_field is tstamp in your data model.
+Workaround 1, Remove the explicit identifier " ":
+SELECT current_timestamp AS tstamp FROM tableXYZ ... "
+iterator_field": "tstamp"
+Workaround 2, force UPPER CASE:
+SELECT current_timestamp AS \”TSTAMP\" FROM tableXYZ ... "
+"iterator_field": "TSTAMP"
+If the error is related to the timestamp field in the query, ensure that:
+You specified the correct column name and data type in the data model configuration.
+You are not using dynamically generated timestamp values. Each data warehouse and environment may treat these values differently in terms of data type.
+Pipeline issues
+Pipeline issues are typically caused by security problems, the timestamp field provided in the data model, or other factors with the environment.
+Common symptoms
+The report API returns some type of error message. For example:
+Error assuming the AWS_ROLE. Please verify the role and externalId are configured correctly in your AWS policy.
+Insufficient permission to extract records
+Insufficient privileges to operate on integration ‘MP_US2_5000170_244_S3’
+Validation Error: Missing required columns scanned_timestamp_ms in source query
+SQL compilation error: error line 1 at position 36 invalid identifier ‘TIMESTAMP’
+The dag’s data_interval_start is more than 7 days in the past. Found 14 days to back-fill in a ScheduleInterval.Hourly schedule.
+Too many rows in the source query. Found 100000000 rows
+The report API returns "successful_records": 0. For example:
+{
+"pipeline_id": "string",
+"status": "idle",
+"connection_status": "healthy",
+"data_model_status": "valid",
+"latest_pipeline_run": {
+"id": 0,
+"pipeline_id": "string",
+"type": "scheduled",
+"status": "success",
+"errors": [
+{
+"message": "string"
+}
+],
+"logical_date": "2023-10-25T18:11:57.321Z",
+"started_on": "2023-10-25T18:11:57.321Z",
+"ended_on": "2023-10-25T18:11:57.321Z",
+"range_start": "2023-10-25T18:11:57.321Z",
+"range_end": "2023-10-25T18:11:57.321Z",
+"successful_records": 0,
+"failed_records": 0
+}
+}
+Before troubleshooting, verify the following:
+You followed the configuration steps specific to your data warehouse. Any small mistake or typo will prevent Data Warehouse Sync from working.
+You specified the correct datatype for the timestamps of the rows you are syncing.
+The timestamps of the database rows you are syncing are not set in the future.
+You are not exceeding the Warehouse Sync API limits
+Do not select an iterator datatype that doesn't account for timezones if the timestamps in your database include timezone names or timezone offsets.
+If you do select a datatype that doesn't account for timezones, you should make sure to perform any necessary timezone calculations on your timestamps before converting them to the new datatype.
+For information related to your specific database provider, refer to the corresponding timestamp datatype documentation for: Snowflake, Google BigQuery, Amazon Redshift, and Databricks.
+Troubleshooting steps
+If you are dynamically generating timestamp values, try using a literal value in the table or view you are querying.
+Data import or mapping issues
+Importing and mapping problems usually result from incorrect mapping between data rows in the warehouse and user profiles or attributes in mParticle.
+Common symptoms
+mParticle created new profiles for users instead of updating existing profiles
+mParticle added new attributes to a profile instead of updating existing attributes
+Before troubleshooting, verify the following:
+The column names in your SQL query match the column names on your user profiles in mParticle.
+The column names match the reserved mParticle user or device identity column names. For more information, see reserved mParticle user.
+Troubleshooting steps
+Correlate the row to the event batch according to your profile strategy.
+Provide mParticle support or your account representative with the event batch JSON object from your mParticle Livestream, or the MPID and batch ID for the event, as well as a CSV of the source data
+You can run the query manually against your data warehouse to simulate what mParticle extracted.
+mParticle support can then confirm that the data lines up the expected behavior based on your data model.
+Specific table schema changes in Google BigQuery
+If a table schema changes and validation is still occurring, you may need to wait 24 hours for the cache in BigQuery to clear and reset before trying again.
+Synchronizing a specific interval of data again for incremental pipelines
+The incremental sync mode uses the specified iterator field to track what data has been synchronized in a monotonically increasing fashion. If you need to synchronize a specific window of time,
+you can create a new full, once pipeline and use the from and to parameters to capture the desired data interval. You may reuse your existing connection, field transformation, and data model.
+First, use the Get a Specific Pipeline endpoint to retrieve details of an existing pipeline for the specific time window synchronization.
+You may want to reuse the following parameters:
+pipeline_type
+connection_id
+field_transformation_id
+data_model_id
+partner_feed_id
+iterator_field
+iterator_data_type
+environment
+data_plan_id
+data_plan_version
+Then, use the Create a Pipeline endpoint to create your new pipeline. In this example, we create a new full, once pipeline to retrieve data from 2022-07-01T16:00:00Z to 2022-08-01T16:00:00Z.
+{
+"id": "sync-specific-time-window",
+"name": "Sync Specific Time Window",
+"pipeline_type": "events",
+"connection_id": "existing-connection-id",
+"field_transformation_id": "existing-field-transformation-id",
+"data_model_id": "existing-data-model-id",
+"partner_feed_id": 1234,
+"state": "active",
+"sync_mode": {
+"type": "full",
+"iterator_field": "updated_at",
+"iterator_data_type": "timestamp",
+"from": "2022-07-01T16:00:00Z",
+"until": "2022-08-01T16:00:00Z"
+},
+"schedule": {
+"type": "once"
+},
+"environment": "development",
+"data_plan_id": "example-data-plan-id",
+"data_plan_version": 2
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

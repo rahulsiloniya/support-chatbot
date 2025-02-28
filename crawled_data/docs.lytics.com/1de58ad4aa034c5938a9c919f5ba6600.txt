@@ -1,0 +1,15 @@
+URL: https://docs.lytics.com/discuss?sorting=open#section-
+
+Community
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a Question 0 1What are the best practices for deploying the Lytics Javascript tag with respect to cookie compliance regulations?How can I ensure that users have consented to cookies when loading the Lytics Javascript tag? Can I do this with tools like OneTrust or Google Tag Manager?Posted by Nick Brooks 1 day ago
+0 0JS event or function when campaign loadsIs there a way for me to know that the campaign has loaded on my site? Is there any hook to tie into?Posted by yair gelb about 2 months ago
+0 0how to post json data by using this API callwhat are the changes of API call https://api.lytics.io/collect/json/stream?dryrun=false and how to post json data by using this API call?Posted by Sandya 3 months ago
+0 1Personalization Engine - Tag Implementation - CMS Plugin or Google Tag Manager?From an agency partner:
+Posted by James McDermott 5 months ago
+0 1Usage statistics in BigQueryWe manage several Lytics accounts and want to keep a close look on our usage. Which type of export to BigQuery do you suggest? I'm using Export Activity Data. What to do when using multiple data streams? Is there a field to identify the lytics account?Posted by Niels Verbeeck 6 months ago
+0 0Profile Stitching - Connect anonymous visitor ID with email address?From one of our agency partners:Posted by James 6 months ago
+0 1Machine learningDo Lytics support Machine Learning?Posted by Darshan L C 10 months ago
+0 0Any Audit Informations exists for a profile in LyticsThe profile information's in our Lytics account are created through Lytics API and frequently the profile details are getting updated within
+via Lytics API calls from our internal systems. Posted by Mathew over 1 year ago
+0 0How do roll-ups to create a single view of customers work across regions?Posted by Mark Hayden over 2 years ago
+0 1Do you offer support services that are 100% located in EU?Posted by Mark Hayden over 2 years ago FAQsRecentUnansweredaudiencesbest practicescompetitivecompliancecssdata exportdata sciencedeploymentdeveloperdeveloper tierexperiencesflickerga4graphical databaseinternationalizationloginmergeoppersonalization enginepersonalization sdkprivacyprivate instanceregion controlrollupschemasdksecurity

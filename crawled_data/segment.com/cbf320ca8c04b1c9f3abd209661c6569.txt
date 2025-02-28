@@ -1,0 +1,927 @@
+URL: https://segment.com/docs/guides/how-to-guides/measure-marketing-roi/
+
+Measuring the ROI of Your Marketing Campaigns | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Guides
+/
+How to guides
+/
+Measuring the ROI of Your Marketing Campaigns
+Measuring the ROI of Your Marketing Campaigns
+On this page
+Analyze campaign performance
+Build the funnel
+Analyze channel performance
+Build repeatable hit marketing campaigns
+The purpose of marketing campaigns is to drive traffic (and sales). But how do you know which campaigns yield the most conversions or what channel across the campaigns was most effective?
+This guide provides you with the tools to answer these questions with SQL so that your marketing team can reproduce the hit campaigns and consistently generate loyal customers.
+Talk to a product specialist to learn how companies like Warby Parker and Crate & Barrel use a data warehouse to increase engagement and sales.
+Analyze campaign performance
+The goal of marketing campaigns is to drive engagement and conversions. Most commonly performed by attracting traffic to the site, these campaigns use UTM parameters for attribution. In our analysis, we’ll be heavily relying on UTM parameters to analyze not only campaign, but also channel performance.
+Learn how to effectively use UTM parameters in your marketing campaign strategies.
+For our analysis walkthrough, we’ll use fictitious e-commerce and marketing data from on-demand artisanal toast company, Toastmates.
+Toastmates is currently running these two campaigns:
+“National Toast Day”, where $5 off was applied if you made a purchase on that day
+“A Toast To Your Friend”, where you can buy toast for a friend at $5 off
+Each of these campaigns used a combination of channels. Here is a table with the channels and corresponding UTM parameters so when we build the SQL query, we can make sure all of the traffic sources are accounted for.
+We’ll use SQL below to measure the performance of each campaign and what that means for future marketing activities.
+Build the funnel
+The following query creates a table where each row is a customer and the columns are the date time when a key funnel event happens that have the context_campaign_name to match that of the UTM_campaign . The key funnel events in this analysis are Store Visited(based on a page view to the store URL), Product Viewed , and Order Completed . Given that each channel may have some key top of the funnel action that is unique to itself, let’s save that analysis for when we’re analyzing across channels.
+Feel free to copy and paste the below query for your analysis so long as you replace national-toast-day with your own UTM campaign parameter.
+with
+users as (
+select  *
+from  toastmates.users
+),
+page_viewed as (
+select  p.received_at as page_viewed_at,
+p.context_campaign_name,
+p.user_id
+from  toastmates.pages p
+left join  users u
+on  u.id = p.user_id
+where  p.context_campaign_name is not null
+and  p.url ilike '%toastmates.com/store%'
+),
+product_viewed as (
+select  v.received_at as product_viewed_at,
+v.context_campaign_name,
+v.user_id
+from  toastmates.product_viewed v
+left join  users u
+on  u.id = v.user_id
+),
+order_completed as (
+select  c.received_at as order_completed_at,
+c.context_campaign_name,
+c.user_id
+from  toastmates.order_completed c
+left join  users u
+on  u.id = c.user_id
+)
+select  p.user_id as user_id,
+page_viewed_at,
+product_viewed_at,
+order_completed_at,
+p.context_campaign_name
+from  page_viewed p
+left join  product_viewed v
+on  p.user_id = v.user_id
+left join  order_completed c
+on  p.user_id = l.user_id
+order by  5 desc
+Here are the first four rows of the resulting table:
+Then, we can use tweak the query above into the one below to perform some simple COUNT and SUM on the previous table to get conversion metrics as well as total revenue derived from the campaign.
+with
+users as (
+select  *
+from  toastmates.users
+),
+page_viewed as (
+select  p.received_at as page_viewed_at,
+p.context_campaign_name,
+p.user_id
+from  toastmates.pages p
+left join  users u
+on  u.id = p.user_id
+where  p.context_campaign_name is not null
+and  p.url ilike '%toastmates.com/store%'
+),
+product_viewed as (
+select  v.received_at as product_viewed_at,
+v.context_campaign_name,
+v.user_id
+from  toastmates.product_viewed v
+left join  users u
+on  u.id = v.user_id
+),
+order_completed as (
+select  c.received_at as order_completed_at,
+c.context_campaign_name,
+c.total,
+c.user_id
+from  toastmates.order_completed c
+left join  users u
+on  u.id = c.user_id
+)
+select  p.context_campaign_name,
+count(page_viewed_at) as store_visits,
+count(product_viewed_at) as product_views,
+count(order_completed_at) as orders_completed,
+sum(total) as total_revenue
+from  page_viewed p
+left join  product_viewed v
+on  p.user_id = v.user_id
+left join  order_completed c
+on  p.user_id = l.user_id
+group by  5
+order by  5 desc
+Here is the resulting table:
+This analysis not only gives us a great snapshot of the conversion points along each campaign’s funnel, but also shows that we’ve generated $3,100.37 from the National Toast Day campaign and $3,824.68 from the Toast Your Friend campaign. Also we can see that the quality of the traffic from the National Toast Day is higher, but we’ve had more total traffic from Toast Your Friend, which makes sense since it’s an ongoing campaign.
+But this is not yet ROI, since we haven’t incorporated the spend—the labor of your marketing team and the paid acquisition channels to source part of this traffic—that went into these channels.
+Add campaign costs
+The main costs that are incorporated in an ROI calculation are salaries (pro-rated by person-hour) and media spend. While we could conceivably create a custom, static table in SQL that contains the spend information over time, the faster and more practical way would be a back of the envelope calculation.
+The costs associated with a given campaign consist of two major pieces: the person-hour cost and any associated media spend.
+Calculating the pro-rated person-hour is an estimate of the number of hours and people used to set up and manage the campaign, then multiplied by the hourly rates based off their annual salaries.
+The media spend is the advertising cost for distributing creatives to generate traffic to your store
+Want to easily export advertising data from Google Adwords or Facebook Ads? Check out Segment Sources.
+When we have the aggregate cost numbers, the formula for ROI is:
+Campaign ROI = (Profit Attributed to Campaign – Campaign Cost) / Campaign Cost
+Here is a spreadsheet to illustrate the ROI calculation for both campaigns:
+Though ROI numbers are one success metric, it’s an important benchmark for comparing performance when launching new campaigns or comparing against past campaigns.
+But how can we go one step further and see what worked and what didn’t? One approach is to see which channels convert better, so you know how to adjust your marketing spend or media buys in your current campaigns or future ones.
+Analyze channel performance
+A single campaign can include a wide variety of channels: email, display ads, push notifications, forums, etc. all of which yields different engagement and conversion rates. Effective marketers will keep a pulse on each channel throughout the duration of the campaign to understand whether a target audience is being saturated, a creative refresh is needed (for advertising), or how to efficiently allocate future spend towards a source that converts.
+The analysis is similar to measuring the performance across a single campaign, with the only change being finding events where we focus on context_campaign_medium or context_campaign_source instead of context_campaign_name . The SQL below measures the conversion rates at key funnel events for national-toast-day , but broken down by utm_medium .
+You can copy the below into your favorite editor, as long as you change out the context_campaign_name and context_campaign_medium parameters to ones that applies to your business.
+with
+users as (
+select  *
+from  toastmates.users
+),
+page_viewed as (
+select  p.received_at as page_viewed_at,
+p.context_campaign_name,
+p.user_id
+from  site.pages p
+left join  users u
+on  u.id = p.user_id
+where  p.context_campaign_name = 'national-toast-day'
+and  p.context_campaign_medium is not null
+and  p.url ilike '%toastmates.com/store%'
+),
+product_viewed as (
+select  v.received_at as product_viewed_at,
+v.context_campaign_medium,
+v.user_id
+from  toastmates.product_viewed v
+left join  users u
+on  u.id = v.user_id
+),
+order_completed as (
+select  c.received_at as order_completed_at,
+c.context_campaign_medium,
+c.user_id,
+c.total
+from  toastmates.order_completed c
+left join  users u
+on  u.id = c.user_id
+)
+select  p.context_campaign_medium as utm_medium,
+count(page_viewed_at) as store_visits,
+count(product_viewed_at) as product_views,
+count(order_completed_at) as orders_completed,
+sum(c.total) as total_revenue
+from  page_viewed p
+left join  product_viewed_at v
+on  p.user_id = c.user_id
+left join  order_completed c
+on  p.user_id = c.user_id
+group by  1
+order by  1 desc
+The resulting table:
+Since the National Toast Day campaign is relatively new, the majority of the traffic is from the email and an article (“news”). But we can see that the social channels have a lower conversion from store visits to product views. Email has the best overall conversion to revenue, which may be attributed to the recipients already familiar with the Toastmates brand or having previously had a stellar end-to-end shopping experience.
+We can further breakdown this analysis by seeing which email, display ads, and social channels performed the best, by adding utm_source and utm_content ,assuming that you’ve properly added them in your earned and paid media links. Also note that this preliminary analysis in SQL doesn’t account for double-counted users, who had impressions with our brand on multiple channels (e.g. someone seeing a display ad, yet converted on the email outreach). Fortunately, there are multi-touch attribution models that can be applied to better understand the weights of each activity towards conversion.
+Learn more about multi-touch attribution models.
+Build repeatable hit marketing campaigns
+Measuring the ROI and performance of marketing campaigns and marketing channels tells a compelling story about what types of campaigns resonate with your audience. How does your audience like to be engaged? Text, push notifications, email? What campaign messaging hooks work the best in getting them back at your store?
+You can apply this analytical approach and performance measurement techniques to a wide variety of marketing activities, such as offline marketing, billboards, or sponsoring events. These insights can empower your team to focus on what works and eliminate what doesn’t.
+Talk to a product specialist to learn how companies like Warby Parker and Crate & Barrel use a data warehouse to increase engagement and sales.
+This page was last modified: 21 Apr 2023
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Analyze campaign performance
+Build the funnel
+Analyze channel performance
+Build repeatable hit marketing campaigns
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send

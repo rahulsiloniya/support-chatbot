@@ -1,0 +1,493 @@
+URL: https://docs.mparticle.com/developers/apis/platform/apps/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingApps
+Get a single app
+GET /apps/1?accountId=1
+Example cURL request
+curl -H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" -X GET https://api.mparticle.com/v1/apps/1?accountId=1
+Response
+{
+"data": [
+{
+"name": "Test App",
+"platforms": [
+{
+"application_id": 1,
+"os": "Android",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": null,
+"data_type": "token"
+}
+],
+"crash_handling": "AppDefined",
+"network_performance": "AppDefined",
+"social_mode": "AppDefined",
+"profile_merging": false,
+"push_attribution_timer": 30,
+"last_modified_on": "2014-11-05T20:09:46.577",
+"data_type": "platform",
+"created_on": "2014-06-11T19:43:48.697"
+}
+],
+"last_modified_on": "2014-06-11T19:43:45.617",
+"data_type": "application",
+"id": 1,
+"created_on": "2014-06-11T19:43:45.617"
+}
+],
+"dataType": "application",
+"errors": null
+}
+Get all apps
+GET /apps?accountId=1
+Example cURL request
+curl -H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" -X GET https://api.mparticle.com/v1/apps?accountId=1
+Response
+{
+"data": [
+{
+"name": "Test App",
+"platforms": [
+{
+"application_id": 1,
+"os": "Android",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": null,
+"data_type": "token"
+}
+],
+"crash_handling": "AppDefined",
+"network_performance": "AppDefined",
+"social_mode": "AppDefined",
+"profile_merging": false,
+"push_attribution_timer": 30,
+"last_modified_on": "2014-11-05T20:09:46.577",
+"data_type": "platform",
+"created_on": "2014-06-11T19:43:48.697"
+}
+],
+"last_modified_on": "2014-06-11T19:43:45.617",
+"data_type": "application",
+"id": 1,
+"created_on": "2014-06-11T19:43:45.617"
+}
+],
+"dataType": "application",
+"errors": null
+}
+Update an app
+PUT /apps/1?accountId=1
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json"
+\
+-d "{\"name\": \"Updated Name\"}" \
+"https://api.mparticle.com/v1/apps/1?accountId=1"
+Response
+{
+"name": "Test App New Name"
+}
+Request body parameters
+Name
+Type
+Description
+name
+string
+The name of the app.
+Errors
+Name
+App name must be specified.
+Create an app
+POST /apps?accountId=1
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"name\": \"Test App\", \"platforms\":[{\"os\": \"iOS\"},{\"os\": \"Android\"}]}" \
+"https://api.mparticle.com/v1/apps?accountId=1"
+Example HTTP Request
+{
+"name": "Test App",
+"platforms": [
+{
+"os": "iOS"
+},
+{
+"os": "Android"
+}
+]
+}
+Response
+{
+"data": [
+{
+"name": "Test App",
+"platforms": [
+{
+"application_id": 1,
+"os": "iOS",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": "AccessSecret",
+"data_type": "token"
+}
+],
+"crash_handling": null,
+"network_performance": null,
+"social_mode": null,
+"profile_merging": true,
+"push_attribution_timer": 30,
+"last_modified_on": "2015-03-11T12:07:08.077",
+"data_type": "platform",
+"created_on": "2015-03-11T12:07:08.077"
+}
+],
+"last_modified_on": "2015-03-11T12:07:07.877",
+"data_type": "application",
+"id": 1,
+"created_on": "2015-03-11T12:07:07.877"
+}
+],
+"dataType": "application",
+"errors": null
+}
+Request body parameters
+Name
+Type
+Description
+name
+string
+The name of the app
+platforms
+array
+Array of platforms to create for the app in the format of {"os": "iOS"}. Valid values for the “os” field include “iOS”, “tvOS”, “Android”, “MobileWeb”, “Roku”, “Alexa”, “SmartTV”, “FireTV”, and “Xbox”
+Errors
+Name
+Exceeded app limit.
+App name already exists.
+App must have at least one platform selected.
+App name not specified.
+Invalid as specified.
+Creating a new app or app platform will generate a new Access Key and Secret for that app platform, which can be accessed through the “access_keys”. Note that this is the only time the Secret is transmitted - subsequent GET requests will only return the Access Key.
+Delete an app
+DELETE /apps/1?accountId=1
+Example cURL request
+curl \
+-X DELETE \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-"
+\
+https://api.mparticle.com/v1/apps/1?accountId=1
+Errors
+Name
+Deleting an app that has active platforms is not allowed.
+Get a single app platform
+GET /apps/1/platforms/android?accountId=1
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/platforms/android?accountId=1" \
+Response
+{
+"data": [
+{
+"application_id": 1,
+"os": "Android",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": null,
+"data_type": "token"
+}
+],
+"crash_handling": "AppDefined",
+"network_performance": "AppDefined",
+"social_mode": "AppDefined",
+"profile_merging": false,
+"push_attribution_timer": 30,
+"last_modified_on": "2014-11-05T20:09:46.577",
+"data_type": "platform",
+"created_on": "2014-06-11T19:43:48.697"
+}
+],
+"dataType": "platform",
+"errors": null
+}
+Get all app platforms
+GET /apps/1/platforms?accountId=1
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/platforms?accountId=1"
+Response
+{
+"data": [
+{
+"application_id": 1,
+"os": "Android",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": null,
+"data_type": "token"
+}
+],
+"crash_handling": "AppDefined",
+"network_performance": "AppDefined",
+"social_mode": "AppDefined",
+"profile_merging": false,
+"push_attribution_timer": 30,
+"last_modified_on": "2014-11-05T20:09:46.577",
+"data_type": "platform",
+"created_on": "2014-06-11T19:43:48.697"
+}
+],
+"dataType": "platform",
+"errors": null
+}
+Update an app platform
+PUT /apps/1/platforms/ios?accountId=1
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"profile_merging\": true,\"push_attribution_timer\": 30,\"crash_handling\": \"ForceCatch\",\"network_performance\": \"ForceTrue\",\"social_mode\": \"FacebookAndTwitter\"}" \
+"https://api.mparticle.com/v1/apps/1/platforms/ios?accountId=1"
+Example HTTP request
+{
+"profile_merging": true,
+"push_attribution_timer": 30,
+"crash_handling": "ForceCatch",
+"network_performance": "ForceTrue",
+"social_mode": "FacebookAndTwitter"
+}
+Request body parameters
+Name
+Type
+Description
+profile_merging
+bool
+Enable or disable profile merging
+push_attribution_timer
+int
+Push attribution timer in minutes
+crash_handling
+string
+“AppDefined” or “ForceCatch” or “ForceIgnore”
+network_performance
+string
+“AppDefined” or “ForceTrue” or “ForceFalse”
+social_mode
+string
+“AppDefined” or “Facebook” or “Twitter” or “FacebookAndTwitter”
+Create an app platform
+POST apps/1/platforms?accountId=1
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"os\": \"android\",\"profile_merging\": true,\"push_attribution_timer\": 30,\"crash_handling\": \"ForceCatch\",\"network_performance\": \"ForceTrue\",\"social_mode\": \"FacebookAndTwitter\"}" \
+"https://api.mparticle.com/v1/apps/1/platforms?accountId=1"
+Example HTTP request
+{
+"os": "android",
+"profile_merging": true,
+"push_attribution_timer": 30,
+"crash_handling": "ForceCatch",
+"network_performance": "ForceTrue",
+"social_mode": "FacebookAndTwitter"
+}
+Response
+{
+"data": [
+{
+"application_id": 1,
+"os": "Android",
+"access_keys": [
+{
+"key": "AccessKey",
+"secret": "AccessSecret",
+"data_type": "token"
+}
+],
+"crash_handling": "AppDefined",
+"network_performance": "AppDefined",
+"social_mode": "AppDefined",
+"profile_merging": false,
+"push_attribution_timer": 30,
+"last_modified_on": "2014-11-05T20:09:46.577",
+"data_type": "platform",
+"created_on": "2014-06-11T19:43:48.697"
+}
+],
+"dataType": "platform",
+"errors": null
+}
+Request body parameters
+Name
+Type
+Description
+os
+string
+Valid values for the “os” field include “iOS”, “tvOS”, “Android”, “MobileWeb”, “Roku”, “Alexa”, “SmartTV”, “FireTV”, and “Xbox”
+profile_merging
+bool
+Enable or disable profile merging
+push_attribution_timer
+int
+Push attribution timer in minutes
+crash_handling
+string
+“AppDefined” or “ForceCatch” or “ForceIgnore”
+network_performance
+string
+“AppDefined” or “ForceTrue” or “ForceFalse”
+social_mode
+string
+“AppDefined” or “Facebook” or “Twitter” or “FacebookAndTwitter”
+Errors
+Name
+Could not create platform: App does not exist or you do not have access.
+Invalid os specified.
+Platform already exists for the specified App.
+Creating a new app or app platform will generate a new Access Key and Secret for that app platform, which can be accessed through the “access_keys”.
+Note that this is the only time the Secret is transmitted - subsequent GET requests will only return the Access Key.
+Delete an app platform
+DELETE /apps/1/platforms/ios?accountId=1
+Example cURL request
+curl \
+-X DELETE \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/platforms/ios?accountId=1"
+Get all services for an app platform
+GET /apps/1/platforms/ios/services?accountId=1
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+"https://api.mparticle.com/v1/apps/1/platforms/ios/services?accountId=1`"
+Response
+{
+"data": [
+{
+"account": "Default Account",
+"name": "GoogleAnalyticsEventForwarder",
+"isActive": true,
+"isVisible": true,
+"settings": [
+{
+"name": "apiKey",
+"value": "*********** Key",
+"isConfidential": true
+}
+],
+"data_type": "service"
+}
+],
+"dataType": "service",
+"errors": null
+}
+Configure a service for an app platform
+PUT /apps/1/platforms/ios/services?accountId=1
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-" \
+-H "Content-Type: application/json" \
+-d "{\"account\": \"Default Account\", \"name\":\"GoogleAnalyticsEventForwarder\",\"isActive\":true,\"isVisible\": true,\"settings\":[{\"name\":\"apiKey\",\"value\":\"My Test App Key\"}]}" \
+"https://api.mparticle.com/v1/apps/1/platforms/ios/services?accountId=1"
+Example HTTP request
+{
+"account": "Default Account",
+"name":"GoogleAnalyticsEventForwarder",
+"isActive":true,
+"isVisible": true,
+"settings":[
+{
+"name":"apiKey",
+"value":"My Test App Key"
+}
+]
+}
+Request body parameters
+Name
+Type
+Description
+account
+string
+The name of the account you wish to configure.
+name
+string
+The name of the service you wish to configure.
+isActive
+bool
+Controls whether data is actually pushed to the service.
+isVisible
+bool
+Whether the service is visible in the UI.
+settings
+array
+Array of setting objects.
+Errors
+Name
+Specified service not found.
+Service does not support app platform.
+Invalid settings entered while updating the service.
+Provided setting not found.
+Required setting not provided.
+Setting value is required.
+To discover what settings are available for each service, you can call https://api.mparticle.com/v1/services?accountId=1 to discover all services and supported settings.
+The “account” parameter allows you to forward data to more than one account per service. It is internal to mParticle, and can be set to any name of your choosing.
+If omitted or set to null, the account name will be set to “Default Account”.
+The “isVisible” flag allows you to create services that forward data in the background, but are not visible in the mParticle UI. This allows you to have two active forwarders per combination of app platform and service. This field is not required and will default to true if omitted.
+Custom Service Settings
+Google Analytics Settings
+Google Analytics has a few configuration settings which require additional details to be set.
+These settings are listed below and are noted with a type of Custom in the services call.:
+customDimensions
+customMetrics
+Example
+{
+"account": "Default Account",
+"name":"GoogleAnalyticsEventForwarder",
+"isActive":true,
+"isVisible": true,
+"settings":[
+{
+"name":"apiKey",
+"value":"My Test App Key"
+},
+{
+"name":"customDimensions",
+"value":"[{\"maptype\":\"EventAttributeClass.Name\",\"map\":\"Bitcoins\",\"value\":\"Dimension 3\"}]"
+}
+]
+}
+Check Google Analytics for additional details on these settings and the limits on the supported custom dimensions and metrics.
+The value for these settings is a json array containing objects with maptype, map and value.
+You need to indicate if you are using an Event Attribute or a User Attribute, and then specify the mapping to the Custom Dimension or Custom Metric.
+Field
+Description
+Notes & examples
+maptype
+This indicates if you are passing an event or user attribute into the map.
+EventAttributeClass.Name or UserAttributeClass.Name or ProductAttributeClass.Name.
+map
+The name of the event attribute, user attribute or product attribute.
+The attribute name must match exactly or it will not map correctly.
+For example, Bitcoins.
+value
+The custom dimension or custom metric for the mapping.
+For example, Dimension 3 or Metric 1
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

@@ -1,0 +1,4 @@
+URL: https://docs.lytics.com/discuss/66bada494876f3001f16f446
+
+Lytics setup
+Jump to ContentHomeDocumentationAPI ReferenceProduct UpdatesCommunityv2.0v2.1v3.0Log InCommunityLog Inv3.0HomeDocumentationAPI ReferenceProduct UpdatesCommunitySearchCommunityAsk a QuestionBack to All 0Lytics setup 7 months ago by Darshan L CHi Team, Thanks for setting up the Slack workspace. We've created a field called "testing_email" and set up two mappings for it. However, we're having trouble finding this field when trying to create an audience based on it. Could you please confirm if we're on the right track and help us out?audiencesAdd Comment

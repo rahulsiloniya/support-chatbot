@@ -1,0 +1,840 @@
+URL: https://docs.mparticle.com/developers/apis/custom-roles/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingCustom Access Roles APIThe Custom Access Roles API allows account admins to create, modify, and delete lists of specific permissions (custom roles) that can be assigned to users through the mParticle UI. Custom roles are helpful for mParticle accounts with multiple users who don’t need the same degree of access or when an admin needs to prevent a user from accessing a specific feature.
+For example, there are only a few features a marketer would need to access, such as Audiences, Calculated Attributes, and the User Activity View.
+By creating a custom role for marketers, you can remove their access to features that are beyond the scope of their job, such as API Credentials, Data Planning, or Filters. Compared to generic user roles, the Custom Access Roles API gives you granular control so you can create roles that best fit each member of your team.
+Endpoint
+The Custom Access Roles API is located at https://api.mparticle.com.
+Authentication
+Only Custom Role Admins can create API credentials to access the Custom Access Roles API. A current Custom Role Admin can grant this permission in User Management, or you can contact your mParticle account manager to have this permission provisioned for select admins.
+To use the Custom Access Roles API, you must first create a new set of API credentials that includes access to this API:
+Log in to your mParticle account.
+Click the User Profile icon at the bottom of the left nav bar, click Settings, and select the API Credentials tab.
+Click + Add Credential.
+Enter a descriptive name for the Display name.
+Check the box next to Custom Roles, and click Save.
+Copy the Client ID and Client Secret displayed in the modal window before clicking Done.
+Create a new bearer token
+After creating the new API credentials for the Custom Roles API, you can authenticate by issuing a POST request to mParticle’s SSO token endpoint:
+https://sso.auth.mparticle.com/oauth/token
+The JSON body of the request must contain:
+client_id - the client ID, issued by mParticle when creating the API credentials
+client_secret - the client secret, issued by mParticle when creating the API credentials
+audience - set to a value of "https://api.mparticle.com"
+grant_type - set to a value of "client_credentials"
+Example curl request
+curl --request POST \
+--url https://sso.auth.mparticle.com/oauth/token \
+--header 'content-type: application/json' \
+--data '{"client_id":"...","client_secret":"...","audience":"https://api.mparticle.com","grant_type":"client_credentials"}'
+Example HTTP request
+POST /oauth/token HTTP/1.1
+Host: sso.auth.mparticle.com
+Content-Type: application/json
+{
+"client_id": "your_client_id",
+"client_secret": "your_client_secret",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}
+Using your Bearer Token
+A successful POST request to the token endpoint will result in a JSON response as follows:
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Subsequent requests to the Custom Access Roles API can now be authorized by setting the authorization header as follows:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but will expire after approximately 8 hours. The initial token request can take between 1 and 3 seconds, and subsequent requests should be significantly faster due to server-side caching. Even accounting for server-side caching, it is still essential for production use cases that you cache the token and refresh it only when necessary to ensure that your application performs well.
+Custom role manifest and tasks
+All mParticle custom roles are stored in a JSON custom role manifest. This manifest contains a list of roles, and each role includes a description, name, role ID, and a list of tasks.
+A task is a unit of access to mParticle features. Some tasks offer full access and others provide view only access. The tasks detailed in the permissions reference below can be mixed and matched to define the custom role experience provided to users.
+To create, modify, or delete a custom role, first retrieve a copy of your current manifest by submitting a GET request to /platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles.
+Modify the returned manifest to reflect the changes you want to make. For example, to delete a custom role, delete the corresponding JSON object for that role from your manifest. Finally, upload the edited manifest to /platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles using a PUT request.
+Custom roles are visible across an entire mParticle organization, even though the account ID must be included in calls to the Custom Roles API.
+When creating a new role, a new role ID is generated and assigned to a role after a successful upload. If you are modifying an existing role, make sure the role_id in the new manifests matches the role_id of the corresponding role in the old manifest. Otherwise a new role_id will create a new role.
+Your custom role manifest must contain the full JSON object for every role you want included for your organization. When adding or modifying a single role, the manifest you upload should contain every preexisting role even though they are not being changed.
+Remember that by uploading a new manifest, you are completely replacing the previous version. Omitting a preexisting role from the new manifest will result in an error if the role is actively assigned to a user or deleting the role if it’s unassigned.
+The user:core permission is included with every custom role object in your manifest. This permission is necessary for users to be able to log in and view the mParticle dashboard in addition to other basic tasks.
+View tasks
+Method
+Path
+GET
+/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/tasks
+Query Parameter
+Type
+Description
+{orgId:int}
+Integer
+The ID of the mParticle organization containing the task list.
+{accountId:int}
+Integer
+The ID of the mParticle account containing the task list.
+Example curl request
+curl --location --request GET 'https://api.mparticle.com/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/tasks' \
+--header 'Authorization: Bearer <access token>'
+Request body
+Empty request body.
+Response
+A successful request receives an HTTP 200 response code along with a body consisting of the JSON list of tasks that can be assigned to a role in the custom role manifest.
+Example response body
+Below is an abbreviated example of how the task list is formatted.
+[
+{
+"task_id": "cropsdemodatamastermanagement",
+"display_name": "Crops Demo DMM display name",
+"description": "Crops Demo Data Master Management"
+},
+{
+"task_id": "cropsdemobasicuseractions",
+"display_name": "Crops demo basic display name",
+"description": "Crops Demo Basic User Actions"
+}
+]
+View custom role manifest
+Method
+Path
+GET
+/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles
+Query Parameter
+Type
+Description
+{orgId:int}
+Integer
+The ID of the mParticle organization containing the custom role manifest.
+{accountId:int}
+Integer
+The ID of the mParticle account containing the custom role manifest.
+Example curl request
+curl --location --request GET 'https://api.mparticle.com/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles' \
+--header 'Authorization: Bearer <access token>'
+Request body
+Empty request body.
+Response
+{
+"roles": [
+{
+"description": "Marketers can view and create new audiences",
+"name": "Marketer",
+"role_id": "marketer_role",
+"tasks": [
+{
+"task_id": "user:core"
+},
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "user_activity:view"
+}
+]
+},
+{
+"description": "Activation Admins can connect audiences to outputs and setup new connections for production",
+"name": "Activation Admin",
+"role_id": "453afgwevc",
+"tasks": [
+{
+"task_id": "user:core"
+},
+{
+"task_id": "connections:*"
+},
+{
+"task_id": "live_stream:view"
+}
+]
+}
+],
+"last_modified_on" : "2022-06-28 18:24:49",
+"last_modified_by": "example@example.com"
+}
+Create a custom role
+Method
+Path
+PUT
+/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles
+Query Parameter
+Type
+Description
+{orgId:int}
+Integer
+The ID of the mParticle organization containing the custom role.
+{accountId:int}
+Integer
+The ID of the mParticle account containing the custom role.
+Example curl request
+curl --location --request PUT 'https://api.mparticle.com/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles' \
+--header 'Authorization: Bearer <access token>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"roles": [
+{
+"role_id": "CustomMarketer",
+"name": "Marketer",
+"description": "The Marketer role can view, edit, and create audiences and access the User Activity View",
+"tasks": [
+{
+"task_id": "rules:*"
+},
+{
+"task_id": "user_activity:view"
+}
+]
+}
+]
+}'
+Request body
+{
+"roles": [
+{
+"name": "Marketer",
+"description": "Marketers can view and create new audiences",
+"tasks": [
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "user_activity:view"
+}
+],
+"role_id": "myRoleId1"
+},
+{
+"name": "Activation Admin",
+"description": "Activation Admins can connect audiences to outputs and setup new connections for production",
+"tasks": [
+{
+"task_id": "connections:*"
+},
+{
+"task_id": "live_stream:view"
+}
+],
+"role_id": "myRoleId2"
+}
+]
+}
+Response
+A successful request receives a 200 Success response whose body contains the JSON role manifest.
+Modify a custom role
+Method
+Path
+PUT
+/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles
+Query Parameter
+Type
+Description
+{orgId:int}
+Integer
+The ID of the mParticle organization containing the custom role.
+{accountId:int}
+Integer
+The ID of the mParticle account containing the custom role.
+Request body
+{
+"roles": [
+{
+"name": "Marketing Admin",
+"description": "Marketers can view and create new audiences",
+"tasks": [
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "user_activity:view"
+},
+{
+"task_id": "calculated_attributes:view"
+}
+],
+"role_id": "myRoleId1"
+}
+]
+}
+Response
+A successful request receives a 200 Success response whose body contains the JSON role manifest.
+Delete a custom role
+To delete a custom role, remove the lines in the role manifest that correspond with that role and upload the new version of the role manifest.
+Method
+Path
+PUT
+/platform/v2/organizations/{orgId:int}/accounts/{accountId:int}/roles
+Query Parameter
+Type
+Description
+{orgId:int}
+Integer
+The ID of the mParticle organization containing the custom role.
+{accountId:int}
+Integer
+The ID of the mParticle account containing the custom role.
+You can't delete a custom role that has already been assigned to a user. Requesting to delete an already assigned role results in a 400 Error response.
+Request body
+{
+"roles": [
+{
+"name": "Marketing Admin",
+"description": "Marketers can view and create new audiences",
+"tasks": [
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "user_activity:view"
+},
+{
+"task_id": "calculated_attributes:view"
+}
+],
+"role_id": "myRoleId1"
+}
+]
+}
+Response
+A successful request receives a 200 Success response whose body contains the JSON role manifest.
+Assign a custom access role to a user
+To assign a custom access role that you have already created and uploaded to your manifest:
+Log in to mParticle and click the user profile icon in the bottom of the left nav bar.
+Click Settings, and select the User Management tab.
+Select a user.
+Select a custom role.
+Click Save.
+Standard role templates
+If you need to modify one of the pre-defined roles accessible from the mParticle UI in User Roles, refer to the templates provided below. These templates include the JSON needed to reproduce the standard roles within a custom role manifest.
+To add to or modify one of the standard roles, copy the JSON for the role from one of the templates below into your manifest. Make any additions or changes to your copy after reviewing Default Permissions.
+The role templates approximate the standard roles found in the mParticle UI, but there are certain standard role permissions that don't have corresponding task IDs in the Custom Access Role API.
+User role
+{
+"roles": [
+{
+"name": "User",
+"description": "Provides common permissions needed for general users",
+"tasks": [
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "calculated_attributes:*"
+},
+{
+"task_id": "connections:configure_inputs"
+},
+{
+"task_id": "connections:configure_outputs"
+},
+{
+"task_id": "connections:connect_integration"
+},
+{
+"task_id": "data_filter:*"
+},
+{
+"task_id": "data_plans:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "rules:*"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "user-role"
+}
+]
+}
+Admin role
+{
+"roles": [
+{
+"name": "Admin",
+"description": "Provides necessary permissions for admin users",
+"tasks": [
+{
+"task_id": "api_credentials:*"
+},
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "calculated_attributes:*"
+},
+{
+"task_id": "catalog:*"
+},
+{
+"task_id": "connections:configure_inputs"
+},
+{
+"task_id": "connections:configure_outputs"
+},
+{
+"task_id": "connections:connect_integration"
+},
+{
+"task_id": "data_filter:*"
+},
+{
+"task_id": "data_plans:*"
+},
+{
+"task_id": "identity_settings:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "rules:*"
+},
+{
+"task_id": "user_activity:view"
+},
+{
+"task_id": "user_management:*"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "admin-role"
+}
+]
+}
+Compliance role
+{
+"roles": [
+{
+"name": "Compliance",
+"description": "Provides necessary permissions for compliance users",
+"tasks": [
+{
+"task_id": "audiences:view"
+},
+{
+"task_id": "connections:connect_integration"
+},
+{
+"task_id": "data_filter:view"
+},
+{
+"task_id": "data_plans:view"
+},
+{
+"task_id": "identity_settings:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "privacy:*"
+},
+{
+"task_id": "rules:view"
+},
+{
+"task_id": "user_management:view"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "compliance-role"
+}
+]
+}
+Admin and Compliance role
+{
+"roles": [
+{
+"name": "Admin & Compliance",
+"description": "Provides necessary permissions for admin and compliance users",
+"tasks": [
+{
+"task_id": "api_credentials:*"
+},
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "calculated_attributes:*"
+},
+{
+"task_id": "catalog:*"
+},
+{
+"task_id": "connections:configure_inputs"
+},
+{
+"task_id": "connections:configure_outputs"
+},
+{
+"task_id": "connections:connect_integration"
+},
+{
+"task_id": "data_filter:*"
+},
+{
+"task_id": "data_plans:*"
+},
+{
+"task_id": "identity_settings:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "privacy:*"
+},
+{
+"task_id": "rules:*"
+},
+{
+"task_id": "tieredevents:*"
+},
+{
+"task_id": "user_activity:view"
+},
+{
+"task_id": "user_management:*"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "admin-compliance-role"
+}
+]
+}
+Audiences-only role
+{
+"roles": [
+{
+"name": "Audiences Only",
+"description": "Provides Audiences-only access",
+"tasks": [
+{
+"task_id": "audiences:*"
+}
+],
+"role_id": "audiences-only-role"
+}
+]
+}
+Read-only role
+{
+"roles": [
+{
+"name": "Read Only",
+"description": "Provides read only access to mParticle features",
+"tasks": [
+{
+"task_id": "audiences:view"
+},
+{
+"task_id": "calculated_attributes:view"
+},
+{
+"task_id": "data_filter:view"
+},
+{
+"task_id": "data_plans:view"
+},
+{
+"task_id": "identity_settings:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "rules:view"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "read-only-role"
+}
+]
+}
+Support role
+{
+"roles": [
+{
+"name": "Support",
+"description": "Provides necessary access for technical support",
+"tasks": [
+{
+"task_id": "api_credentials:*"
+},
+{
+"task_id": "audiences:*"
+},
+{
+"task_id": "calculated_attributes:*"
+},
+{
+"task_id": "catalog:*"
+},
+{
+"task_id": "connections:configure_inputs"
+},
+{
+"task_id": "connections:configure_outputs"
+},
+{
+"task_id": "connections:connect_integration"
+},
+{
+"task_id": "data_filter:*"
+},
+{
+"task_id": "data_plans:*"
+},
+{
+"task_id": "identity_settings:*"
+},
+{
+"task_id": "live_stream:view"
+},
+{
+"task_id": "privacy:settings"
+},
+{
+"task_id": "rules:*"
+},
+{
+"task_id": "user_activity:view"
+},
+{
+"task_id": "workspaces:*"
+}
+],
+"role_id": "support-role"
+}
+]
+}
+Permissions reference by mParticle feature
+Below is a list of the mParticle features with all available permissions and corresponding task IDs for each feature. Use this reference when creating or modifying a custom role.
+Default Permissions
+The following permissions are included with every custom role by default.
+Log in and view dashboard
+The user:core permission is required for users to log in to mParticle and to view the main dashboard. It is required for all custom roles and is automatically included with each custom role definition you create.
+View only
+View only includes Log in and view dashboard, and the following permissions:
+View the system alerts dashboard and alerts for each connection.
+View the Event Forwarding report for details about inbound and outbound data.
+View the Data Master Catalog.
+View available integrations in the Integrations Directory.
+View and access different Workspaces.
+User Activity View (UAV)
+The User Activity View provides detailed data for individual users.
+Permission
+Task ID
+Description
+View only
+user_activity:view
+Search for any user and view their associated user details, workspace usage, device info, attributes, and audience membership
+Group Identities
+Group Identities enable you to enrich profiles and activate audiences based on group-level attributes such as a household address, account subscription status, or imported probabilistic identifier.
+Permission
+Task ID
+Description
+View only
+user_groups:view
+View the Group Identities page in the mParticle UI
+Full access
+user_groups:*
+Edit and delete group identities
+Data Master Catalog
+The Data Master Catalog provides a view of every event, attribute, and identity collected in your mParticle workspace.
+Permission
+Task ID
+Description
+Full access
+catalog:*
+View the Data Master Catalog and annotate data points
+Data Plans
+Data Plans are codified expectations of how data collected should be formatted in order to be ingested into mParticle.
+Permission
+Task ID
+Description
+View only
+data_plans:view
+View existing data plans
+Full access
+data_plans:*
+View, create, edit, activate, and delete data plans
+Live Stream
+Live Stream gives a real-time view of all data flowing into and out of mParticle.
+Permission
+Task ID
+Description
+View only
+live_stream:view
+View Live Stream and examine individual events
+Calculated Attributes
+Calculated Attributes are read-only values about particular attributes of a single user. These attributes are updated over time.
+Permission
+Task ID
+Description
+View only
+calculated_attributes:view
+View calculated attributes
+Draft only
+calculated_attributes:draft
+View, create, and delete calculated attributes in Draft mode
+Full access
+calculated_attributes:*
+View, create, and delete calculated attributes
+Rules
+Rules can be used to modify or remove events, event data, and batches of events before being ingested into mParticle.
+Permission
+Task ID
+Description
+View only
+rules:view
+View all rules
+Full access
+rules:*
+View, create, edit, and delete rules
+Audiences
+Audiences are lists of users created according to a set of criteria with the goal of improving your engagement with those users.
+Permission
+Task ID
+Description
+View only
+audiences:view
+View all audiences, the audience estimator, and journeys
+Edit
+audiences:edit
+View, create, modify, activate, and delete audiences and journeys
+Full access
+audiences:*
+View, create, modify, activate and delete audiences and journeys; and download audiences
+Connections
+Connections are combinations of a data source (or input) and an integration (or output) where data is forwarded.
+Permission
+Task ID
+Description
+View only
+connections:view
+View connections
+Connect integration
+connections:connect_integration
+Create a connection between an input and an output with view to setup details and credentials available
+Connect audience
+connections:connect_audiences
+Create a connection between an audience and an output without view to setup details and credentials hidden
+Configure input
+connections:configure_inputs
+Configure an input
+Configure output
+connections:configure_outputs
+Configure an output
+Full access
+connections:*
+Create, delete, and activate/deactivate connections between inputs and outputs
+Filters
+Filters control exactly which data is forwarded to your outputs.
+Permission
+Task ID
+Description
+View only
+data_filter:view
+View current data filters
+Full access
+data_filter:*
+View and create filters
+Data Subject Requests & Privacy
+Data Privacy Controls help you to manage your opt-out and consent obligations under the GDPR and CCPA.
+Permission
+Task ID
+Description
+View only
+privacy:settings
+View enabled privacy settings
+Full access
+privacy:*
+View and modify privacy settings
+Workspaces
+Workspaces are the basic containers for the domains or properties that act as data sources.
+Permission
+Task ID
+Description
+Full access
+workspaces:*
+View, create, and delete workspaces
+mParticle User Management
+Users are people with individual credentials that have access to your mParticle account. Users can be assigned pre-defined roles or custom roles to control which mParticle features they have access to and the extent of their permissions for those features.
+Permission
+Task ID
+Description
+View only
+user_management:view
+View users with access to your account
+Full access
+user_management:*
+View, create, delete, and assign roles to users in your account
+Identity Strategy Settings
+IDSync is the mParticle identity resolution service. The IDSync Settings provide an overview of the identity strategy and identifier hierarchy used when resolving identification requests in your account.
+Permission
+Task ID
+Description
+Full access
+identity_settings:*
+View and modify your identity settings
+API Credentials
+The API Credentials interface allows you to view, create, edit, delete, activate, and deactivate API credentials. These credentials can be used to access and interact with the various mParticle APIs.
+Permission
+Task ID
+Description
+Full access
+api_credentials:*
+View, create, delete, and assign your API credentials
+Limitations
+Resource
+Limits
+Details
+Custom Roles
+100 roles per organization
+You can’t create more than 100 custom roles per organization. If your business requires more than 100 custom roles, contact your mParticle account representative.
+Requests per min
+100 requests per minute
+If you exceed 100 requests per minute to the Custom Roles API, you will receive a 429 Too Many Requests response.
+RoleId
+64 characters
+A custom role ID can’t exceed 64 characters. This field is required for all roles and is provided by the user.
+Name
+64 characters
+A custom role name can’t exceed 64 characters. This field, which sets the display name for the role, is required for all roles.
+Description
+256 characters
+A custom role description can’t exceed 256 characters.
+Error handling
+The following errors sometimes occur when uploading or modifying a custom role manifest.
+Response code
+Error message
+Description
+400
+Custom role is assigned to a user and may not be deleted
+You can’t delete custom roles that are currently assigned to a user. First, unassign the role using the mParticle UI before attempting to delete it.
+400
+Name, description, or ID field is empty, exceeds max length, or has restricted characters
+The name, description, and ID of a custom role are required and have length limits. The error message you receive includes details specific to your request.
+400
+Tasks not found
+The tasks listed in your manifest don’t exist or don’t match the expected task IDs. Verify your task IDs are correct.
+400
+Invalid JSON syntax in custom role manifest
+Your custom role is formatted incorrectly. Use a JSON linter to make sure your manifest includes all necessary characters.
+409
+Conflict
+The custom access role you’re attempting to create already exists. You must either delete the conflicting role, or use a different value for the role name.
+429
+Rate limit exceeded
+You have either exceeded the speed or acceleration limit for the Custom Roles API. Learn more about API throttling in Default Service Limits.
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

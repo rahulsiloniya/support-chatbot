@@ -1,0 +1,700 @@
+URL: https://docs.mparticle.com/developers/apis/platform/field-transformations/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingField TransformationsUse the Field Transformations API to create and manage one-to-one correlations, called mappings, between external data and fields in the mParticle JSON schema.
+Field transformations format and usage
+Field transformations are JSON formatted schemas that contain one or more mappings between external source fields and internal mParticle destination fields. Field transformations are identified in the mParticle system by a unique string ID and string name.
+Each field transformation includes an array called mappings. This array contains a list of individual mapping objects that specify how external data should be mapped to internal mParticle fields.
+Field transformation format
+{
+"id": "unique-string-id",
+"name": "Example Field Transformation Name",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "mapping-type",
+"source": "external-field",
+"destination": "destination-field"
+}
+]
+}
+Field transformation properties
+Property
+Data type
+Required
+Description
+id
+string
+Yes
+Unique ID you must set when creating a field transformation. Can only include numbers, letters, dashes -, and underscores _.
+name
+string
+Yes
+Descriptive name you must set when creating a field transformation. There are no character restrictions.
+destination_type
+string
+Yes
+Specifies the type of data being ingested. Valid values include: event_batch
+mappings
+array
+Yes
+An array of JSON objects that specify which mParticle fields to map source fields to. See Mappings overview for more details.
+Currently, field transformations can only be created for event data, so destination_type must always be set to event_batch.
+Mappings overview
+Each object in the mappings array is configured with the following properties:
+Property
+Required
+Description
+mapping_type
+Yes
+Valid values include column, static, ignore. See Mapping type settings for more details.
+source
+Required when mapping_type is column or ignore
+The name of the field in the source data table. This must be left unset or set to null if mapping_type is set to static.
+destination
+Required when mapping_type is column or static
+The name of the mParticle field as it is listed in the mParticle JSON schema. Use the JSON path format when setting the destination field. destination must be unset or set to null for ignore mappings.
+ignore_when
+Optional
+Valid values include $null and $empty. When mapping_type is set to column, you can set ignore_when to $null or $empty to ignore a mapping when the external field value is null or empty. If ignore_when is not set, the field value will map null values if supported.
+value
+Required when
+mapping_type is static. Templates are not supported.Optional when mapping_type is column. Templates are optional.
+When mapping_type is set to static, you can set value to any string you want to map to an mParticle field, excluding the use of a template. If mapping_type is set to column, you may use a template when setting value.
+value_type
+Optional
+The type of data supplied for value. Valid values include string, number, integer, and boolean.
+Mapping type settings
+The supported values for mapping_type are:
+Mapping type
+Description
+column
+Maps a column in a source database or table to an mParticle field.
+static
+Maps a static value to an mParticle field. source must be excluded, or set to null for static mappings.
+ignore
+Prevents source data from being mapped to mParticle.
+Following are descriptions and examples for each type:
+column
+static
+ignore
+column
+Set mapping_type to column to map the values stored in a column in a data table to an mParticle field:
+{
+"mapping_type": "column",
+"source": "source-column-name",
+"destination": "mparticle-destination"
+}
+You can use the column mapping type to map nested fields within an object in your source data to a destination in mParticle. For example, imagine the following source data stored in a column named "foo":
+{
+"object": {
+"property": {
+"item": "bar"
+}
+}
+}
+You could select the nested field "item" using:
+{
+"mapping_type": "column",
+"source": "foo.object.property.item",
+"destination": "mparticle-destination"
+}
+This would result in the following output:
+{
+"mparticle-destination": "bar"
+}
+Ignore empty fields in a column if they are empty or null
+You can ignore individual fields when they are empty or null using the ignore_when setting for column mappings:
+Ignore when empty:
+{
+"mapping_type": "column",
+"source": "source-column-name",
+"destination": "mparticle-destination",
+"ignore_when": "$empty"
+}
+Ignore when null:
+{
+"mapping_type": "column",
+"source": "source-column-name",
+"destination": "mparticle-destination",
+"ignore_when": "$null"
+}
+static
+Set mapping_type to static to map the value of value to an mParticle field:
+{
+"mapping_type": "static",
+"destination": "mparticle-destination",
+"value": "some-value"
+}
+ignore
+Set mapping_type to ignore to ignore the data listed in source:
+{
+"mapping_type": "ignore",
+"source": "source-data-to-ignore"
+}
+array
+To map multiple fields to a single array in mParticle, create a separate mapping for each field.
+Within each mapping:
+Set mapping_type to column or static
+Set source to the name of the field or column in your source data. You may use * as a wildcard selector for field names that share a common prefix.
+Set destination to the name of the destination array in mParticle that you want to map to, including square brackets []. For example: myArray[]
+Set value to either a static value if you used the static mapping type or a template if you want to modify the output of your mapping.
+Mapping multiple elements with a shared prefix to an array
+Consider the following table of source data where each column name shares the prefix favorite_store_:
+favorite_store_1
+favorite_store_2
+favorite_store_3
+target
+old navy
+walmart
+We can use the wildcard selector * to map each column to an array in mParticle called favorite_stores[]:
+{
+"mapping_type": "column",
+"source": "favorite_store_*",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ value | upcase }}"
+}
+Mapping multiple elements without a shared prefix to an array
+Consider the following table of source data where each column has a unique name:
+groceries
+clothing
+hardware
+target
+old navy
+home depot
+To map each of these columns to the array favorite_stores[], we create a separate mapping for each element:
+[
+{
+"mapping_type": "column",
+"source": "groceries",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ value | upcase }}"
+},
+{
+"mapping_type": "column",
+"source": "clothing",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ value | upcase }}"
+},
+{
+"mapping_type": "column",
+"source": "hardware",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ value | upcase }}"
+}
+]
+Unmapped data
+You can create a “default” mapping that will be used for any source data that is not already mapped or ignored by setting source to the reserved keyword $unmapped:
+{
+"mapping_type": "column",
+"source": "$unmapped",
+"destination": "mparticle-destination"
+}
+By creating an “unmapped” mapping you can decrease the chances of a warehouse sync pipeline dropping or missing data during ingest.
+You can only create one mapping with "$unmapped" as the source per field transformation.
+Simplified JSON path format
+The mParticle JSON schema defines the structure that must be applied to all event data and user data for it to be ingested and usable by mParticle products.
+At the highest level, the mParticle JSON schema contains an events array which represents an event batch. Each object in the events batch represents a single event, and it includes the event data stored in an object called data and the type of event that was logged, or the event_type. The specific event details are then stored in a series of nested JSON objects.
+The Field Transformations API uses a simplified path format when mapping external data with individual fields contained in the mParticle JSON schema:
+Top level elements are referred to by their field names:
+For example, to reference a in {"a": 123}, use a
+Nested elements are seperated by .:
+For example, to reference b in {"a": {"b": 123}} use a.b
+Fields of objects in nested in arrays are referenced using array indices:
+For example, to reference b in {"a": [{"b": 123}]} use a[].b
+Mappings in the Field Transformations API are case sensitive for destination values. Source values are not case sensitive.
+Templating
+mParticle supports the use of Liquid templates with field transformations to enable more flexible and dynamic mappings between your source data and mParticle fields.
+Liquid templates can used when setting the value and destination fields of a mapping simply by adding the curly brace delimiters {{ }} surrounding your template object, or variable, and filters. For example:
+"value": "{{ value }}"
+You can use filters to modify the output of a template by adding a pipe character | before the filter:
+"value": "{{ value | upcase }}"
+You can string multiple filters together, separating each filter with a new pipe character:
+{{ value | upcase | rstrip }}
+You can also use the source field name in templates. For example, you can use a template to trim text from a source field name with:
+some_prefix_{{ key | remove: "text-to-remove" }}
+Supported template variables
+mParticle supports the following variables for use in templates:
+value: equals value of a field as found in your source database
+key: equals the name of the column or property containing the value in your source database
+key_length: equals the number of characters in key
+If you are mapping a field within an object in your source database to a field in mParticle, then key will be equal to the name of the lowest-level field in your source database. For example, if the source path is "source": "a.b.c", then key is equal to "c".
+Template example
+For example, consider the following source data:
+favorite_store_1
+favorite_store_2
+favorite_store_3
+“target”
+“old navy”
+“walmart”
+We could map each favorite store to an array in mParticle called favorite_stores with the mapping:
+{
+"mapping_type": "column",
+"source": "favorite_store_*",
+"destination": "user_attribute.favorite_stores[]"
+}
+Note that this mapping makes use of the wildcard selector * for source to select every column name in our source data table that begins with "favorite_store_".
+The resulting output of this mapping would be:
+{
+"user_attributes":
+{
+"favorite_stores": ["target", "old navy", "walmart"]
+}
+}
+However, we can modify the output by setting a template with the upcase filter to the value of the value field in our mapping:
+{
+"mapping_type": "column",
+"source": "favorite_store_*",
+"destination": "user_attribute.favorite_stores[]",
+"value": "{{ $value | upcase }}"
+}
+The resulting output of this mapping would then be:
+{
+"user_attributes":
+{
+"favorite_stores": ["TARGET", "OLD NAVY", "WALMART"]
+}
+}
+Templates in mapping destinations
+You can use templates when setting the destination of a mapping.
+Consider the following example source data:
+facebook_id
+email_id
+twitter_id
+“johndoe”
+“john@example.com”
+“@johndoe”
+To map each column to the correct user identity in mParticle, we can use the variable key with the remove filter in a template with user_identities:
+{
+"mapping_type": "column",
+"source": "*_id",
+"destination": "user_identities.{{ key | remove: '_id' }}"
+}
+The resulting output of this mapping would be:
+{
+"user_identities":
+{
+"facebook": "johndoe",
+"email": "john@example.com",
+"twitter": "@johndoe"
+}
+}
+Supported filters
+Filters can be used in your template to modify the source data you want to map to an mParticle field. To learn more about a specific filter, refer to Filters in the Liquid documentation.
+mParticle supports the following filters for use in templates:
+abs
+append
+at_least
+at_most
+capitalize
+ceil
+compact
+concat
+date
+default
+divided_by
+downcase
+first
+floor
+join
+last
+lstrip
+map
+minus
+modulo
+plus
+prepend
+remove
+remove_first
+remove_last
+replace
+replace_first
+replace_last
+reverse
+round
+rstrip
+size
+slice
+sort
+sort_natural
+split
+strip
+strip_newlines
+sum
+times
+truncate
+truncatewords
+uniq
+upcase
+where
+URL or base64 functions are not currently supported.
+Wildcard
+The asterisk * character can be used as a wildcard when selecting both your source fields and destinations in a mapping.
+You can use the wildcard * multiple times in a setting for source, but only once when setting destination.
+For example, consider the following data:
+favorite_store_1
+favorite_store_2
+favorite_store_3
+“target”
+“old navy”
+“walmart”
+Setting source in a mapping for this data to favorite_store_* will select all three columns, since they each share the same prefix favorite_store_.
+The wildcard selector can also function as a shorthand for the more verbose template {{ key }} when setting the destination. For example, the following mapping will map each store in the source data to a separate field of the same name within the user_attributes object in mParticle’s JSON schema:
+Example mapping:
+{
+"mapping_type": "column",
+"source": "favorite_store_*",
+"destination": "user_attributes.favorite_store_*"
+}
+Example output:
+{
+"data": {
+"user_attributes": {
+"favorite_store_1": "target",
+"favorite_store_2": "old navy",
+"favorite_store_3": "walmart"
+}
+}
+}
+Wildcards are also supported when selecting fields nested within an object as your source. For example:
+Example source data:
+sizes
+{"shoe_size": "12", "pants_size": "medium", "shirt_size": "small"}
+Example mapping:
+{
+"mapping_type": "column",
+"source": "sizes.*_size",
+"destination": "user_attributes.custom_attributes.{{ key }}"
+}
+Example output:
+{
+"user_attributes": {
+"custom_attributes": {
+"shoe_size": "12",
+"pants_size": "medium",
+"shirt_size": "small"
+}
+}
+}
+Example field transformation
+Consider the following simplified example source data table and destination schema:
+Example source database table
+column names:
+eventId
+sessionId
+timeStamp
+eventType
+ip
+fieldToIgnore
+staticValueToMap
+data rows:
+1234
+5678
+1402521613976
+screen_view
+172.217.12.142
+value-to-ignore
+bar
+…
+…
+…
+…
+…
+Example destination JSON schema
+{
+"events": [
+{
+"data": {
+"event_id": 1234,
+"session_id": 5678,
+"timestamp_unixtime_ms": 1402521613976,
+"custom_attributes":
+{
+"foo": "bar"
+}
+},
+"event_type": "screen_view"
+}
+],
+"source_request_id": "7fa67be4-f83a-429f-9d73-38b660c50825",
+"environment": "production",
+"mpid": 7346244611012968789,
+"ip": "172.217.12.142"
+}
+A field transformation mapping each attribute in the database table to the attributes as they exist in the mParticle JSON schema would be:
+Example field transformation
+{
+"id": "example-field-transformation-id",
+"name": "Example Field Transformation",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "eventId",
+"destination": "events[].data.event_id"
+},
+{
+"mapping_type": "column",
+"source": "sessionId",
+"destination": "events[].data.session_id"
+},
+{
+"mapping_type": "column",
+"source": "timeStamp",
+"destination": "events[].data.timestamp_unixtime_ms"
+},
+{
+"mapping_type": "column",
+"source": "ip",
+"destination": "ip"
+},
+{
+"mapping_type": "ignore",
+"source": "fieldToIgnore"
+},
+{
+"mapping_type": "static",
+"destination": "events[].data.custom_attributes.foo",
+"value": "bar"
+}
+],
+"created_on": "2023-11-14T21:15:43.182Z",
+"created_by": "developer@example.com",
+"last_modified_on": "2023-11-14T21:15:43.182Z",
+"last_modified_by": "developer@example.com"
+}
+Authentication
+The Field Transformations API can be authenticated with a bearer token.
+Authenticate with a bearer token
+To create a bearer token, send a POST request to mParticle’s SSO token endpoint at https://sso.auth.mparticle.com/oauth/token.
+The JSON body of the request must contain:
+client_id - the client ID, issued by mParticle when creating the API credentials
+client_secret - the client secret, issued by mParticle when creating the API credentials
+audience - set to a value of "https://api.mparticle.com"
+grant_type - set to a value of "client_credentials"
+Example cURL request
+curl --request POST \
+--url https://sso.auth.mparticle.com/oauth/token \
+--header 'content-type: application/json' \
+--data '{"client_id":"...","client_secret":"...","audience":"https://api.mparticle.com","grant_type":"client_credentials"}'
+Example HTTP request
+POST /oauth/token HTTP/1.1
+Host: sso.auth.mparticle.com
+Content-Type: application/json
+{
+"client_id": "your_client_id",
+"client_secret": "your_client_secret",
+"audience": "https://api.mparticle.com",
+"grant_type": "client_credentials"
+}
+A successful POST request to the token endpoint results in a JSON response as follows:
+{
+"access_token": "YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-",
+"expires_in" : 28800,
+"token_type": "Bearer"
+}
+Subsequent requests to the API can then be authorized by setting the authorization header to:
+Authorization: Bearer YWIxMjdi883GHBBDnjsdKAJQxNjdjYUUJABbg6hdI.8V6HhxW-
+Tokens cannot be revoked, but they expire every eight hours. The initial token request can take between one and three seconds, so mParticle recommends that you cache the token and refresh it only when necessary.
+Unlike many of the other resource groups in the Platform API, the Field Transformations API does not require you to include your mParticle account ID as a parameter, but you are required to include your workspace ID.
+Get all field transformations
+GET https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields
+Path parameters
+Path Parameter
+Type
+Description
+{workspaceId}
+Integer
+The ID for the workspace containing field transformations you want to retrieve.
+Query parameters
+Query Parameter
+Type
+Description
+{destinationType}
+String
+Valid value: event_batch.
+Example cURL request
+curl --location --request GET 'https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 200 response with an array containing each field transformation within a JSON object.
+[
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+],
+"created_on": "2023-11-14T21:12:36.246Z",
+"created_by": "string",
+"last_modified_on": "2023-11-14T21:12:36.246Z",
+"last_modified_by": "string"
+}
+]
+Create a new field transformation
+POST https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields
+Example cURL request
+curl --location --request POST 'https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+],
+"created_on": "2023-11-14T21:15:43.182Z",
+"created_by": "string",
+"last_modified_on": "2023-11-14T21:15:43.182Z",
+"last_modified_by": "string"
+}
+Response
+A successful request receives a 200 response with a JSON object containing the field transformation you just created.
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+],
+"created_on": "2023-11-14T21:15:43.182Z",
+"created_by": "string",
+"last_modified_on": "2023-11-14T21:15:43.182Z",
+"last_modified_by": "string"
+}
+Get a specific field transformation
+GET https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}
+Path parameters
+Path Parameter
+Type
+Description
+{workspaceId}
+Integer
+The ID for the workspace containing the field transformation.
+{fieldTransformationId}
+Integer
+The ID for the field transformation you want to retrieve.
+Example cURL request
+curl --location --request GET 'https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 200 response with a JSON object containing the field transformation.
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+],
+"created_on": "2023-11-14T21:24:26.511Z",
+"created_by": "string",
+"last_modified_on": "2023-11-14T21:24:26.511Z",
+"last_modified_by": "string"
+}
+Update a field transformation
+PUT https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}
+Path parameters
+Path Parameter
+Type
+Description
+{workspaceId}
+Integer
+The ID for the workspace containing the field transformation.
+{fieldTransformationId}
+Integer
+The ID for the field transformation you want to update.
+Example cURL request
+curl --location --request PUT 'https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+]
+}
+Response
+A successful request receives a 200 response with a JSON object containing the updated field transformation.
+{
+"id": "string",
+"name": "string",
+"destination_type": "event_batch",
+"mappings": [
+{
+"mapping_type": "column",
+"source": "string",
+"destination": "string",
+"value": "string"
+}
+],
+"created_on": "2023-11-14T21:25:50.947Z",
+"created_by": "string",
+"last_modified_on": "2023-11-14T21:25:50.947Z",
+"last_modified_by": "string"
+}
+Delete a field transformation
+DELETE https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}
+Path parameters
+Path Parameter
+Type
+Description
+{workspaceId}
+Integer
+The ID for the workspace containing the field transformation.
+{fieldTransformationId}
+Integer
+The ID for the field transformation you want to delete.
+Example cURL request
+curl --location --request DELETE 'https://api.mparticle.com/platform/v2/workspaces/{workspaceId}/transformations/fields/{fieldTransformationId}' \
+--header 'Authorization: Bearer <access_token>'
+Example JSON request body
+No request body.
+Response
+A successful request receives a 204 response with an empty body.
+Error handling
+Response code
+Error message
+Description
+400
+Bad Request
+401
+Unauthorized
+Verify that you have created the correct API credentials for the Field Transformations API and that you are using the correct authentication method.
+403
+Forbidden
+Verify that you have created the correct API credentials for the Field Transformations API and that you are using the correct authentication method.
+404
+Not Found
+Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

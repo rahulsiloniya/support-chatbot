@@ -1,0 +1,647 @@
+URL: https://docs.mparticle.com/developers/apis/platform/calculated-attributes/
+
+DOCSDOCSHomeGuidesDevelopersIntegrationsChangelogSign UpDocumentationDevelopersAPI ReferencesPlatform APIPlatform API OverviewAccountsAppsAudiencesCalculated AttributesData PointsFeedsField TransformationsServicesUsersWorkspacesData Subject Request APIData Subject Request API Version 1 and 2Data Subject Request API Version 3Warehouse Sync APIWarehouse Sync API OverviewWarehouse Sync API TutorialWarehouse Sync API ReferenceData MappingWarehouse Sync SQL ReferenceWarehouse Sync Troubleshooting GuideComposeIDWarehouse Sync API v2 MigrationCalculated Attributes Seeding APIBulk Profile Deletion API ReferenceCustom Access Roles APIData Planning APIGroup Identity API ReferencePixel ServiceProfile APIEvents APImParticle JSON Schema ReferenceIDSyncClient SDKsAMPAMP SDKAndroidInitializationConfigurationNetwork Security ConfigurationEvent TrackingUser AttributesIDSyncScreen EventsCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebView IntegrationLoggerPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting the Android SDKAPI ReferenceUpgrade to Version 5CordovaCordova PluginIdentityDirect Url RoutingDirect URL Routing FAQWebAndroidiOSFlutterGetting StartedUsageAPI ReferenceiOSInitializationConfigurationEvent TrackingUser AttributesIDSyncScreen TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutPush NotificationsWebview IntegrationUpload FrequencyApp ExtensionsPreventing Blocked HTTP Traffic with CNAMELinting Data PlansTroubleshooting iOS SDKSocial NetworksiOS 14 GuideiOS 15 FAQiOS 16 FAQiOS 17 FAQiOS 18 FAQAPI ReferenceUpgrade to Version 7RokuGetting StartedIdentityMediaReact NativeGetting StartedIdentityUnityUpload FrequencyGetting StartedOpt OutInitialize the SDKEvent TrackingCommerce TrackingError TrackingScreen TrackingIdentityLocation TrackingSession ManagementXboxGetting StartedIdentityWebInitializationConfigurationContent Security PolicyEvent TrackingUser AttributesIDSyncPage View TrackingCommerce EventsLocation TrackingMediaKitsApplication State and Session ManagementData Privacy ControlsError TrackingOpt OutCustom LoggerPersistenceNative Web ViewsSelf-HostingMultiple InstancesWeb SDK via Google Tag ManagerPreventing Blocked HTTP Traffic with CNAMEFacebook Instant ArticlesTroubleshooting the Web SDKBrowser CompatibilityLinting Data PlansAPI ReferenceUpgrade to Version 2 of the SDKXamarinGetting StartedIdentityWebAlexaMedia SDKsAndroidiOSWebToolsmParticle Command Line InterfaceLinting ToolsSmartypeServer SDKsNode SDKGo SDKPython SDKRuby SDKJava SDKQuickstartAndroidOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planStep 9. Test your local appHTTP Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputiOS Quick StartOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planJava Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputNode Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputPython Quick StartStep 1. Create an inputStep 2. Create an outputStep 3. Verify outputWebOverviewStep 1. Create an inputStep 2. Verify your inputStep 3. Set up your outputStep 4. Create a connectionStep 5. Verify your connectionStep 6. Track eventsStep 7. Track user dataStep 8. Create a data planGuidesPartnersIntroductionOutbound IntegrationsOutbound IntegrationsFirehose Java SDKInbound IntegrationsKit IntegrationsOverviewAndroid Kit IntegrationJavaScript Kit IntegrationiOS Kit IntegrationCompose IDData Hosting LocationsGlossaryMigrate from Segment to mParticleMigrate from Segment to mParticleMigrate from Segment to Client-side mParticleMigrate from Segment to Server-side mParticleSegment-to-mParticle Migration ReferenceRules Developer GuideAPI Credential ManagementThe Developer's Guided Journey to mParticleGuidesGetting StartedCreate an InputStart capturing dataConnect an Event OutputCreate an AudienceConnect an Audience OutputTransform and Enhance Your DataPersonalizationIntroductionProfilesAudiencesAudiences OverviewCreate an AudienceConnect an AudienceManage AudiencesReal-time Audiences (Legacy)Standard Audiences (Legacy)Calculated AttributesCalculated Attributes OverviewUsing Calculated AttributesCreate with AI AssistanceCalculated Attributes ReferencePredictive AudiencesPredictive Audiences OverviewUsing Predictive AudiencesJourneysJourneys OverviewManage JourneysDownload an audience from a journeyAudience A/B testing from a journeyJourneys 2.0Predictive AttributesWhat are predictive attributes?Predict Future BehaviorCreate Future PredictionUse Future Predictions in CampaignsAssess and Troubleshoot PredictionsNext Best ActionNext Best Action OverviewCreate a Next Best Action (NBA)View and Manage NBAsActivate Next Best Actions in CampaignsPlatform GuideBillingUsage and Billing ReportThe New mParticle ExperienceThe new mParticle ExperienceThe Overview MapObservabilityObservability OverviewObservability User GuideObservability Troubleshooting ExamplesObservability Span GlossaryIntroductionData RetentionConnectionsActivityLive StreamData FilterRulesTiered EventsmParticle Users and RolesAnalytics Free TrialTroubleshooting mParticleUsage metering for value-based pricing (VBP)AnalyticsIntroductionSetupSync and Activate Analytics User Segments in mParticleUser Segment ActivationWelcome Page AnnouncementsSettingsProject SettingsRoles and TeammatesOrganization SettingsGlobal Project FiltersPortfolio AnalyticsAnalytics Data ManagerAnalytics Data Manager OverviewEventsEvent PropertiesUser PropertiesRevenue MappingExport DataUTM GuideQuery BuilderData DictionaryQuery Builder OverviewModify Filters With And/Or ClausesQuery-time SamplingQuery NotesFilter Where ClausesEvent vs. User PropertiesGroup By ClausesAnnotationsCross-tool CompatibilityApply All for Filter Where ClausesDate Range and Time Settings OverviewUser Attributes at Event TimeUnderstanding the Screen View EventAnalysesAnalyses IntroductionSegmentation: BasicsGetting StartedVisualization OptionsFor ClausesDate Range and Time SettingsCalculatorNumerical SettingsSegmentation: AdvancedAssisted AnalysisProperties ExplorerFrequency in SegmentationTrends in SegmentationDid [not] Perform ClausesCumulative vs. Non-Cumulative Analysis in SegmentationTotal Count of vs. Users Who PerformedSave Your Segmentation AnalysisExport Results in SegmentationExplore Users from SegmentationFunnels: BasicsGetting Started with FunnelsGroup By SettingsConversion WindowTracking PropertiesDate Range and Time SettingsVisualization OptionsInterpreting a Funnel AnalysisFunnels: AdvancedGroup ByFiltersConversion over TimeConversion OrderTrendsFunnel DirectionMulti-path FunnelsAnalyze as Cohort from FunnelSave a Funnel AnalysisExplore Users from a FunnelExport Results from a FunnelCohortsGetting Started with CohortsAnalysis ModesSave a Cohort AnalysisExport ResultsExplore UsersSaved AnalysesManage Analyses in DashboardsJourneysGetting StartedEvent MenuVisualizationEnding EventSave a Journey AnalysisUsersGetting StartedUser Activity TimelinesTime SettingsExport ResultsSave A User AnalysisDashboardsDashboards––Getting StartedManage DashboardsDashboard FiltersOrganize DashboardsScheduled ReportsFavoritesTime and Interval Settings in DashboardsQuery Notes in DashboardsUser AliasingAnalytics ResourcesThe Demo EnvironmentKeyboard ShortcutsTutorialsAnalytics for MarketersAnalytics for Product ManagersCompare Conversion Across Acquisition SourcesAnalyze Product Feature UsageIdentify Points of User FrictionTime-based Subscription AnalysisDashboard Tips and TricksUnderstand Product StickinessOptimize User Flow with A/B TestingUser SegmentsAPIsUser Segments Export APIDashboard Filter APIIDSyncIDSync OverviewUse Cases for IDSyncComponents of IDSyncStore and Organize User DataIdentify UsersDefault IDSync ConfigurationProfile Conversion StrategyProfile Link StrategyProfile Isolation StrategyBest Match StrategyAliasingData MasterGroup IdentityOverviewCreate and Manage Group DefinitionsIntroductionCatalogLive StreamData PlansData PlansBlocked Data Backfill GuideWarehouse SyncData Privacy ControlsData Subject RequestsDefault Service LimitsFeedsCross-Account Audience SharingApproved Sub-ProcessorsImport Data with CSV FilesImport Data with CSV FilesCSV File ReferenceGlossaryVideo IndexAnalytics (Deprecated)Identity ProvidersSingle Sign-On (SSO)Setup ExamplesSettingsDebug ConsoleData Warehouse Delay AlertingIntroductionDeveloper DocsIntroductionIntegrationsIntroductionRudderstackGoogle Tag ManagerSegmentData Warehouses and Data LakesAdvanced Data Warehouse SettingsAWS Kinesis (Snowplow)AWS Redshift (Define Your Own Schema)AWS S3 Integration (Define Your Own Schema)AWS S3 (Snowplow Schema)BigQuery (Snowplow Schema)BigQuery Firebase SchemaBigQuery (Define Your Own Schema)GCP BigQuery ExportSnowflake (Snowplow Schema)Snowplow Schema OverviewSnowflake (Define Your Own Schema)APIsREST APIDashboard Filter API (Deprecated)User Segments Export API (Deprecated)SDKsSDKs IntroductionReact NativeiOSAndroidJavaJavaScriptPythonObject APIDeveloper BasicsAliasingCalculated AttributesA Calculated Attribute is a read-only value about a single user, providing granular insight into user behavior. These attributes are defined in mParticle and are computed automatically over time by using the raw data stream of events and user information.
+The Calculated Attributes feature is currently available only upon request for beta customers. If you're interested in using it prior to general availability, please contact your success manager.
+The calculated attributes resource group is only accessible at https://api.mparticle.com/platform/v2, and does not require the ?accountId query string parameter.
+Get all calculated attributes
+GET /workspaces/1234/calculatedattributes?name=ca1
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes?name=ca1"
+Query parameters
+Name
+Type
+Description
+name
+string
+Optional parameter to filter by name.
+Response
+[
+{
+"id": 5,
+"name": "ca1",
+"description": "Calculated attribute description.",
+"created_by": "user@mparticle.com",
+"created_on": "2019-09-10T15:34:44.69",
+"last_modified_on": "2019-12-06T15:04:22.043",
+"last_modified_by": "user@mparticle.com",
+"active_definition": {
+"recipe_type": "event",
+"datapoint": {
+"type": "event",
+"event_name": "Purchase",
+"attribute_name": "Total Amount",
+"event_type": "commerce_event",
+"custom_event_type": "purchase",
+"attribute_category": "product_attribute",
+"use_product_quantity": true
+},
+"conditions": [
+{
+"type": "number",
+"operator": "equals",
+"attribute_name": "Checkout Step",
+"value": "22",
+"values": null,
+"min_value": null,
+"max_value": null
+}
+],
+"calculation_type": "sum",
+"time_period": {
+"type": "since",
+"date": "2019-10-01T00:00:00",
+"within": null,
+"within_unit": null
+},
+"seeding": {
+"cutoff_date": "2019-10-02T00:00:00"
+}
+},
+"draft_definition": {
+"recipe_type": "event",
+"datapoint": {
+"type": "event",
+"event_name": "Purchase",
+"attribute_name": "Total Amount",
+"event_type": "commerce_event",
+"custom_event_type": "purchase",
+"attribute_category": "product_attribute",
+"use_product_quantity": true
+},
+"conditions": null,
+"calculation_type": "sum",
+"time_period": {
+"type": "since",
+"date": "2019-10-01T00:00:00",
+"within": null,
+"within_unit": null
+},
+"seeding": null
+},
+"audience_count": 1,
+"activated_on": "2020-02-18T19:24:50.426Z",
+"activated_by": "user@mparticle.com"
+}
+]
+Check for existing calculated attributes
+HEAD /workspaces/1234/calculatedattributes?name=ca1
+Example cURL request
+curl \
+-X HEAD \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes?name=ca1"
+Parameters
+Name
+Type
+Description
+name
+string
+Optional parameter to filter by name.
+Response
+HTTP Code 204 — Calculated Attribute resource(s) exist.
+HTTP Code 404 — Calculated Attribute resource(s) do not exist.
+The response body will be empty.
+Create a new calculated attribute
+POST /workspaces/1234/calculatedattributes
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes" \
+-d '{
+"name": "New Calculated Attribute",
+"draft_definition": {
+"recipe_type": "event",
+"datapoint": {
+"type": "event",
+"event_name": "Add To Cart",
+"attribute_name": null,
+"event_type": "commerce_event",
+"custom_event_type": "add_to_cart",
+"attribute_category": "product_attribute",
+"use_product_quantity": true
+},
+"conditions": [],
+"calculation_type": "count",
+"time_period": {
+"type": "since",
+"date": "2020-01-24T00:00:00",
+"within": null,
+"within_unit": null
+},
+"seeding": {
+"cutoff_date": "2020-01-26T00:00:00"
+}
+}
+}'
+Request Payload Properties
+Name
+Data Type
+Required
+Description
+name
+string
+Required
+Calculated attribute name.
+description
+string
+Optional
+Calculated attribute description.
+draft_definition
+object
+Required
+Calculated attribute definition.
+Draft Definition Object Properties
+draft_definition
+Name
+Data Type
+Required
+Description
+recipe_type
+string
+Required
+Currently only “event” is supported.
+data_point
+object
+Required
+A unique datapoint in the system. This could be an event, event attribute or user attribute, but currently only events are supported.
+conditions
+object array
+Optional
+An array of conditions that must be met for the datapoint to qualify for the recipe.
+calculation_type
+string
+Required
+The calculation type to be performed on the datapoint that will result in the value of the calculated attribute.One of:count first_occurrence_timestamp last_occurrence_timestamp first_occurrence last_occurrence sum min max average unique_list unique_values_count most_frequent
+time_period
+object
+Required
+The time period to which the calculation should be applied.
+seeding
+object
+Optional
+Settings for seeding the calculated attribute.
+Data Point Object Properties
+draft_definition.data_point
+Name
+Data Type
+Required
+Description
+type
+string
+Required
+One of “event”, “event_attribute”, or “user_attribute”.
+event_name
+string
+Required
+App event name.
+attribute_name
+string
+Optional
+If targeting an event attribute or user attribute, this property is required. In the case of targeting an event attribute, the corresponding event name must be set in the event_name property.
+event_type
+string
+Required
+See event_type field in Events API for supported values.
+custom_event_type
+string
+Optional
+Only applicable to app (custom) events. See custom_event_type field in Events API for supported values.
+attribute_category
+string
+Optional
+Only applicable when attribute_name is provided. Value can be one of “event_attribute”, “product_attribute”, or “promotion_attribute”. If nothing is set the default value will be set as “event_attribute”.
+use_product_quantity
+bool
+Optional
+Indicates that the product quantity should be used when calculating Average or Most Frequent calculations with e-commerce event types. Only applies when attribute_category is one of “product_attribute” or “promotion_attribute”.
+Condition Object Properties
+draft_definition.conditions
+Name
+Data Type
+Required
+Description
+type
+string
+Required
+The type of data being operated on. One of “string”, “number”, “boolean”, or “date”.
+operator
+string
+Required
+The operator to apply. The supported list of operators depends on the type of the selected attribute. See type-map table below.
+attribute_name
+string
+Required
+The name of an attribute that belongs to the event selected in the datapoint section. If the event does not contain the attribute, it is implied that the condition is not met.
+value
+string
+Conditionally Required
+If the operator requires a single value, then this field will be used and is required.
+values
+string array
+Conditionally Required
+If the operator requires a set of values, such as ”in_list”, then the set will be provided in this array and is required.
+min_value
+string
+Conditionally Required
+If the operator requires defining a range, then the min value of the range will be set here.
+max_value
+string
+Conditionally Required
+If the operator requires defining a range, then the max value of the range will be set here.
+Operator - Type Support Map
+Operator
+String
+Number
+Boolean
+Date
+exists
+Yes
+Yes
+Yes
+Yes
+not_exists
+Yes
+Yes
+Yes
+Yes
+empty
+Yes
+Yes
+Yes
+Yes
+in_list
+Yes
+Yes
+No
+No
+contains
+Yes
+No
+No
+No
+not_contains
+Yes
+No
+No
+No
+pattern
+Yes
+No
+No
+No
+equals
+Yes
+Yes
+Yes
+Yes
+not_equals
+Yes
+Yes
+No
+No
+greater_than
+No
+Yes
+No
+No
+greater_or_equal
+No
+Yes
+No
+No
+less_than
+No
+Yes
+No
+No
+less_than_or_equal
+No
+Yes
+No
+No
+before
+No
+No
+No
+Yes
+after
+No
+No
+No
+Yes
+between
+No
+Yes
+No
+No
+between_dates
+No
+No
+No
+Yes
+Time Period Object Properties
+draft_definition.time_period
+Name
+Data Type
+Required
+Description
+type
+string
+Required
+“since” or “within”
+date
+string
+Conditionally Required
+A date string in ISO 8601 format. Optional for type “all”.
+within_unit
+string
+Conditionally Required
+Required if type is within. Value is one of “days” or “weeks”.
+within
+integer
+Conditionally Required
+Required if type is within. Value corresponds to the unit chosen in within_unit.
+Seeding Object Properties
+draft_definition.seeding
+Name
+Data Type
+Required
+Description
+cutoff_date
+string
+Required
+A date string in ISO 8601 format. mParticle will only use data after this date to compute the calculated attribute. Client is responsible for calculating the value based on data prior to this date and send mParticle a seed value.
+Response
+The response will be an integer identifier for the new Calculated Attribute.
+Validation Error Responses
+Message
+Description
+Field ‘name’ is required.
+The calculate attribute’s name is missing.
+Field ‘name’ must be unique.
+A calculated attribute with that name already exists in the workspace.
+Field ‘draft_definition’ is required.
+The calculated attribute is missing the draft_definition field.
+Field ‘time_period.type’ = ‘all’ is not supported.
+The time period type all is not supported.
+‘time_period.date’ must be on or after the earliest date available of {date}
+The date isn’t available according to the audience retention period of your subscription plan.
+The within time period cannot exceed your configured retention period of {N} days for Calculated Attributes
+The date specified for the within calculation date range exceeds the audience retention period of your subscription plan.
+Invalid recipe type
+Only type event is currently supported.
+Invalid calculation type
+The draft_definition.calculation_type field is missing or invalid. See schema definition for enum values.
+Invalid time period specification
+The draft_definition.time_period field is missing or invalid.
+Invalid ‘type’ time period specification
+The draft_definition.time_period.type field is missing or invalid. See schema definition for enum values.
+Invalid ‘within’ time period specification
+The draft_definition.time_period.within field is missing or invalid. Must be a positive integer.
+Invalid ‘within_unit’ time period specification
+The draft_definition.time_period.within_unit field is missing or invalid. See schema definition for enum values.
+Invalid data point custom event name
+The draft_definition.datapoint.event_name field is required when draft_definition.datapoint.event_type is custom_event.
+Invalid data point custom event type
+The draft_definition.datapoint.custom_event_type field is only allowed when draft_definition.datapoint.event_type is custom_event or commerce_event.
+Invalid condition definition
+One of the conditions in draft_definition.conditions is invalid.
+Invalid condition definition type
+A condition’s type field is invalid. See schema definition for enum values.
+Invalid string condition operator
+A string condition’s operator field is invalid. See schema definition for enum values.
+Condition attribute name must be specified
+A condition’s attribute_name field is invalid or missing.
+In-list condition values must be specified
+A condition’s values field is invalid or missing. Field value is ignored when using the in_list operator.
+String condition value must be specified
+A string condition’s value field is invalid or missing.
+Invalid numeric condition operator
+A numeric condition’s operator field is invalid. See schema definition for enum values.
+Invalid numeric in-list condition values
+A numeric condition’s values field is invalid or missing. Field value is ignored when using the in_list operator.
+Invalid numeric condition minimum value
+A numeric condition’s value field is invalid or missing. Field min_value is required when using a range operator.
+Invalid numeric condition maximum value
+A numeric condition’s value field is invalid or missing. Field max_value is required when using a range operator.
+Invalid numeric condition value
+A numeric condition’s value field is invalid or missing.
+Invalid boolean condition operator
+A boolean condition’s operator field is invalid. See schema definition for enum values.
+Invalid boolean condition value
+A boolean condition’s value field is invalid or missing.
+Invalid date condition operator
+A date condition’s operator field is invalid. See schema definition for enum values.
+Invalid datetime in-list condition values
+A date condition’s values field is invalid or missing. Field value is ignored when using the in_list operator.
+Invalid date condition minimum value
+A date condition’s value field is invalid or missing. Field min_value is required when using a range operator.
+Invalid date condition maximum value
+A date condition’s value field is invalid or missing. Field max_value is required when using a range operator.
+Invalid date condition value
+A date condition’s value field is invalid or missing.
+Condition value must be empty
+A range condition has a value in the value field.
+Condition values must be empty
+A condition that does not target a list has a value in the values field
+Condition minimum value must be empty
+A non-range condition has a value in the min_value field.
+Condition maximum value must be empty
+A non-range condition has a value in the max_value field.
+Get a calculated attribute
+GET /workspaces/1234/calculatedattributes/5678
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678"
+Response
+{
+"id": 0,
+"name": "string",
+"description": "string",
+"created_by": "string",
+"created_on": "2020-01-30T17:37:41.608Z",
+"last_modified_on": "2020-01-30T17:37:41.608Z",
+"last_modified_by": "string",
+"active_definition": {
+"recipe_type": "event",
+"data_point": {
+"type": "event",
+"event_name": "string",
+"attribute_name": "string",
+"event_type": "unknown",
+"custom_event_type": "unknown"
+}
+"conditions": [
+{
+"type": "string",
+"operator": "exists",
+"attribute_name": "string",
+"value": "string",
+"values": [
+"string"
+],
+"min_value": "string",
+"max_value": "string"
+}
+],
+"calculation_type": "count",
+"time_period": {
+"type": "all",
+"date": "2020-01-30",
+"within": 0,
+"within_unit": "days"
+}
+},
+"draft_definition": {
+"recipe_type": "event",
+"data_point": {
+"type": "event",
+"event_name": "string",
+"attribute_name": "string",
+"event_type": "unknown",
+"custom_event_type": "unknown"
+}
+"conditions": [
+{
+"type": "string",
+"operator": "exists",
+"attribute_name": "string",
+"value": "string",
+"values": [
+"string"
+],
+"min_value": "string",
+"max_value": "string"
+}
+],
+"calculation_type": "count",
+"time_period": {
+"type": "all",
+"date": "2020-01-30",
+"within": 0,
+"within_unit": "days"
+}
+},
+"audience_count": 0,
+"activated_on": "2020-02-18T19:24:50.426Z",
+"activated_by": "user@mparticle.com"
+}
+Delete a calculated attribute
+DELETE /workspaces/1234/calculatedattributes/5678
+Example cURL request
+curl \
+-X DELETE \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678"
+Response
+HTTP Code 204 — Calculated Attribute was successfully deleted.
+HTTP Code 404 — Calculated Attribute does not exist.
+The response body will be empty.
+Update a calculated attribute
+Use this endpoint to create or update a draft of your Calculated Attribute definition. When a Calculated Attribute is updated, the draft_definition is changed. Once the Calculated Attribute is activated, the draft_definition is moved into the active_definition and the new definition is used to calculate values.
+The active_definition property cannot be updated directly.
+You can only rename a Calculated Attribute before it has been activated; Once activated, the name is read-only. The only property you will be allowed to update in this state is the description.
+PUT /workspaces/1234/calculatedattributes/5678
+Example cURL request
+curl \
+-X PUT \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678" \
+-d '{
+"name": "New Name",
+"draft_definition": {
+"recipe_type": "event",
+"datapoint": {
+"type": "event",
+"event_name": "Add To Cart",
+"attribute_name": null,
+"event_type": "commerce_event",
+"custom_event_type": "add_to_cart"
+},
+"conditions": [],
+"calculation_type": "count",
+"time_period": {
+"type": "since",
+"date": "2020-01-24T00:00:00",
+"within": null,
+"within_unit": null
+}
+}
+}'
+Response
+HTTP Code 204 — Calculated Attribute was successfully updated.
+HTTP Code 404 — Calculated Attribute does not exist.
+Validation Error Responses
+In addition to the validation errors from Create a Calculated Attribute.
+Message
+Description
+Calculated attribute name cannot be changed once the calculated attribute has been activated.
+You can only update the name of a calculated attribute that has not been acitvated.
+Activate a calculated attribute
+Use this endpoint to activate a calculated attribute. You must activate the Calculated Attribute before it can be used elsewhere in the system. A calculated attribute can only be activated if you have not exceeded the maximum limit of active calculated attributes for your account.
+POST /workspaces/1234/calculatedattributes/5678/activation
+The request body is empty for this POST.
+Example cURL request
+curl \
+-X POST \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678/activation"
+Response
+HTTP Code 204 — Calculated Attribute was successfully activated.
+Errors
+Message
+Description
+You have reached the account limit on active calculated attributes.
+To increase limit, contact your account representative or delete unneeded active calculated attributes.
+No draft definition was found to activate.
+You are attempting to activate a calculated attribute that has a invalid definition.
+Get a calculated attribute activation status
+A calculated attribute’s activation status tells you whether the calculated attribute has been activated and when and who activated it.
+GET /workspaces/1234/calculatedattributes/5678/activation
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678/activation"
+Response
+{
+"calculated_attribute_id": 5678,
+"is_active": true,
+"activated_on": "2020-02-18T19:24:50.426Z",
+"activated_by": "user@mparticle.com"
+}
+Delete a calculated attribute draft definition
+Use this endpoint to discard a calculated attribute’s draft definition.
+DELETE /workspaces/1234/calculatedattributes/5678/draft
+Example cURL request
+curl \
+-X DELETE \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678/draft"
+Response
+HTTP Code 204 — Calculated Attribute’s draft definition was successfully deleted.
+HTTP Code 404 — Calculated Attribute does not exist.
+The response body will be empty.
+Get a calculated attribute status
+A calculated attribute’s calculation status gives you the calculation progress and an estimated completion date.
+GET /workspaces/1234/calculatedattributes/5678/calculation
+Example cURL request
+curl \
+-X GET \
+-H "Authorization: Bearer YWIxMjdi341GHhnDnjsdKAJQxNjdjYuOJABbg6HdI.8V6HhxW-" \
+"https://api.mparticle.com/platform/v2/workspaces/1234/calculatedattributes/5678/calculation"
+Response
+{
+"id": 5678,
+"name": "New Name",
+"revision_id": 123,
+"is_calculated": false,
+"calculation_percent_complete": 50,
+"estimated_completion_time": "2020-01-29T19:24:19.051Z"
+}Was this page helpful?YesNoLast Updated: February 27, 2025© 2025 mParticle, Inc. All rights reserved.mParticle.comPrivacy PolicyCookie PolicyDo Not Sell or Share My Personal Data

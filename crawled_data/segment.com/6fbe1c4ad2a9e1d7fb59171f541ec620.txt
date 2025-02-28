@@ -1,0 +1,1236 @@
+URL: https://segment.com/docs/getting-started/use-cases/reference//#use-cases-reference
+
+Use Cases Reference | Segment Documentation
+Skip to main content
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Help
+Product Updates
+Back to Segment.com
+Log in
+Sign Up
+Home
+Getting Started
+What is Segment?
+How Segment Works
+Getting Started Guide
+A Basic Segment Installation
+Planning a Full Installation
+A Full Segment Installation
+Sending Data to Destinations
+Testing and Debugging
+What's Next
+Use Cases
+Use Cases Overview
+Choosing a Use Case
+Use Cases Setup
+Use Cases Reference
+Guides
+An Introduction to Segment
+For Developers
+For Data Users
+For Workspace Admins
+Filtering your Segment Data
+Handling Duplicate Data
+Internet Bots
+Segment vs. Tag Managers
+Replay
+Regional Segment
+Audiences and Journeys
+How-to Guides
+How-to Guides Index
+Automating Multi-Channel Re-Engagement Campaigns
+Collecting Data on the Client or Server
+Collecting Pageviews on the Server Side
+Creating a Push Notification
+Tracking Customers Across Channels and Devices
+Setting up a Dynamic Coupon Program to Reward Loyal Customers
+Forecasting LTV with SQL and Excel for E-Commerce
+Importing Historical Data
+Joining User Profiles
+Measuring Your Advertising Funnel
+Measuring the ROI of Your Marketing Campaigns
+Migrating Code From Other Analytics Tools
+Segment's Role in Attribution
+Setting Up Event-Triggered Notifications or Alerts
+Usage and Billing
+Account Management
+Billing and Account FAQs
+MTUs, Throughput and Billing
+Discounts or Coupons
+Connections
+Overview
+The Segment Spec
+Spec Overview
+Spec: Page
+Spec: Screen
+Spec: Track
+Spec: Group
+Spec: Identify
+Spec: Alias
+Spec: AI Copilot
+Spec: Common Fields
+Native Mobile Spec
+What is the native mobile spec?
+Packaging SDKs for Mobile Destinations
+Spec: Semantic Events
+Spec: B2B SaaS
+Spec: Ecommerce Events
+Ecommerce Tracking Plans
+Video Spec
+Best Practices for Identifying Users
+Best Practices for Event Calls
+Sources
+Sources Overview
+Sources Catalog
+Cloud Sources
+Source Debugger
+Segment-Managed Custom Domain
+Self-Managed Custom Proxy
+Visual Tagger
+Schema
+Schema Controls
+Using Schema Controls
+Schema Unique Limits
+Destinations
+Destinations Overview
+Destination Actions
+Add a Destination
+Destinations Catalog
+Destination Filters
+Reverse ETL
+Reverse ETL Overview
+Set Up Reverse ETL
+Manage Reverse ETL Syncs
+Reverse ETL System
+Reverse ETL Destination Catalog
+Reverse ETL Source Setup Guides
+Azure Reverse ETL Setup
+BigQuery Reverse ETL Setup
+Databricks Reverse ETL Setup
+Postgres Reverse ETL Setup
+Redshift Reverse ETL Setup
+Snowflake Reverse ETL Setup
+Functions
+Functions Overview
+Source Functions
+Destination Functions
+Destination Insert Functions
+Functions Copilot
+Functions Copilot Nutrition Facts Label
+Functions Environment
+Functions Usage Limits
+Functions for AWS APIs
+Storage Destinations
+Storage Destinations Overview
+Storage Destinations Catalog
+Segment Data Lakes
+Data Lakes Overview
+Set Up Data Lakes
+Sync Reports and Error Reporting
+AWS Lake Formation
+Data Lakes Sync History and Health
+Data Lakes vs. Warehouses
+Data Warehouses
+Warehouse Overview
+Warehouse Schemas
+Warehouse Syncs
+Warehouse Health Dashboards
+Choosing a Warehouse
+Warehouse FAQs
+Adding Warehouse Users
+Warehouse Errors
+Redshift Cluster and Redshift Connector Limitations
+Speeding Up Redshift Queries
+Useful SQL Queries for Redshift
+Regional Segment
+Event Tester
+Data Export Options
+Using Schema Controls
+Event Delivery
+Delivery Overview
+Connections Alerting
+Locate Your Write Key
+Integration Error Codes
+Rate Limits
+OAuth 2.0
+AWS PrivateLink Integration
+Unify
+Unify Overview
+Unify Onboarding
+Identity Resolution
+Overview
+Onboarding
+Space Setup
+Use Cases
+External IDs
+Settings
+E-Commerce Example
+Profiles Sync
+Profiles Sync Overview
+Profiles Sync Setup
+Setup
+Databricks for Profiles Sync
+Sample Queries
+Tables & Materialized Views
+Data Graph
+Data Graph
+Setup Guides
+BigQuery Data Graph Setup
+Databricks Data Graph Setup
+Redshift Data Graph Setup
+Snowflake Data Graph Setup
+Linked Events
+Linked Events Overview
+Linked Events Limits
+Traits
+Predictions
+Predictions
+Using Predictions
+Suggested Predictive Audiences
+Predictions Nutrition Facts Label
+Computed Traits
+Custom Traits
+SQL Traits
+Recommended Items
+Profile API
+Profile Debugger
+Profiles Insights
+CSV Upload
+Unify and GDPR
+Unify FAQs
+Unify Limits
+Engage
+Introduction
+Foundations Onboarding
+Premier Onboarding
+Use Cases
+User Subscriptions
+User Subscriptions
+Set User Subscriptions
+Subscription States
+Subscription Groups
+Subscriptions with SQL Traits
+Update Subscriptions with a CSV
+Profiles
+Use Profiles and Traits with a CSV
+Audiences
+Audiences Overview
+Linked Audiences
+Linked Audiences Overview
+Linked Audiences Limits
+Account-level Audiences
+Generative Audiences
+Generative Audiences Nutrition Facts Label
+Product Based Audiences
+Product Based Audiences Nutrition Facts Label
+Organize Audiences
+Send Audiences to Destinations
+Journeys
+Journeys Overview
+Build a Journey
+Journey Step Types
+Journey Edits and Versioning
+Send Data to Destinations
+Journeys Analytics
+Event-Triggered Journeys
+Overview
+Event-Triggered Journeys Steps
+Journey Context
+Journeys Best Practices and FAQ
+Example Journeys Use Cases
+Understand Journeys Logic
+Journeys Glossary
+Content
+Email Template
+Drag and Drop Editor
+HTML Editor
+SMS Template
+WhatsApp Template
+Mobile Push Template
+Organizing Your Templates
+Campaigns
+Campaigns Overview
+Email Campaigns
+SMS Campaigns
+Broadcasts
+WhatsApp Campaigns
+Mobile Push
+Mobile Push Onboarding
+Mobile Push Campaigns
+Trait Activation
+Trait Activation Overview
+Trait Enrichment
+ID Sync
+Analytics Overview
+Engage Settings
+Engage Default Limits
+Engage and Warehouses
+Using Engage Data
+Engage FAQs
+Privacy
+Privacy Overview
+Privacy Portal
+Detect PII
+Data Controls and Alerts
+GDPR
+Complying With GDPR
+User Deletion and Suppression
+Consent Management
+Consent Management Overview
+Consent in Segment Connections
+Configure Consent Management
+Consent in Unify
+Consent in Reverse ETL
+Consent FAQs
+Account & Data Deletion
+HIPAA Eligible Segment
+Privacy FAQs
+Protocols
+Protocols Overview
+Create a Tracking Plan
+Data Collection Best Practices
+The Tracking Plan
+Tracking Plan Libraries
+Validate With Violations
+Connect Sources to Your Tracking Plan
+Review and Resolve Event Violations
+Forward Violations
+Enforce With Data Controls
+Customize Your Schema Controls
+Forward Blocked Events
+Transform to Fix Bad Data
+Protocols Extensions
+Protocols APIs
+Typewriter
+Anomaly Detection
+Schema Controls
+Protocols FAQs
+Segment App
+Segment Web App
+Workspace Home
+Access Management
+Identity & Access Management Overview
+Concepts
+Roles
+Manage Workspace Access
+Label-Based Access Control
+Audit Trail
+Single Sign On
+System for Cross-domain Identity Management (SCIM) Configuration Guide
+Multi-Factor Authentication (MFA)
+Extensions
+Extensions Overview
+dbt
+Git
+Picking a Secure Password
+Prod and Testing Environments in Segment
+Verifying Your Email Address
+Support Access
+API
+Public API
+Public API
+Destination Filter Query Language
+Segment Query Language
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Partners
+Glossary
+Config API
+Config API overview
+API design
+Authentication
+Destination Filter Query Language
+Reference
+Creating a Javascript web source and Google Analytics destination
+Help
+Home
+/
+Getting started
+/
+Use cases
+/
+Use Cases Reference
+Use Cases Reference
+On this page
+Use Cases by business goal
+Suggested events, sources, and destinations
+This reference guide provides detailed information on the suggested events, sources, and destinations for each Segment use case. Use this guide to ensure you’re tracking the right events and connecting the best sources and destinations for your specific needs.
+Use Cases by business goal
+The business goal you select during onboarding determines the use cases that Segment shows you.
+This table lists each business goal and each of its corresponding use cases:
+Business Goal
+Use Cases
+Optimize advertising
+Build high-value lookalikesBuild lookalikes for app installIncrease signups with lookalikesMitigate cart abandonmentMitigate high value churnSuppress based on timeSuppress with purchase
+Personalize first conversion
+Accelerate app installAccelerate onboardingAccelerate signupAcquire paid subscriptionsConvert trials to paid subscriptionsMitigate cart abandonment
+Boost retention, upsell, and cross-sell
+Build high value lookalikesIncrease repeat purchasesMitigate high value churnNurture with contentPersonalize upsell contentPersonalize winback
+Personalize communications and product experiences
+Accelerate onboardingIncrease repeat purchasesMitigate high value churnNurture with contentPersonalize upsell contentPersonalize winback
+Suggested events, sources, and destinations
+This section contains tables for the different events, sources, and destinations that Segment recommends for each use case.
+Optimize advertising
+Click on each use case in this section to view Segment’s recommendations for the Optimize advertising business goal, which helps you improve return on ad spend.
+Build high value lookalikes
+This table shows the event and properties Segment recommends you track for the Build high value lookalikes use case, which helps you build from high-value purchasers through specific channels:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Build high-value lookalikes use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Advertising
+Build lookalikes for app install
+This table shows the events and properties Segment recommends you track for the Build lookalikes for app install use case, which helps you build lookalikes from app installers in specific channels:
+Events
+Properties
+Application Installed
+screen_id, screen_type, screen_title, version, build, from_background, referring_application
+Install Attributed
+Application Opened
+screen_id, screen_type, screen_title, version, build, from_background, referring_application
+And this table shows the source and destination types that Segment recommends you set up for the Build lookalikes for app install use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Advertising
+Increase signups with lookalikes
+This table shows the events and properties Segment recommends you track for the Increase signups with lookalikes use case, which helps you build lookalikes from signups through specific channels.:
+Events
+Properties
+Signed Up
+first_name, last_name, username
+Page Viewed
+page_category, page_name
+And this table shows the source and destination types that Segment recommends you set up for the Increase signups with lookalikes use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Advertising
+Mitigate cart abandonment
+This table shows the events and properties Segment recommends you track for the Mitigate cart abandonment use case, which helps you win back users to drive purchases and understand funnel:
+Events
+Properties
+Checkout Started
+num_items, order_id, coupon, total, revenue, shipping, tax, affiliation, discount
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Mitigate cart abandonment use case, which helps you win back users to drive purchases and understand funnel:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Mitigate high value churn
+This table shows the event and properties Segment recommends you track for the Mitigate high value churn use case, which helps you anticipate churn for your highest value users and prevent them from churning:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Mitigate high value churn use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Suppress based on time
+This table shows the event and properties Segment recommends you track for the Suppress based on time use case, which helps you suppress users after a few days to keep campaigns fresh:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Suppress based on time use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Suppress with purchase
+This table shows the events and properties Segment recommends you track for the Suppress with purchase use case, which helps you suppress converted users immediately after a conversion:
+Events
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+Page Viewed
+page_category, page_name
+And this table shows the source and destination types that Segment recommends you set up for the Suppress with purchase use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Personalize first conversion
+Click on each use case in this section to view Segment’s recommendations for the Personalize first conversion business goal, which helps you convert prospective or free customers.
+Accelerate app install
+This table shows the events and properties Segment recommends you track for the Accelerate app install use case, which helps you encourage app install with personalized messaging:
+Events
+Properties
+Page Scrolled
+pct_scrolled, page_category
+Page Viewed
+page_category, page_name
+And this table shows the source and destination types that Segment recommends you set up for the Accelerate app install use case:
+Sources
+Destinations
+Website
+Advertising
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Advertising
+Personalization
+Accelerate onboarding
+This table shows the events and properties Segment recommends you track for the Accelerate onboarding use case, which helps you optimize new user activation based on real-time behavior:
+Events
+Properties
+Onboarding Step Completed
+step_name, step_number, total_steps, pct_completed, flow_name, screen_id, screen_type
+Onboarding Completed
+checkout_id, order_id, total, revenue, shipping, tax, affiliation
+Signed In
+first_name, last_name, username, email
+And this table shows the source and destination types that Segment recommends you set up for the Accelerate onboarding use case:
+Sources
+Destinations
+Website
+Advertising
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Personalization
+Email Marketing
+SMS & Push Notifications
+Accelerate signup
+This table shows the events and properties Segment recommends you track for the Accelerate signup use case, which helps you encourage anonymous users to sign up with messaging:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Page Scrolled
+pct_scrolled, page_category
+Signed Up
+first_name, last_name, username
+And this table shows the source and destination types that Segment recommends you set up for the Accelerate signup use case:
+Sources
+Destinations
+Website
+Advertising
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Advertising
+Personalization
+Acquire paid subscriptions
+This table shows the events and properties Segment recommends you track for the Acquire paid subscriptions use case, which helps you engage customers at the right time to drive conversions:
+Events
+Properties
+Trial Started
+category
+Subscription Started
+And this table shows the source and destination types that Segment recommends you set up for the Acquire paid subscriptions use case:
+Sources
+Destinations
+Website
+Advertising
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Advertising
+SMS & Push Notifications
+Email Marketing
+Convert trials to paid subscriptions
+This table shows the events and properties Segment recommends you track for the Convert trials to paid subscriptions use case, which helps you get customers to upgrade through personalized messaging:
+Events
+Properties
+Subscription Started
+Trial Started
+category
+And this table shows the source and destination types that Segment recommends you set up for the Convert trials to paid subscriptions use case:
+Sources
+Destinations
+Website
+Advertising
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Advertising
+SMS & Push Notifications
+Email Marketing
+Mitigate cart abandonment
+This table shows the events and properties Segment recommends you track for the Mitigate cart abandonment use case, which helps you win back users to drive purchases and understand funnel:
+Events
+Properties
+Checkout Started
+num_items, order_id, coupon, total, revenue, shipping, tax, affiliation, discount
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Mitigate cart abandonment use case:
+Sources
+Destinations
+Website
+Personalization
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+SMS & Push Notifications
+Email Marketing
+Boost retention, upsell, and cross-sell
+Click on each use case in this section to view Segment’s recommendations for the Boost retention, upsell, and cross-sell business goal, which helps you increase repeat visits or purchases.
+Build high value lookalikes
+This table shows the event and properties Segment recommends you track for the Build high value lookalikes use case, which helps you build from high-value purchasers through specific channels:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Build high value lookalikes use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+Advertising
+Increase repeat purchases
+This table shows the events and properties Segment recommends you track for the Increase repeat purchases use case, which helps you convert single-purchase buyers with personalized communications:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Increase repeat purchases use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+Advertising
+Mitigate high value churn
+This table shows the event and properties Segment recommends you track for the Mitigate high value churn use case, which helps you anticipate churn for your highest-value users and prevent them from churning:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Mitigate high value churn use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Advertising
+SMS & Push Notifications
+Email Marketing
+Nurture with content
+This table shows the events and properties Segment recommends you track for the Nurture with content use case, which helps you use content personalized by interest to nurture leads or customers:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Screen Viewed
+screen_id, screen_type, screen_title
+Page Scrolled
+pct_scrolled, page_category
+And this table shows the source and destination types that Segment recommends you set up for the Nurture with content use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Email Marketing
+SMS & Push Notifications
+Personalize upsell content
+This table shows the events and properties Segment recommends you track for the Personalize upsell content use case, which helps you personalize upsell and cross-sell messaging while understanding behavior:
+Events
+Properties
+Product Added to Cart
+product_id, product_name, product_brand, product_price, product_category
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Personalize upsell content use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+Personalize winback
+This table shows the events and properties Segment recommends you track for the Personalize winback use case, which helps you design personalized messaging based on user behavior:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Page Scrolled
+pct_scrolled, page_category
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Personalize winback use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+Personalize communications and product experiences
+Click on each use case in this section to view Segment’s recommendations for the Personalize communications and product experiences business goal, which helps you engage your customers with relevant content.
+Accelerate onboarding
+This table shows the events and properties Segment recommends you track for the Accelerate onboarding use case, which helps you optimize new user activation based on real-time behavior:
+Events
+Properties
+Onboarding Step Completed
+step_name, step_number, total_steps, pct_completed, flow_name, screen_id, screen_type
+Onboarding Completed
+checkout_id, order_id, total, revenue, shipping, tax, affiliation
+Signed In
+first_name, last_name, username, email
+And this table shows the source and destination types that Segment recommends you set up for the Accelerate onboarding use case:
+Sources
+Destinations
+Website
+Personalization
+Mobile
+Reverse ETL
+Reverse ETL
+Analytics
+Increase repeat purchases
+This table shows the events and properties Segment recommends you track for the Increase repeat purchases use case, which helps you convert single-purchase buyers with personalized communications:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Increase repeat purchases use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+Mitigate high value churn
+This table shows the event and properties Segment recommends you track for the Mitigate high value churn use case, which helps you anticipate churn for your highest-value users and prevent them from churning:
+Event
+Properties
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Mitigate high value churn use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+SMS & Push Notifications
+Email Marketing
+Nurture with content
+This table shows the events and properties Segment recommends you track for the Nurture with content use case, which helps you use content personalized by interest to nurture leads or customers:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Screen Viewed
+screen_id, screen_type, screen_title
+Page Scrolled
+pct_scrolled, page_category
+And this table shows the source and destination types that Segment recommends you set up for the Nurture with content use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Analytics
+Reverse ETL
+Email Marketing
+SMS & Push Notifications
+Personalize upsell content
+This table shows the events and properties Segment recommends you track for the Personalize upsell content use case, which helps you personalize upsell and cross-sell messaging while understanding behavior:
+Events
+Properties
+Product Added to Cart
+product_id, product_name, product_brand, product_price, product_category
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Personalize upsell content use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+Personalize winback
+This table shows the events and properties Segment recommends you track for the Personalize winback use case, which helps you design personalized messaging based on user behavior:
+Events
+Properties
+Page Viewed
+page_category, page_name
+Page Scrolled
+pct_scrolled, page_category
+Order Completed
+num_items, order_id, checkout_id, total, revenue, shipping, tax, affiliation, products
+And this table shows the source and destination types that Segment recommends you set up for the Personalize winback use case:
+Sources
+Destinations
+Website
+Reverse ETL
+Mobile
+Personalization
+Reverse ETL
+Analytics
+Email Marketing
+SMS & Push Notifications
+This page was last modified: 08 Oct 2024
+Need support?
+Questions? Problems? Need more info? Contact Segment Support for assistance!
+Visit our Support page
+Help improve these docs!
+Edit this page
+Request docs change
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Get started with Segment
+Segment is the easiest way to integrate your websites & mobile apps data to over 300 analytics and growth tools.
+Request Demo
+or
+Create free account
+Edit this page
+Request docs change
+On this page
+Use Cases by business goal
+Suggested events, sources, and destinations
+Was this page helpful?
+Yes
+No
+Thanks for your feedback!
+Can we improve this doc? Send us feedback!
+Product
+Connections
+Protocols
+Twilio Engage
+Integrations Catalog
+Pricing
+Security
+GDPR
+For Developers
+Documentation
+Segment API
+Build on Segment
+Open Source
+Engineering Team
+Company
+Careers
+Blog
+Press
+FTFY Podcast
+Events
+Support
+Help Center
+Contact us
+Resources
+Recipes
+Security Bulletins
+Become a Partner
+© 2025 Segment.io, Inc.
+Privacy
+Terms
+Website Data Collection Preferences
+Send
+Send
+Send
